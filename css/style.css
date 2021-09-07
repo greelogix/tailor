@@ -1860,13 +1860,14 @@
     opacity: 0;
     transition: 0.3s;
 }
-.demo-img-content button{
+.demo-img-content a{
 	background-color: white;
 	border:1px solid white;
 	width: 120px;
 	height: 33px;
 	color: black;
 	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
 }
 .demo-img-content:hover{
 	opacity: 1;
