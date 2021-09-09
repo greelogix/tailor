@@ -40,7 +40,7 @@
 	font-size: 14px;
 	border-radius: 25px;
 	border:1px solid  #143A79;
-	padding: 7px 18px;
+	padding: 6px 18px;
 	font-family: var(--paragraph-style);
 	width: 26%;
 }
@@ -1003,6 +1003,7 @@
 }
 .gl-footer-div h5{
 	margin-bottom: 20px;
+	font-family: var(--paragraph-style);
 }
 .gl-footer-icons i{
 	color: black;
@@ -1647,6 +1648,9 @@
 	background-color: transparent;
 	color: #143A79;
 }
+.gl-need-para button{
+	width: 26% !important;
+}
 /*gl need img*/
 
 /*gl-things*/
@@ -2045,7 +2049,7 @@
 	border:1px solid #143A79;
 	border-radius: 25px;
 	width: 26%;
-	font-size: 15px;
+	font-size: 14px;
 	    font-family: var(--paragraph-style);
 }
 /*gl-homepage3 content end*/
@@ -2119,6 +2123,8 @@
     border-radius: 25px;
     width: 150px;
     transition: 0.3s;
+    font-size: 15px;
+    font-family: var(--paragraph-style);
 }
 .acess-img-content button:hover{
 	background-color: #FFD700;
@@ -2317,11 +2323,11 @@
  	font-family: var(--paragraph-style);
  }  
  .new-heading-para button{
- 	color: black !important;
+ 	color: #143A79 !important;
  	border-radius: 25px; 
  	margin: 0;
  	font-family: var(--paragraph-style);
- 	font-size: 15px;
+ 	font-size: 14px;
  }
  .new-div{
  	border:1px solid #d3d3d3ad;
@@ -2399,5 +2405,125 @@
   	font-size: 16px;
   }
   /*new end-----------------------*/
+
+
+
+  /*hostspot----------------------*/
+  .gl-homepage3-content{
+  	position: relative;
+  }
+  .hotspot{
+  	position: absolute;
+  	bottom: 400px;
+    right: 100px;
+  }
+  .hotspot-icon {
+    border:1px solid  #143A79;
+    border-radius: 50%;
+   }
+  .hotspot-icon i{
+  	margin: 5px;
+  	background-color: #143A79;
+  	color: white;
+  	padding: 10px;
+  	border-radius: 25px;
+  	font-size: 15px;
+  }
+  .hotspot-div{
+  	width: 185px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+    position: absolute;
+    bottom: 300px;
+    right: 23px;
+    opacity: 0;
+    transition: 0.3s;
+  }
+.hotspot-div-img{
+	width: 60px;
+	height: 60px;
+	float: left;
+
+}
+.hotspot-div-para{
+	width: 105px;
+	height: 60px;
+	float: right;
+	padding-top: 10px;
+}
+.hotspot-div-img img{
+	height: 100%;
+	width: 100%;
+}
+.hotspot-div-para h6{
+	color: black
+	font-size:14px;
+	font-family: var(--paragraph-style);
+	margin-bottom: 0px;
+}
+.hotspot-div-para p{
+	color: lightgray;
+	font-size: 14px;
+	font-family: var(--paragraph-style);
+}
+.hotspot-icon::hover .hotspot-div{
+	opacity: 1 !important;
+}
+
+
+/*hotstpot two*/
+.hotspot-two{
+	position: absolute;
+  	bottom: 200px;
+    right: 400px;
+}
+.hotspot-div-two{
+	width: 185px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+    position: absolute;
+    bottom: 287px;
+    right: 319px;
+    opacity: 1;
+    transition: 0.3s;
+}
+/*hostspot----------------------*/
+button{
+	text-transform: capitalize !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

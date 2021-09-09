@@ -121,6 +121,51 @@
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot">
+							<div class="hotspot-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-div">
+							<div class="hotspot-div-img">
+								<img src="img/hot.png">
+							</div>
+							<div class="hotspot-div-para">
+								<h6>Deep Ocean</h6>
+								<p>$230</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-------- hotspot two ------->
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-two">
+							<div class="hotspot-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-div-two">
+							<div class="hotspot-div-img">
+								<img src="img/hot.png">
+							</div>
+							<div class="hotspot-div-para">
+								<h6>Deep Ocean</h6>
+								<p>$230</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -160,7 +205,7 @@
 								<h2>New Arrivals</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt u.</p>
-								<button class="btn btn-primary">BROWSER ALL</button>
+								<button class="btn btn-primary">Browser all</button>
 							</div>
 						</div>
 					</div>
@@ -311,7 +356,7 @@
 								<h1>Custom Pants</h1>
 								<p>Stay ahead of the competitive tailoring business using our pants customization tool. It allows your customers to design their pants themselves with ease</p>
 								<button class="btn btn-primary">Customize Pants</button>
-								<button class="btn btn-info suit-button">LEARN NOW</button>
+								<button class="btn btn-info suit-button">Learn Now</button>
 							</div>
 						</div>
 					</div>
@@ -449,7 +494,7 @@
 						<div class="gl-brand-para">
 							<h2>Explore<br> Fabrics</h2>
 							<p>Explore our high quality fabrics using our cutting-edge technology for a reduced environmental impact, to create a robust and sustainable fabric</p>
-							<button class="btn btn-primary">BROWSER ALL</button>
+							<button class="btn btn-primary">Browser all</button>
 						</div>
 					</div>
 				</div>
@@ -821,6 +866,22 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '900');
 });
+</script>
+<script>
+	$(".hotspot").on("mouseover", function(e){
+		$(".hotspot-div").css("opacity","1");	
+	});
+	$(".hotspot").on("mouseout", function(e){
+		$(".hotspot-div").css("opacity","0");	
+	});
+</script>
+<script>
+	$(".hotspot-two").on("mouseover", function(e){
+		$(".hotspot-div-two").css("opacity","1");	
+	});
+	$(".hotspot-two").on("mouseout", function(e){
+		$(".hotspot-div-two").css("opacity","0");	
+	});
 </script>
 </body>
 </html>
