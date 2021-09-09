@@ -2134,6 +2134,41 @@
 /*gl acess-------------- end*/
 
 
+
+/*choose----------------*/
+.choose-homepage{
+	padding-top: 0px !important;
+	padding-bottom: 120px;
+}
+.choose-icon {
+    margin-bottom: 20px;
+}
+.choose-icon i{
+	font-size: 25px;
+	color: black;
+}
+.choose-para h4{
+	color: black;
+	font-size: 25px;
+    font-family: var(--font-style);
+    margin-bottom: 15px;
+}
+.choose-para p{
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: var(--paragraph-style);
+}
+.choose-row{
+	margin-bottom: 30px;
+}
+.Choose-box{
+	padding: 25px;
+	box-shadow: 0px 0px 24px rgba(51, 51, 51, 0.24);
+	border-radius: 15px;
+}
+/*choose-homepage-------------*/
+
+
 /*slider homepage-------------*/
 .slider-homepage{
 	padding: 0px 0px 50px 0px;
@@ -2274,6 +2309,21 @@
 	height: 100%;
 	width: 100%;
 }
+
+
+
+
+
+
+/*homepage3-blog--------------------*/
+.homepage3-blog{
+	padding: 90px 0px;
+}
+/*homepage3-blog--------------------*/
+
+
+
+
 /*gl-need-homepage3------------------*/
 .gl-need-homepage3{
 	padding-top: 400px !important;
@@ -2495,6 +2545,8 @@
 button{
 	text-transform: capitalize !important;
 }
+
+
 
 
 
