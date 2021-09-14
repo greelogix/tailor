@@ -134,11 +134,164 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+
+if (btnContainer) {
+	var btns = btnContainer.getElementsByClassName("btn");
+
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
 }
+
+
+
+
+
+
+
+
+
+
+// logo slider-----
+
+$(document).ready(function(){
+      $('.customer-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [{
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 4
+              }
+          }, {
+              breakpoint: 520,
+              settings: {
+                  slidesToShow: 3
+              }
+          }]
+      });
+  });
+
+
+// logo slider-----
+
+
+// animation js-----
+
+	var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
+
+// animation js-----
+
+
+// button bottom to top-----
+
+	var btn = $('#button-top');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 900) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '900');
+});
+
+// button bottom to top-----
+
+
+// mouse hover -------
+
+
+$(".hotspot").on("mouseover", function(e){
+		$(".hotspot-div").css("opacity","1");	
+	});
+	$(".hotspot").on("mouseout", function(e){
+		$(".hotspot-div").css("opacity","0");	
+	});
+
+
+ // mouse hover ------
+
+
+ // mouse hover ------
+
+ $(".hotspot-two").on("mouseover", function(e){
+		$(".hotspot-div-two").css("opacity","1");	
+	});
+	$(".hotspot-two").on("mouseout", function(e){
+		$(".hotspot-div-two").css("opacity","0");	
+	});
+
+ // mouse hover ------
+
+
+ // li active ------
+
+ $(".common-class").on("click", function(e){
+		$(".common-class").removeClass("li-active")
+		$(this).addClass("li-active")
+	});
+
+  // li active ------
+
+
+  // customize section -----
+
+  $(document).ready(function(){
+  $(".gl-close-icon i").click(function(){
+    $(this).parents(".gl-close-icon").siblings("form").slideUp();
+    $(this).hide();
+    $(this).siblings('i').show();
+
+    if ($(this).parents(".gl-close-icon").siblings("form").css('display') == 'none') {
+    	$(this).parents(".gl-close-icon").siblings("form").slideDown();
+    }
+
+  });
+});
+
+  // customize section -----
+
+
+
+  // heart icon jquery ----
+
+  $(".heart-react").on("click", function(e){
+
+		if ($(this).hasClass("heart-active")) {
+
+			$(this).removeClass("heart-active")
+		}else{
+			$(this).addClass("heart-active")
+		}
+	});
+
+
+  // heart icon  jquery ----
