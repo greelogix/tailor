@@ -295,3 +295,104 @@ $(".hotspot").on("mouseover", function(e){
 
 
   // heart icon  jquery ----
+
+
+
+  // quantity -----
+  		(function () {
+  "use strict";
+  var jQueryPlugin = (window.jQueryPlugin = function (ident, func) {
+    return function (arg) {
+      if (this.length > 1) {
+        this.each(function () {
+          var $this = $(this);
+
+          if (!$this.data(ident)) {
+            $this.data(ident, func($this, arg));
+          }
+        });
+
+        return this;
+      } else if (this.length === 1) {
+        if (!this.data(ident)) {
+          this.data(ident, func(this, arg));
+        }
+
+        return this.data(ident);
+      }
+    };
+  });
+})();
+
+(function () {
+  "use strict";
+  function Guantity($root) {
+    const element = $root;
+    const quantity = $root.first("data-quantity");
+    const quantity_target = $root.find("[data-quantity-target]");
+    const quantity_minus = $root.find("[data-quantity-minus]");
+    const quantity_plus = $root.find("[data-quantity-plus]");
+    var quantity_ = quantity_target.val();
+    $(quantity_minus).click(function () {
+      quantity_target.val(--quantity_);
+    });
+    $(quantity_plus).click(function () {
+      quantity_target.val(++quantity_);
+    });
+  }
+  $.fn.Guantity = jQueryPlugin("Guantity", Guantity);
+  $("[data-quantity]").Guantity();
+})();
+
+  // quantity -----
+
+
+
+  // size chart -------
+
+
+    $(".sizess").on("click", function(e){
+    	$(".sizess").removeClass("size-active")
+			$(this).addClass("size-active")
+	});
+
+  // size chart -------
+
+
+
+  // size chart -------
+
+
+    $(".sizess-large").on("click", function(e){
+    	$(".sizess-large").removeClass("size-active")
+			$(this).addClass("size-active")
+	});
+
+  // size chart -------
+
+
+  // gl-sub-img-parts
+
+
+  $(".gl-sub-img-parts img").on("click", function(e){
+  	let img_src = $(this).attr('src');
+  	$(".gl-main-custom-img").attr("src",img_src)
+  });
+
+  // gl-sub-img-parts
+
+      $(".gl-sub-img-parts").on("click", function(e){
+    	$(".gl-sub-img-parts").removeClass("img-active")
+			$(this).addClass("img-active")
+	});
+
+  // gl-sub-img-parts
+
+
+
+
+
+    $(".tablink").on("click", function(e){
+    	$(".tablink").removeClass("border-bottom")
+			$(this).addClass("border-bottom")
+	});
