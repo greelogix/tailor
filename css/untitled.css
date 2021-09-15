@@ -1,0 +1,15 @@
+.btn-primary{
+		background: #FFD700 radial-gradient(circle,transparent 1%,#FFD700 1%) center/100%;
+		color: #143A79;
+		font-size: 14px;
+		border-radius: 25px;
+		padding: 7px 18px;
+		font-family: var(--paragraph-style);
+		background-position: center;
+       transition: background 1.5s;
+	}
+	.btn-primary:hover{
+	    background-color: #808285;
+	    background-size: 15000%;
+	    transition: background 1.5s;
+	}

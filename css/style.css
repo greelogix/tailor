@@ -1157,10 +1157,17 @@
 	}
 	.gl-footer-div ul li{
 		list-style: none;
-		text-decoration: none;
 		margin-bottom: 15px;
 		font-size: 16px;
 		font-family: 'Barlow', sans-serif;
+		transition: 0.3s;
+	}
+	.gl-footer-div ul li:hover{
+		padding-left: 10px;
+	}
+	.gl-footer-div ul li a{
+		color: black;
+		text-decoration: none;
 	}
 	.gl-sub-footer{
 		border-top:1px solid #143A79;
@@ -2109,6 +2116,10 @@
 		color: white;
 		font-weight: 300;
 	}
+	.gl-home3-about-list ul li a{
+		color: white;
+		text-decoration: none;
+	}
 	.gl-home3-about-list ul li i{
 		color: white;
 		font-size: 15px;
@@ -2156,7 +2167,7 @@
 		background-position: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
-		height: 83vh;
+		height: 94vh;
 		position: relative;
 	}
 	.gl-home-content h3{
@@ -2172,7 +2183,7 @@
 		font-family: var(--font-style);
 	}
 	.gl-home-content-parent{
-		height: 83vh;
+		height: 94vh;
 	}
 	.gl-home-content{
 		position: relative;
