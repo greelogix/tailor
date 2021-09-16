@@ -555,6 +555,8 @@
 	.gl-product-para h6{
 		color: gray;
 		font-family: var(--font-style);
+		margin-bottom: 15px;
+		font-size: 14px;
 	}
 	.gl-product-para h4{
 		color: black;
@@ -569,7 +571,7 @@
 	.gl-product-para h5{
 		color: gray;
 		font-weight: bold;
-		font-size: 17px;
+		font-size: 15px;
 		font-family: var(--paragraph-style);
 	}
 	/*product end*/
@@ -834,7 +836,7 @@
 
 	/*partner*/
 	.slide img {
-		max-width: 105px;
+		/*max-width: 105px;*/
 	}
 	.customer-logos {
 		text-align: center;
@@ -930,6 +932,7 @@
     }
     .slick-slide img{
     	display: block;
+    	width: 105px;
     }
     .slick-slide.slick-loading img{
     	display: none;
@@ -1649,7 +1652,7 @@
 		background-image: none;
 		color: #fff;
 		font-size: 14px;
-		background-color: #cd3a54;
+		background-color: #143A79;
 		height: 32px;
 		line-height: 32px;
 		width: 32px;
@@ -3064,7 +3067,7 @@ button{
 
 
 .gl-shirt-customize{
-	padding: 25px 0px 90px 0px;
+	padding: 25px 0px 80px 0px;
 }
 .gl-shirt-img img{
 	height: 100%;
@@ -3336,7 +3339,7 @@ body {
 
 /*gl-reviews--------------------*/
 .gl-reviews{
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 
 .tablink {
@@ -3398,6 +3401,11 @@ body {
 	 font-family: var(--font-style);
 	 margin-bottom: 20px;
 }
+.gl-reviews-detail h5 i{
+	color: #FFD700;
+	font-size: 17px;
+	margin-right: 5px;
+}
 .gl-reviews-detail p{
 	font-size: 16px;
     color: #4F4F4F;
@@ -3407,7 +3415,23 @@ body {
 	color: #FFD700 !important;
 	border-bottom: 2px solid #FFD700 !important;
 }
+/*gl reiews end*/
 
+/*slider product-detail*/
+.gl-product-slider-heading h1{
+	font-size: 30px !important;
+	padding-bottom: 0px;
+}
+.gl-product-slider-heading h1:before{
+	display: none !important;
+}
+.card{
+	padding: 0px;
+}
+.gl-product-height-issue{
+	display: flex !important;
+	height: auto !important;
+}
 
 
 
