@@ -3559,7 +3559,12 @@ body {
 	display: flex !important;
 	height: auto !important;
 }
-/*product slider*/
+button:focus {
+	outline: none !important;
+}
+
+
+/*product slider--------------*/
 
 
 
