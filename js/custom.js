@@ -363,10 +363,10 @@ $(".hotspot").on("mouseover", function(e){
   // size chart -------
 
 
-    $(".sizess-large").on("click", function(e){
-    	$(".sizess-large").removeClass("size-active")
-			$(this).addClass("size-active")
-	});
+ //    $(".sizess-large").on("click", function(e){
+ //    	$(".sizess-large").removeClass("size-active")
+	// 		$(this).addClass("size-active")
+	// });
 
   // size chart -------
 

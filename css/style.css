@@ -750,7 +750,7 @@
 		padding: 0;
 	}
 	.gl-brand-heading{
-		background-color: #E9F0FB;
+		background-color: #dbe8fd;
 		height: 100%;
 		width: 100%;
 		border-radius: 20px;
@@ -2525,7 +2525,7 @@
 	padding: 90px 0;
 }
 .new-heading{
-	background-color:#E9F0FB; 
+	background-color:#dbe8fd; 
 	height: 100%;
 	width: 100%;
 	border-radius: 25px;
@@ -3059,11 +3059,11 @@ button{
 	font-family: 'FontAwesome';
 }
 
-/*gl-shirt design ---------*/
+/*gl-shirt design -------------------*/
 
 
 
-/*gl-shirt-customize------------*/
+/*gl-shirt-customize------------------*/
 
 
 .gl-shirt-customize{
@@ -3101,6 +3101,10 @@ button{
 	color: #828282 !important;
 	text-decoration: line-through;
 }
+
+
+/*gl-shirt size----------------*/
+
 .gl-shirt-size{
 	padding: 25px 0px;
 } 
@@ -3111,22 +3115,60 @@ button{
 .gl-shirt-size ul li{
 	display: inline-block;
 	border-radius: 25px;
-    border:1px solid lightgray;
-    height: 35px;
-    width: 55px;
     font-family: var(--font-style);
     font-size: 13px;
     text-align: center;
     padding-top: 6px;
     color: black;
 }
+.size-radio{
+	top: -14px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid lightgray !important;
+	background-color: transparent !important;
+	width: 55px !important;
+	height: 35px !important;
+	border-radius: 25px !important;
+	font-size: 14px !important;
+}
+.gl-shirt-size .checkcontainer{
+	padding-left: 55px !important;
+}
+.size-radio:after{
+	top: 0;
+    left: 0px;
+    width: 55px !important;
+    height: 35px !important;
+    color: white !important;
+    border-radius: 25px !important;
+    /*background-color: #143A79 !important;*/
+    /*border: 1px solid red !important;*/
+}
 .gl-shirt-size-name{
-	width: 70px !important;
+	width: 50px !important;
 	text-align: left !important;
 	margin-right: 50px;
 	border:none !important;
 	font-size: 20px !important;
 }
+
+.size-radio:checked ~ span {
+	background-color: #143A79 !important;
+	color: #fff;
+}
+
+
+
+/*gl-shirt size----------------*/
+
+
+
+/*gl-shirt fit----------------*/
+
+
+
 .gl-shirt-fit{
    padding-bottom: 25px;
 }
@@ -3137,9 +3179,6 @@ button{
 .gl-shirt-fit ul li{
 	display: inline-block;
 	border-radius: 25px;
-    border:1px solid lightgray;
-    height: 35px;
-    width: 80px;
     font-family: var(--font-style);
     font-size: 13px;
     text-align: center;
@@ -3147,13 +3186,50 @@ button{
     color: black;
 }
 .gl-shirt-fit-name{
-	width: 70px !important;
+	width: 50px !important;
 	text-align: left !important;
 	border:none !important;
 	font-size: 20px !important;
 	color: black;
 	margin-right: 50px;
 }
+.size-fit{
+	top: -14px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid lightgray !important;
+	background-color: transparent !important;
+	width: 80px !important;
+	height: 35px !important;
+	border-radius: 25px !important;
+	font-size: 14px !important;
+}
+.gl-shirt-fit .checkcontainer{
+	padding-left: 80px !important;
+}
+.size-fit:after{
+	top: 0;
+    left: 0px;
+    width: 80px !important;
+    height: 35px !important;
+    color: white !important;
+    border-radius: 25px !important;
+    /*background-color: #143A79 !important;*/
+}
+.fit-radio:checked ~ span {
+	background-color: #143A79 !important;
+	color: #fff;
+}
+
+
+/*gl-shirt fit----------------*/
+
+
+
+/*gl-shirt color----------------*/
+
+
 .gl-shirt-color{
     padding-bottom: 25px;
 }
@@ -3162,36 +3238,87 @@ button{
 	margin-bottom: 0px;
 }
 .gl-shirt-color ul li{
-	height: 25px;
-	width: 25px;
 	display: inline-block;
 	border-radius: 50%;
 }
 .gl-shirt-color-name{
 	margin-right: 50px !important;
-    width: 70px !important;
+    width: 50px !important;
     font-size: 20px !important;
     font-family: var(--font-style) !important;
     background-color: transparent !important;
 }
-.shirt-color-1{
-    background-color: #6FD4DB;
+.checkcontainer {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.shirt-color-2{
-    background-color: #5DBB85;
+.radiobtn {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
 }
-.shirt-color-3{
-    background-color: #C9DBEF;
+
+.checkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
-.shirt-color-4{
-    background-color: #D0DDCA;
+.checkcontainer input:checked ~ .radiobtn:after {
+    display: block;
 }
-.shirt-color-5{
-    background-color: #B8B1DB;
+.checkcontainer .radiobtn:after {
+    top: 0px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /*border:2px solid #143A79;*/
 }
-.shirt-color-6{
-    background-color: #ED926B;
+.radiobtn:after {
+    content: "";
+    position: absolute;
+    display: none;
 }
+.radiobtn1{
+    background-color: #6FD4DB !important;
+}
+.radiobtn2{
+    background-color: #5DBB85 !important;
+}
+.radiobtn3{
+    background-color: #C9DBEF !important;
+}
+.radiobtn4{
+    background-color: #D0DDCA !important;
+}
+.radiobtn5{
+    background-color: #B8B1DB !important;
+}
+.radiobtn6{
+    background-color: #ED926B !important;
+}
+
+.checkcontainer .radio-color-style:after {
+    border:2px solid #143A79;
+}
+
+
+/*gl-shirt color----------------*/
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
   margin: 0;
@@ -3432,7 +3559,7 @@ body {
 	display: flex !important;
 	height: auto !important;
 }
-
+/*product slider*/
 
 
 
