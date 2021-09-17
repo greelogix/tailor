@@ -416,3 +416,21 @@ $(".hotspot").on("mouseover", function(e){
 $('.latest-blog-posts .thumbnail.item').matchHeight();
 	
 });
+
+
+	// snac bar--
+
+	$(".cart-view").click(function(e){
+       $(".gl-snack-parent").fadeIn();
+
+       setTimeout(function(){ 
+       	$(".gl-snack-parent").fadeOut();
+       }, 3000);
+	});
+
+
+	// snac bar--
+
+
+
+

@@ -1115,7 +1115,7 @@
 
 	/*footer*/
 	.gl-footer{
-		background-color: #E9F0FB;
+		background-color: #dbe8fd;
 		padding: 90px 0px 35px 0px;
 	}
 	.gl-sign{
@@ -1791,7 +1791,7 @@
 	}
 	.gl-need-div{
 		position: relative;
-		bottom: 140px;
+		bottom: 195px;
 	}
 	.gl-need-para h1{
 		font-family: var(--font-style);
@@ -2496,7 +2496,8 @@
 
 /*homepage3-blog--------------------*/
 .homepage3-blog{
-	padding: 90px 0px;
+	padding: 20px 0px;
+	padding-bottom: 90px;
 }
 /*homepage3-blog--------------------*/
 
@@ -2509,8 +2510,9 @@
 	padding-bottom: 0px;
 	position: relative;
 	background-image: url(../img/need-trans.png);
-	background-position: right;
+	background-position: bottom;
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 /*gl-pants-homepage3*/
@@ -2566,6 +2568,9 @@
 }
 .new-div:hover{
 	box-shadow: 0px 11px 30px rgb(20 58 121 / 24%);
+}
+.gl-parent-new-div{
+    margin-bottom: 0px !important;
 }
 .new-img{
 	background-color: #F2F2F2;
@@ -3544,7 +3549,9 @@ body {
 }
 /*gl reiews end*/
 
-/*slider product-detail*/
+/*product slider--------------*/
+
+
 .gl-product-slider-heading h1{
 	font-size: 30px !important;
 	padding-bottom: 0px;
@@ -3563,9 +3570,27 @@ button:focus {
 	outline: none !important;
 }
 
-
 /*product slider--------------*/
 
+
+
+/*cart-section ---------------*/
+.gl-snack-parent{
+	background-color: #323232b3;
+	padding: 14px 20px;
+    border-radius: 10px;
+    width: 40%;
+    position: absolute;
+    bottom: 20px;
+    z-index: 999;
+    right: 130px;
+    display: none;
+}
+.gl-snack-para p{
+	color: white;
+	font-size: 16px;
+	font-family: var(--font-style);
+}
 
 
 

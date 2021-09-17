@@ -23,6 +23,25 @@
 <body>
 
 
+
+	<!------ snack; ------>
+	<div class="gl-snack-parent">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12">
+				<div class="gl-snack-para">
+					<p>Your item(s) has been added to the cart</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<div class="gl-snack-para text-right">
+					<button class="btn btn-primary">View Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
     <!----------- structure ----------->
 
 	<div id="structure">
@@ -32,16 +51,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-8 col-sm-12 parent-col">
-						<div class="gl-about-list-parent">
-							<div class="gl-home3-about-list">
-								<ul>
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Block B-1 Johar Town Lahore</li>
-									<li><i class="fa fa-envelope" aria-hidden="true"></i>info@greelogix.com</li>
-									<li><i class="fa fa-phone" aria-hidden="true"></i>+92 333 6527366</li>
-								</ul>
+							<div class="gl-about-list-parent">
+								<div class="gl-home3-about-list">
+									<ul>
+										<li><a href="https://goo.gl/maps/Vphhsr5UcQPhsAC88"><i class="fa fa-map-marker" aria-hidden="true"></i>Block B-1 Johar Town Lahore</a></li>
+										<li><a href="mailto:info@greelogix.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@greelogix.com</a></li>
+										<li><a href="tel:+923336527366"><i class="fa fa-phone" aria-hidden="true"></i>+92 333 6527366</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
 					<div class="col-lg-4 col-m-4 col-sm-12 parent-col">
 						<div class="gl-home-about-header">
 							<div class="gl-home-dropdown-about">
@@ -309,7 +328,7 @@
 									</ul>
 								</div>
 								<div class="gl-shirt-add-button">
-									<button class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
+									<button class="btn btn-primary cart-view" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart</button>
 									<button class="btn btn-info suit-button"><i class="fa fa-pencil" aria-hidden="true"></i>Customize</button>
 									<span><i class="fa fa-heart heart-react heart-magic" aria-hidden="true"></i></span>
 								</div>
@@ -638,7 +657,7 @@
 									<div class="footer-img">
 										<span><img src="img/Logo.png"></span>
 									</div><br>
-									<h5>care@itailor.com<br><br> 123 123 123</h5>
+									<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
 									<div class="gl-footer-icons">
 										<a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 										<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -745,6 +764,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<!--- modal ---->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<!-- logo slider -->
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
