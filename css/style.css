@@ -164,6 +164,7 @@
 		padding: 6px 18px;
 		font-family: var(--paragraph-style);
 		width: 26%;
+		transition: 0.3s;
 	}
 	.btn-info:hover{
 		background-color: #143A79;
@@ -267,7 +268,6 @@
 	}
 	.gl-cart:after{
 		content: "4";
-		text-align: center;
 		font-size: 12px;
 		color: white;
 		background-color: red;
@@ -277,6 +277,9 @@
 		top: -1px;
 		right: -24px;
 		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.header-icon{
 		width: 15%;
@@ -1109,7 +1112,7 @@
 		transition: 0.3s;
 	}
 	.blog-parent:hover{
-		    box-shadow: 0px 11px 30px rgb(20 58 121 / 24%);
+		box-shadow: 0px 11px 30px rgb(20 58 121 / 24%);
 	}
 	/*blog end*/
 
@@ -1432,6 +1435,11 @@
 	.suit-button{
 		background-color: transparent;
 		color: #143A79;
+	}
+	.suit-button a{
+		color: #143A79;
+		text-decoration: none;
+		transition: 0.3s;
 	}
 	/*gl-suits*/
 
@@ -2570,7 +2578,7 @@
 	box-shadow: 0px 11px 30px rgb(20 58 121 / 24%);
 }
 .gl-parent-new-div{
-    margin-bottom: 0px !important;
+	margin-bottom: 0px !important;
 }
 .new-img{
 	background-color: #F2F2F2;
@@ -2931,8 +2939,8 @@ button{
 
 
 .gl-about-us-header .collapse {
-    display: flex !important;
-    justify-content: flex-start !important;
+	display: flex !important;
+	justify-content: flex-start !important;
 
 }
 .about-us-page{
@@ -2940,7 +2948,7 @@ button{
 	padding: 90px 0px;
 }
 .about-us-para p{
-    font-family: var(--paragraph-style);
+	font-family: var(--paragraph-style);
 	font-size: 15px !important;
 	margin-bottom: 20px;
 }
@@ -3006,7 +3014,7 @@ button{
 }
 .gl-team-img img{
 	border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
 	height: 100%;
 	width: 100%;
 }
@@ -3014,15 +3022,15 @@ button{
 	text-align: center;
 }
 .gl-team-para h2{
-    color: black;
-    font-size: 20px;
-    font-family: var(--paragraph-style);
-    margin-bottom: 15px;
+	color: black;
+	font-size: 20px;
+	font-family: var(--paragraph-style);
+	margin-bottom: 15px;
 }
 .gl-team-para p{
 	color: #4F4F4F;
-    font-size: 15px;
-    font-family: var(--paragraph-style);
+	font-size: 15px;
+	font-family: var(--paragraph-style);
 }
 .gl-team-icons{
 	text-align: center;
@@ -3042,7 +3050,7 @@ button{
 	padding-top: 40px;
 }
 .gl-shirt-design-nav ul{
-   padding-left: 0px;
+	padding-left: 0px;
 }
 .gl-shirt-design-nav ul li{
 	margin-right: 25px;
@@ -3120,11 +3128,11 @@ button{
 .gl-shirt-size ul li{
 	display: inline-block;
 	border-radius: 25px;
-    font-family: var(--font-style);
-    font-size: 13px;
-    text-align: center;
-    padding-top: 6px;
-    color: black;
+	font-family: var(--font-style);
+	font-size: 13px;
+	text-align: center;
+	padding-top: 6px;
+	color: black;
 }
 .size-radio{
 	top: -14px !important;
@@ -3143,13 +3151,13 @@ button{
 }
 .size-radio:after{
 	top: 0;
-    left: 0px;
-    width: 55px !important;
-    height: 35px !important;
-    color: white !important;
-    border-radius: 25px !important;
-    /*background-color: #143A79 !important;*/
-    /*border: 1px solid red !important;*/
+	left: 0px;
+	width: 55px !important;
+	height: 35px !important;
+	color: white !important;
+	border-radius: 25px !important;
+	/*background-color: #143A79 !important;*/
+	/*border: 1px solid red !important;*/
 }
 .gl-shirt-size-name{
 	width: 50px !important;
@@ -3175,7 +3183,7 @@ button{
 
 
 .gl-shirt-fit{
-   padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 .gl-shirt-fit ul{
 	padding-left: 0px;
@@ -3184,11 +3192,11 @@ button{
 .gl-shirt-fit ul li{
 	display: inline-block;
 	border-radius: 25px;
-    font-family: var(--font-style);
-    font-size: 13px;
-    text-align: center;
-    padding-top: 6px;
-    color: black;
+	font-family: var(--font-style);
+	font-size: 13px;
+	text-align: center;
+	padding-top: 6px;
+	color: black;
 }
 .gl-shirt-fit-name{
 	width: 50px !important;
@@ -3215,12 +3223,12 @@ button{
 }
 .size-fit:after{
 	top: 0;
-    left: 0px;
-    width: 80px !important;
-    height: 35px !important;
-    color: white !important;
-    border-radius: 25px !important;
-    /*background-color: #143A79 !important;*/
+	left: 0px;
+	width: 80px !important;
+	height: 35px !important;
+	color: white !important;
+	border-radius: 25px !important;
+	/*background-color: #143A79 !important;*/
 }
 .fit-radio:checked ~ span {
 	background-color: #143A79 !important;
@@ -3236,7 +3244,7 @@ button{
 
 
 .gl-shirt-color{
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 .gl-shirt-color ul{
 	padding-left: 0px;
@@ -3248,75 +3256,75 @@ button{
 }
 .gl-shirt-color-name{
 	margin-right: 50px !important;
-    width: 50px !important;
-    font-size: 20px !important;
-    font-family: var(--font-style) !important;
-    background-color: transparent !important;
+	width: 50px !important;
+	font-size: 20px !important;
+	font-family: var(--font-style) !important;
+	background-color: transparent !important;
 }
 .checkcontainer {
-    display: inline-block;
-    position: relative;
-    padding-left: 25px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 17px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	display: inline-block;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 17px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .radiobtn {
-    position: absolute;
-    top: -7px;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
+	position: absolute;
+	top: -7px;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
 }
 
 .checkcontainer input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
 }
 .checkcontainer input:checked ~ .radiobtn:after {
-    display: block;
+	display: block;
 }
 .checkcontainer .radiobtn:after {
-    top: 0px;
-    left: 0px;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    /*border:2px solid #143A79;*/
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	/*border:2px solid #143A79;*/
 }
 .radiobtn:after {
-    content: "";
-    position: absolute;
-    display: none;
+	content: "";
+	position: absolute;
+	display: none;
 }
 .radiobtn1{
-    background-color: #6FD4DB !important;
+	background-color: #6FD4DB !important;
 }
 .radiobtn2{
-    background-color: #5DBB85 !important;
+	background-color: #5DBB85 !important;
 }
 .radiobtn3{
-    background-color: #C9DBEF !important;
+	background-color: #C9DBEF !important;
 }
 .radiobtn4{
-    background-color: #D0DDCA !important;
+	background-color: #D0DDCA !important;
 }
 .radiobtn5{
-    background-color: #B8B1DB !important;
+	background-color: #B8B1DB !important;
 }
 .radiobtn6{
-    background-color: #ED926B !important;
+	background-color: #ED926B !important;
 }
 
 .checkcontainer .radio-color-style:after {
-    border:2px solid #143A79;
+	border:2px solid #143A79;
 }
 
 
@@ -3326,49 +3334,49 @@ button{
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
 }
 .quantity-control {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: fit-content;
-  background: #eaeaea;
-  border-radius: 10px;
-  padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: fit-content;
+	background: #eaeaea;
+	border-radius: 10px;
+	padding: 10px;
 }
 
 .quantity-btn {
-  background: transparent;
-  border: none;
-  outline: none;
-  margin: 0;
-  padding: 0px 8px;
-  cursor: pointer;
-  display: flex;
+	background: transparent;
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 0px 8px;
+	cursor: pointer;
+	display: flex;
 }
 .quantity-btn svg {
-  width: 15px;
-  height: 15px;
-  outline: none !important;
+	width: 15px;
+	height: 15px;
+	outline: none !important;
 }
 .quantity-input {
-  outline: none;
-  user-select: none;
-  text-align: center;
-  width: 47px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border: none;
+	outline: none;
+	user-select: none;
+	text-align: center;
+	width: 47px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: none;
 }
 .quantity-input::-webkit-inner-spin-button,
 .quantity-input::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 .gl-quantity-shirt{
 	padding-bottom: 30px;
@@ -3378,8 +3386,8 @@ body {
 	margin-bottom: 0px;
 }
 .gl-quantity-shirt ul li{
-     display: inline-block;
-     font-family: var(--font-style);
+	display: inline-block;
+	font-family: var(--font-style);
 }
 .gl-shirt-quantity-name{
 	margin-right: 50px !important;
@@ -3387,7 +3395,7 @@ body {
 	text-align: left;
 	color: black;
 	font-size: 20px !important;
-    font-family: var(--font-style) !important;
+	font-family: var(--font-style) !important;
 }
 .gl-shirt-stock{
 	margin-left: 15px !important;
@@ -3412,6 +3420,9 @@ body {
 .suit-button:hover i{
 	color: white;
 }
+.suit-button:hover a{
+	color: white;
+}
 .heart-magic{
 	margin-left: 7px;
 	color: white;
@@ -3432,8 +3443,8 @@ body {
 	width: 100%;
 }
 .gl-shirt-detail h5{
-    font-size: 16px;
-    color: #828282
+	font-size: 16px;
+	color: #828282
 }
 .gl-shirt-detail{
 	margin-top: 20px;
@@ -3441,16 +3452,16 @@ body {
 .gl-shirt-detail h5{
 	color: #828282;
 	font-size: 15px;
-     font-family: var(--font-style);
-     margin-bottom: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
 }
 .gl-shirt-detail h6{
-    color: #828282;
+	color: #828282;
 	font-size: 15px;
-     font-family: var(--font-style);
+	font-family: var(--font-style);
 }
 .gl-share-icon{
-    margin-top: 20px;
+	margin-top: 20px;
 }
 .gl-share-icon i{
 	color: #828282;
@@ -3475,14 +3486,14 @@ body {
 }
 
 .tablink {
-  color: black;
-  float: left;
-  border: none;
-  outline: none !important;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 20%;
+	color: black;
+	float: left;
+	border: none;
+	outline: none !important;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 20%;
 	font-family: var(--font-style);
 	background-color: transparent;
 	text-align: left;
@@ -3494,26 +3505,26 @@ body {
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
-  display: none;
-  padding: 10px 2px;
-  height: 100%;
+	color: white;
+	display: none;
+	padding: 10px 2px;
+	height: 100%;
 }
 #Home {background-color: white;}
 #News {background-color: white;}
 #Contact {background-color: white;}
 
 .reviews-div h6{
-    color: black;
-    font-family: var(--font-style);
-    font-size: 20px;
-    margin-bottom: 15px;
+	color: black;
+	font-family: var(--font-style);
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 .reviews-div p{
-    font-size: 16px;
-    color: #4F4F4F;
-    font-family: var(--paragraph-style);
-    margin-bottom: 15px;
+	font-size: 16px;
+	color: #4F4F4F;
+	font-family: var(--paragraph-style);
+	margin-bottom: 15px;
 }
 .reviews-div{
 	padding-top: 40px;
@@ -3530,8 +3541,8 @@ body {
 .gl-reviews-detail h5{
 	font-size: 17px;
 	color: black;
-	 font-family: var(--font-style);
-	 margin-bottom: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
 }
 .gl-reviews-detail h5 i{
 	color: #FFD700;
@@ -3540,58 +3551,540 @@ body {
 }
 .gl-reviews-detail p{
 	font-size: 16px;
-    color: #4F4F4F;
-    font-family: var(--paragraph-style);
+	color: #4F4F4F;
+	font-family: var(--paragraph-style);
 }
 .border-bottom{
 	color: #FFD700 !important;
 	border-bottom: 2px solid #FFD700 !important;
 }
-/*gl reiews end*/
+/*.custoize-button-link{
+	text-decoration: none;
+	color: #143A79;
+	}*/
+	/*gl reiews end*/
 
-/*product slider--------------*/
-
-
-.gl-product-slider-heading h1{
-	font-size: 30px !important;
-	padding-bottom: 0px;
-}
-.gl-product-slider-heading h1:before{
-	display: none !important;
-}
-.card{
-	padding: 0px;
-}
-.gl-product-height-issue{
-	display: flex !important;
-	height: auto !important;
-}
-button:focus {
-	outline: none !important;
-}
-
-/*product slider--------------*/
+	/*product slider--------------*/
 
 
+	.gl-product-slider-heading h1{
+		font-size: 30px !important;
+		padding-bottom: 0px;
+	}
+	.gl-product-slider-heading h1:before{
+		display: none !important;
+	}
+	.card{
+		padding: 0px;
+	}
+	.gl-product-height-issue{
+		display: flex !important;
+		height: auto !important;
+	}
+	button:focus {
+		outline: none !important;
+	}
 
-/*cart-section ---------------*/
-.gl-snack-parent{
-	background-color: #323232b3;
-	padding: 14px 20px;
-    border-radius: 10px;
-    width: 40%;
-    position: absolute;
-    bottom: 20px;
-    z-index: 999;
-    right: 130px;
-    display: none;
-}
-.gl-snack-para p{
-	color: white;
-	font-size: 16px;
-	font-family: var(--font-style);
-}
+	/*product slider--------------*/
 
+
+
+	/*cart-section ---------------*/
+	.gl-snack-parent{
+		background-color: #323232b3;
+		padding: 14px 20px;
+		border-radius: 10px;
+		width: 40%;
+		position: fixed;
+		bottom: 20px;
+		z-index: 999;
+		right: 30px;
+		display: none;
+	}
+	.gl-snack-para p{
+		color: white;
+		font-size: 16px;
+		font-family: var(--font-style);
+	}
+
+
+	/*fabric page-------------------*/
+	.gl-select-shirt-sec{
+		background-color: #F9F9F9;
+		padding: 40px 40px 80px 40px;
+	}
+	.gl-fabric-shirt{
+		padding-bottom: 30px;
+		border-bottom:1px solid gray;
+	}
+	.gl-fabric-shirt h3{
+		color: black;
+		font-family: var(--font-style);
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.gl-result-examples form{
+		margin-bottom: 20px;
+	}
+	.gl-result-examples label{
+		margin-right: 25px;
+		font-family: var(--font-style);
+		font-size: 14px;
+		color: #828282;
+	}
+	.gl-result h3{
+		color: black;
+		font-family: var(--font-style);
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.gl-select-buttons{
+		display: flex;
+		align-items: center;
+	}
+	.gl-select-buttons .dropdown{
+		margin-right: 10px;
+	}
+	.gl-select-buttons .dropdown button{
+		background-color: white;
+		color: #828282;
+		border:1px solid white;
+		border-radius: 10px;
+		width: 150px;
+		font-size: 13px;
+		font-family: var(--font-style);
+		height: 40px;
+	}
+	.gl-serach-div i{
+		color: white;
+		background-color: #143A79;
+		font-size: 20px;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	.gl-change-shirt img{
+		height: 100%;
+		width:100%;
+	}
+	.gl-shirt-design-preview{
+		height: 100%;
+		position: fixed;
+		top: 85px;
+	}
+	.gl-change-shirt{
+		position: relative;
+		transform: translateY(-50%);
+		top: 43%;
+	}
+	.brand-part-three{
+		margin-bottom: 20px !important;
+	}
+
+
+	/*gl fabric footer*/
+	.gl-fabric-footer-name h2{
+		color: white;
+		font-size: 26px;
+		font-family: var(--font-style);
+		margin-bottom: 0px;
+	}
+	.gl-fabric-footer-sec{
+		background-color: #143A79;
+		padding: 21px 21px 11px 21px;
+		position: fixed;
+		bottom: 0;
+		width: 66.6%;
+	}
+	.gl-fabric-footer-button{
+		text-align: right;
+	}
+	.gl-fabric-footer-button a{
+		color: white;
+		text-decoration: none;
+	}
+	.gl-fabric-footer-button:hover{
+		color: white;
+	}
+	.prev-button{
+		border:1px solid white;
+		color: white;
+		font-size: 13px;
+		font-family: var(--font-style);
+		padding: 7px 25px;
+		border-radius: 25px;
+		text-decoration: none;
+	}
+	.next-button{
+		border:1px solid white;
+		color: white;
+		font-size: 13px;
+		font-family: var(--font-style);
+		padding: 7px 25px;
+		border-radius: 25px;
+		text-decoration: none;
+	}
+	.gl-shirt-design-list ul{
+		background-color: #F2F2F2;
+		border:1px solid #F2F2F2;
+		padding-left: 0px;
+		width: 200px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 25px;
+		margin: 0 auto;
+	}
+	.gl-shirt-design-list{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.gl-shirt-design-list h3{
+		color: black;
+		font-family: var(--font-style);
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.gl-shirt-design-list ul li{
+		color: #828282;
+		display: inline-block;
+		padding: 6px 15px;
+	}
+	.gl-shirt-design-list ul li a{
+		color:  #828282;
+		font-size: 13px;
+		font-family: var(--font-style);
+		text-decoration: none;
+	}
+	.jacket-1{
+		background-color: #143A79;
+		color: white !important;
+		height: 40px;
+		border-radius: 25px;
+		color: white;
+	}
+	.jacket-1 a{
+		color: white !important;
+	}
+
+	/*gl-fabric-sidebar*/
+	.gl-fabric-sidebar{
+		position: absolute;
+		top: 84px;
+		background-color: white;
+		display: none;
+	}
+	.gl-jackets-list ul{
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+	.gl-jackets-list ul li{
+		margin-bottom: 15px;
+	}
+	.gl-jackets-list ul li:last-child{
+		margin-bottom: 0px !important;
+	}
+	gl-jackets-list ul li:last-child h4{
+		margin-bottom: 0px !important;
+	}
+	.gl-jackets-list ul li h5{
+		color: #828282;
+		font-size: 12px;
+		font-family: var(--font-style);
+	}
+	.gl-jackets-list ul li h4{
+		color: black;
+		font-size: 16px;
+		font-family: var(--paragraph-style);
+		margin-bottom: 0px;
+	}
+	.gl-jackets-list ul li span{
+		float: left;
+		padding-top: 9px;
+		margin-right: 10px;
+	}
+	.gl-jackets-list ul li span img{
+		height: 40px;
+		width: 30px;
+	}
+
+	/*accordian*/
+
+	.card-body{
+		background-color: #F9F9F9;
+		padding: 20px 0px 0px ;
+	}
+	button.btn.btn-link.btn-block.text-left.collapsed{
+		color: #333333 !important;
+		font-size: 20px;
+		padding: 15px 0px !important;
+	}
+	.btn-link {
+		font-size: 20px;
+		color: #333333 !important;
+		text-decoration: none !important;
+		padding: 15px 0px !important;
+	}
+	.card-header{
+		padding: 0px; 
+		border-bottom:1px solid #E0E0E0 !important;
+	}
+
+
+	/*gl-shirt-vector-design*/
+
+	.gl-shirt-vector-design h3{
+		color: #333333;
+		font-size: 20px;
+		margin-bottom: 30px;
+		font-family: var(--font-style);
+	}
+	.gl-shirt-vector-image {
+		background-color: white;
+		text-align: center;
+		border-radius: 15px;
+		padding: 15px 20px;
+		transition: all 0.3s ease;
+		cursor: pointer;
+	}
+	.gl-shirt-vector-image:hover{
+		border:4px solid #143A79;
+	}
+	.gl-shirt-vector-image img{
+		margin-bottom: 15px;
+	}
+	.gl-shirt-vector-image h4{
+		color: #4F4F4F;
+		font-size: 20px;
+		font-family: var(--font-style);
+	}
+
+	/*style-inpu*/
+	.style-input{
+		margin-bottom: 20px;
+	}
+	.style-input h2{
+		color: black;
+		font-size: 20px;
+		margin-bottom: 20px;
+		font-family: var(--font-style);
+	}
+	.style-input select{
+		width: 70%;
+		height: 50px;
+		font-size: 16px;
+		border:1px solid white;
+		background-color: white;
+		outline: none;
+		padding-left: 15px;
+		font-family: var(--font-style);
+		padding-right: 15px;
+		float: left;
+	}
+	.card-header h2{
+		font-family: var(--font-style);
+	}
+	.card-header h2 i{
+		float: right;
+		padding-right: 10px;
+	}
+	.style-input button{
+		margin-left: 10px;
+		color: #143A79;
+		width: 120px;
+		font-size: 16px;
+		font-family: var(--font-style);
+		background-color: transparent;
+		border:1px solid #143A79;
+		height: 50px;
+		border-radius: 12px;
+	}
+	.style-input button:hover{
+		background-color: #143A79;
+		border: 1px solid #143A79;
+	}
+	/*file-div*/
+	.file-div-icon{
+		background-color:  #143A79;
+		border:1px solid  #143A79;
+		height: 50px;
+		width: 50px;
+		float: left;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 10px;
+	}
+	.file-div i{
+		color: white;
+		font-size: 16px;
+	}
+
+	/*gl-custom-shirt-color*/
+
+	.gl-custom-shirt-color label{
+		margin-right: 20px;
+	}
+	.gl-custom-shirt-color label span{
+		height: 35px !important;
+		width: 35px !important;
+	}
+	.gl-custom-shirt-color label span:after{
+		height: 35px !important;
+		width: 35px !important;
+	}
+	.gl-shirt-color-two{
+		padding-bottom: 15px;
+	}
+
+	/*gl-custom-shirt-size*/
+	.gl-custom-shirt-size{
+		padding: 10px 0px 20px;
+	}
+	.gl-custom-shirt-size label {
+		margin-right: 20px;
+	}
+	.gl-custom-shirt-size label span{
+		height: 45px !important;
+		width: 70px !important;
+	}
+
+	/*gl-monogram*/
+	.gl-monogram h2{
+       color: black;
+       font-size: 20px;
+       font-family: var(--font-style);
+       margin-bottom: 20px;
+	}
+	.gl-monogram h6{
+       color: #333333;
+       font-size: 16px;
+       font-family: var(--font-style);
+       margin-bottom: 20px;
+	}
+	.gl-monogram input{
+		width: 100%;
+		height:50px;
+		background-color: white;
+		border:1px solid white;
+		color: #333333;
+		font-size: 16px;
+		border-radius: 12px;
+		padding-left: 20px;
+		outline: none;
+		margin-bottom: 20px;
+		 font-family: var(--font-style)
+	}
+	/*gl-monogram-check*/
+	.gl-monogram-check {
+		margin-bottom: 20px;
+	}
+	.gl-monogram-check input{
+		width: 15px;
+		height: 15px;
+		margin-top: 3px;
+		margin-bottom: 0px;
+		 font-family: var(--font-style)
+	}
+	.gl-monogram-check label{
+		font-size: 16px;
+		color: #143A79;
+		margin-bottom: 0px;
+		 font-family: var(--font-style)
+	}
+
+
+     /*sixth page design --------------------------------------*/
+    
+     .gl-measure{
+     	margin-top: 15px;
+     }
+
+     /*gl-measure-heading*/
+     .gl-measure-heading{
+     	margin-bottom: 30px;
+     }
+     .gl-measure-heading h2{
+     	 color: black;
+     	 font-size: 20px;
+     	  font-family: var(--font-style)
+     }
+
+     /*gl-measure-box*/
+     .gl-measure-box{
+     	background-color: white;
+     	border:1px solid white;
+     	padding: 20px;
+     	border-radius: 12px;
+     	margin-bottom: 20px;
+     }
+     .gl-measure-box i{
+     	color: black;
+     	font-size: 20px;
+     	margin-bottom: 20px;
+     }
+     .gl-measure-box h2{
+     	color: black;
+     	font-size: 20px;
+     	margin-bottom: 20px;
+     	 font-family: var(--font-style)
+     }
+     .gl-measure-box p{
+     	color: #4F4F4F;
+     	font-size: 16px;
+     	font-family: var(--paragraph-style);
+     }
+
+
+
+
+
+
+
+
+
+
+
+	/*tabs section style shirts design ------------*/
+	.gal-tabs{
+		text-align: center;
+		font-size: 22px;
+	}
+	.gal-tabs a{
+		margin: 0 12px;
+	}
+	.gal-list{
+		padding: 0;
+	}
+	.gal-list li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.gal-tabs a.prv{
+		float: right;
+		font-size: 16px;
+	}
+	.gal-tabs a.nxt{
+		float: right;
+		font-size: 16px;
+	}
+	.gallery-boxes{
+		position: relative;
+	}
+	.gallery-boxes .gal-descrip{
+		background: white;
+		overflow: hidden;
+		color: #fff;
+		font-size: 20px;
+		margin-top: -5px;
+	}
+	.gallery-boxes .gal-box{
+		display: none;
+	}
+	.gallery-boxes .gal-box.galcurr{
+		display: block;
+	}
 
 
 
