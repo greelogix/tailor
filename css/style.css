@@ -2067,12 +2067,8 @@
 		color: white;
 	}
 
-
-
-
-
-
 	/*sec3*/
+
 	.layout{
 		padding: 90px;
 		background-color: #f7f8fb;
@@ -2130,11 +2126,10 @@
 		margin-right: 20px;
 		font-size: 30px;
 	}
+
 	/*demo page*/
-
-
-
-
+      
+    /*****************************home page 3*********************************/
 
 	/*homepage 3*/
 	.gl-home-about-section{
@@ -2500,19 +2495,8 @@
 
 
 
-
-
-/*homepage3-blog--------------------*/
-.homepage3-blog{
-	padding: 20px 0px;
-	padding-bottom: 90px;
-}
-/*homepage3-blog--------------------*/
-
-
-
-
 /*gl-need-homepage3------------------*/
+
 .gl-need-homepage3{
 	padding-top: 400px !important;
 	padding-bottom: 0px;
@@ -2523,14 +2507,25 @@
 	background-size: contain;
 }
 
+/*homepage3-blog--------------------*/
+.homepage3-blog{
+	padding: 20px 0px;
+	padding-bottom: 90px;
+}
+
+/*homepage3-blog--------------------*/
+
 /*gl-pants-homepage3*/
+
 .gl-pants-homepage3{
 	padding-top: 70px;
 	padding-bottom: 50px;
 }
+
 /*gl-pants end*/
 
 /*new start-------------*/
+
 .new{
 	padding: 90px 0;
 }
@@ -2748,9 +2743,10 @@ button{
 	text-transform: capitalize !important;
 }
 
-
+/*gl-need-homepage3------------------*/
 
 /*PRODUCT PAGE---------------------*/
+
 .gl-productu-nav{
 	padding: 90px 0px;
 }
@@ -2933,10 +2929,9 @@ button{
 }
 /*customize section end*/
 
+/*PRODUCT PAGE---------------------*/
 
 /*about us page--------*/
-
-
 
 .gl-about-us-header .collapse {
 	display: flex !important;
@@ -3043,6 +3038,7 @@ button{
 
 /*ABOUT US PAGE END -------------------*/
 
+/*gl-shirt-customize page start -------------------------*/
 
 /*gl-shirt design ---------*/
 
@@ -3074,10 +3070,7 @@ button{
 
 /*gl-shirt design -------------------*/
 
-
-
-/*gl-shirt-customize------------------*/
-
+/*gl-shirt-customize ------------------*/
 
 .gl-shirt-customize{
 	padding: 25px 0px 80px 0px;
@@ -3114,7 +3107,6 @@ button{
 	color: #828282 !important;
 	text-decoration: line-through;
 }
-
 
 /*gl-shirt size----------------*/
 
@@ -3172,15 +3164,9 @@ button{
 	color: #fff;
 }
 
-
-
 /*gl-shirt size----------------*/
 
-
-
 /*gl-shirt fit----------------*/
-
-
 
 .gl-shirt-fit{
 	padding-bottom: 25px;
@@ -3238,10 +3224,7 @@ button{
 
 /*gl-shirt fit----------------*/
 
-
-
 /*gl-shirt color----------------*/
-
 
 .gl-shirt-color{
 	padding-bottom: 25px;
@@ -3327,10 +3310,7 @@ button{
 	border:2px solid #143A79;
 }
 
-
 /*gl-shirt color----------------*/
-
-
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
@@ -3478,8 +3458,6 @@ body {
 
 /*gl-shirt customize section--------------*/
 
-
-
 /*gl-reviews--------------------*/
 .gl-reviews{
 	padding-bottom: 60px;
@@ -3502,8 +3480,6 @@ body {
 
 .tablink:hover {
 }
-
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
 	color: white;
 	display: none;
@@ -3558,533 +3534,709 @@ body {
 	color: #FFD700 !important;
 	border-bottom: 2px solid #FFD700 !important;
 }
-/*.custoize-button-link{
+
+.gl-product-slider-heading h1{
+	font-size: 30px !important;
+	padding-bottom: 0px;
+}
+.gl-product-slider-heading h1:before{
+	display: none !important;
+}
+.card{
+	padding: 0px;
+}
+.gl-product-height-issue{
+	display: flex !important;
+	height: auto !important;
+}
+button:focus {
+	outline: none !important;
+}
+
+/*product slider--------------*/
+
+
+
+/*cart-section ---------------*/
+.gl-snack-parent{
+	background-color: #323232b3;
+	padding: 14px 20px;
+	border-radius: 10px;
+	width: 40%;
+	position: fixed;
+	bottom: 20px;
+	z-index: 999;
+	right: 30px;
+	display: none;
+}
+.gl-snack-para p{
+	color: white;
+	font-size: 16px;
+	font-family: var(--font-style);
+}
+
+/*gl-shirt customize page -----------------*/
+
+
+/*first page design --------------------------------------*/
+
+.gl-select-shirt-sec{
+	background-color: #F9F9F9;
+	padding: 40px 40px 80px 40px;
+}
+.gl-fabric-shirt{
+	padding-bottom: 30px;
+	border-bottom:1px solid gray;
+}
+.gl-fabric-shirt h3{
+	color: black;
+	font-family: var(--font-style);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gl-result-examples form{
+	margin-bottom: 20px;
+}
+.gl-result-examples label{
+	margin-right: 25px;
+	font-family: var(--font-style);
+	font-size: 14px;
+	color: #828282;
+}
+.gl-result h3{
+	color: black;
+	font-family: var(--font-style);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gl-select-buttons{
+	display: flex;
+	align-items: center;
+}
+.gl-select-buttons .dropdown{
+	margin-right: 10px;
+}
+.gl-select-buttons .dropdown button{
+	background-color: white;
+	color: #828282;
+	border:1px solid white;
+	border-radius: 10px;
+	width: 150px;
+	font-size: 13px;
+	font-family: var(--font-style);
+	height: 40px;
+}
+.gl-serach-div i{
+	color: white;
+	background-color: #143A79;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.gl-change-shirt img{
+	height: 100%;
+	width:100%;
+}
+.gl-shirt-design-preview{
+	height: 100%;
+	position: fixed;
+	top: 85px;
+}
+.gl-change-shirt{
+	position: relative;
+	transform: translateY(-50%);
+	top: 43%;
+}
+.brand-part-three{
+	margin-bottom: 20px !important;
+}
+
+
+/*gl fabric footer*/
+
+.gl-fabric-footer-name h2{
+	color: white;
+	font-size: 26px;
+	font-family: var(--font-style);
+	margin-bottom: 0px;
+}
+.gl-fabric-footer-sec{
+	background-color: #143A79;
+	padding: 21px 21px 11px 21px;
+	position: fixed;
+	bottom: 0;
+	width: 66.6%;
+}
+.gl-fabric-footer-button{
+	text-align: right;
+}
+.gl-fabric-footer-button a{
+	color: white;
 	text-decoration: none;
+}
+.gl-fabric-footer-button:hover{
+	color: white;
+}
+.prev-button{
+	border:1px solid white;
+	color: white;
+	font-size: 13px;
+	font-family: var(--font-style);
+	padding: 7px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.next-button{
+	border:1px solid white;
+	color: white;
+	font-size: 13px;
+	font-family: var(--font-style);
+	padding: 7px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.gl-shirt-design-list ul{
+	background-color: #F2F2F2;
+	border:1px solid #F2F2F2;
+	padding-left: 0px;
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+.gl-shirt-design-list{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.gl-shirt-design-list h3{
+	color: black;
+	font-family: var(--font-style);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gl-shirt-design-list ul li{
+	color: #828282;
+	display: inline-block;
+	padding: 6px 15px;
+}
+.gl-shirt-design-list ul li a{
+	color:  #828282;
+	font-size: 13px;
+	font-family: var(--font-style);
+	text-decoration: none;
+}
+.jacket-1{
+	background-color: #143A79;
+	color: white !important;
+	height: 40px;
+	border-radius: 25px;
+	color: white;
+}
+.jacket-1 a{
+	color: white !important;
+}
+
+/*second page design --------------------------------------*/
+
+/*gl-fabric-sidebar*/
+
+.gl-fabric-sidebar{
+	position: absolute;
+	top: 84px;
+	background-color: white;
+	display: none;
+}
+.gl-jackets-list ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.gl-jackets-list ul li{
+	margin-bottom: 15px;
+}
+.gl-jackets-list ul li:last-child{
+	margin-bottom: 0px !important;
+}
+gl-jackets-list ul li:last-child h4{
+	margin-bottom: 0px !important;
+}
+.gl-jackets-list ul li h5{
+	color: #828282;
+	font-size: 12px;
+	font-family: var(--font-style);
+}
+.gl-jackets-list ul li h4{
+	color: black;
+	font-size: 16px;
+	font-family: var(--paragraph-style);
+	margin-bottom: 0px;
+}
+.gl-jackets-list ul li span{
+	float: left;
+	padding-top: 9px;
+	margin-right: 10px;
+}
+.gl-jackets-list ul li span img{
+	height: 40px;
+	width: 30px;
+}
+
+/*accordian*/
+
+.card-body{
+	background-color: #F9F9F9;
+	padding: 20px 0px 0px ;
+	color: black;
+	font-size: 14px;
+}
+button.btn.btn-link.btn-block.text-left.collapsed{
+	color: #333333 !important;
+	font-size: 20px;
+	padding: 15px 0px !important;
+}
+.btn-link {
+	font-size: 20px;
+	color: #333333 !important;
+	text-decoration: none !important;
+	padding: 15px 0px !important;
+}
+.card-header{
+	padding: 0px; 
+	border-bottom:1px solid #E0E0E0 !important;
+}
+
+
+/*gl-shirt-vector-design*/
+
+.gl-shirt-vector-design h3{
+	color: #333333;
+	font-size: 20px;
+	margin-bottom: 30px;
+	font-family: var(--font-style);
+}
+.gl-shirt-vector-image {
+	background-color: white;
+	text-align: center;
+	border-radius: 15px;
+	padding: 15px 20px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+.gl-shirt-vector-image:hover{
+	border:4px solid #143A79;
+}
+.gl-shirt-vector-image img{
+	margin-bottom: 15px;
+}
+.gl-shirt-vector-image h4{
+	color: #4F4F4F;
+	font-size: 20px;
+	font-family: var(--font-style);
+}
+
+/*style-inpu*/
+.style-input{
+	margin-bottom: 20px;
+}
+.style-input h2{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: var(--font-style);
+}
+.style-input select{
+	width: 70%;
+	height: 50px;
+	font-size: 16px;
+	border:1px solid white;
+	background-color: white;
+	outline: none;
+	padding-left: 15px;
+	font-family: var(--font-style);
+	padding-right: 15px;
+	float: left;
+}
+.card-header h2{
+	font-family: var(--font-style);
+}
+.card-header h2 i{
+	float: right;
+	padding-right: 10px;
+}
+.style-input button{
+	margin-left: 10px;
 	color: #143A79;
-	}*/
-	/*gl reiews end*/
+	width: 120px;
+	font-size: 16px;
+	font-family: var(--font-style);
+	background-color: transparent;
+	border:1px solid #143A79;
+	height: 50px;
+	border-radius: 12px;
+}
+.style-input button:hover{
+	background-color: #143A79;
+	border: 1px solid #143A79;
+}
 
-	/*product slider--------------*/
+/*file-div*/
 
+.file-div-icon{
+	background-color:  #143A79;
+	border:1px solid  #143A79;
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+.file-div i{
+	color: white;
+	font-size: 16px;
+}
 
-	.gl-product-slider-heading h1{
-		font-size: 30px !important;
-		padding-bottom: 0px;
-	}
-	.gl-product-slider-heading h1:before{
-		display: none !important;
-	}
-	.card{
-		padding: 0px;
-	}
-	.gl-product-height-issue{
-		display: flex !important;
-		height: auto !important;
-	}
-	button:focus {
-		outline: none !important;
-	}
+/*third page design --------------------------------------*/
 
-	/*product slider--------------*/
+/*gl-custom-shirt-color*/
 
+.gl-custom-shirt-color label{
+	margin-right: 20px;
+}
+.gl-custom-shirt-color label span{
+	height: 35px !important;
+	width: 35px !important;
+}
+.gl-custom-shirt-color label span:after{
+	height: 35px !important;
+	width: 35px !important;
+}
+.gl-shirt-color-two{
+	padding-bottom: 15px;
+}
 
+/*gl-custom-shirt-size*/
+.gl-custom-shirt-size{
+	padding: 10px 0px 20px;
+}
+.gl-custom-shirt-size label {
+	margin-right: 20px;
+}
+.gl-custom-shirt-size label span{
+	height: 45px !important;
+	width: 70px !important;
+}
 
-	/*cart-section ---------------*/
-	.gl-snack-parent{
-		background-color: #323232b3;
-		padding: 14px 20px;
-		border-radius: 10px;
-		width: 40%;
-		position: fixed;
-		bottom: 20px;
-		z-index: 999;
-		right: 30px;
-		display: none;
-	}
-	.gl-snack-para p{
-		color: white;
-		font-size: 16px;
-		font-family: var(--font-style);
-	}
+/*gl-monogram*/
+.gl-monogram h2{
+	color: black;
+	font-size: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
+}
+.gl-monogram h6{
+	color: #333333;
+	font-size: 16px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
+}
+.gl-monogram input{
+	width: 100%;
+	height:50px;
+	background-color: white;
+	border:1px solid white;
+	color: #333333;
+	font-size: 16px;
+	border-radius: 12px;
+	padding-left: 20px;
+	outline: none;
+	margin-bottom: 20px;
+	font-family: var(--font-style)
+}
+/*gl-monogram-check*/
+.gl-monogram-check {
+	margin-bottom: 20px;
+}
+.gl-monogram-check input{
+	width: 15px;
+	height: 15px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	font-family: var(--font-style)
+}
+.gl-monogram-check label{
+	font-size: 16px;
+	color: #143A79;
+	margin-bottom: 0px;
+	font-family: var(--font-style)
+}
 
-
-	/*fabric page-------------------*/
-	.gl-select-shirt-sec{
-		background-color: #F9F9F9;
-		padding: 40px 40px 80px 40px;
-	}
-	.gl-fabric-shirt{
-		padding-bottom: 30px;
-		border-bottom:1px solid gray;
-	}
-	.gl-fabric-shirt h3{
-		color: black;
-		font-family: var(--font-style);
-		font-size: 20px;
-		margin-bottom: 20px;
-	}
-	.gl-result-examples form{
-		margin-bottom: 20px;
-	}
-	.gl-result-examples label{
-		margin-right: 25px;
-		font-family: var(--font-style);
-		font-size: 14px;
-		color: #828282;
-	}
-	.gl-result h3{
-		color: black;
-		font-family: var(--font-style);
-		font-size: 20px;
-		margin-bottom: 20px;
-	}
-	.gl-select-buttons{
-		display: flex;
-		align-items: center;
-	}
-	.gl-select-buttons .dropdown{
-		margin-right: 10px;
-	}
-	.gl-select-buttons .dropdown button{
-		background-color: white;
-		color: #828282;
-		border:1px solid white;
-		border-radius: 10px;
-		width: 150px;
-		font-size: 13px;
-		font-family: var(--font-style);
-		height: 40px;
-	}
-	.gl-serach-div i{
-		color: white;
-		background-color: #143A79;
-		font-size: 20px;
-		padding: 10px;
-		border-radius: 10px;
-	}
-	.gl-change-shirt img{
-		height: 100%;
-		width:100%;
-	}
-	.gl-shirt-design-preview{
-		height: 100%;
-		position: fixed;
-		top: 85px;
-	}
-	.gl-change-shirt{
-		position: relative;
-		transform: translateY(-50%);
-		top: 43%;
-	}
-	.brand-part-three{
-		margin-bottom: 20px !important;
-	}
+/*third page design --------------------------------------*/
 
 
-	/*gl fabric footer*/
-	.gl-fabric-footer-name h2{
-		color: white;
-		font-size: 26px;
-		font-family: var(--font-style);
-		margin-bottom: 0px;
-	}
-	.gl-fabric-footer-sec{
-		background-color: #143A79;
-		padding: 21px 21px 11px 21px;
-		position: fixed;
-		bottom: 0;
-		width: 66.6%;
-	}
-	.gl-fabric-footer-button{
-		text-align: right;
-	}
-	.gl-fabric-footer-button a{
-		color: white;
-		text-decoration: none;
-	}
-	.gl-fabric-footer-button:hover{
-		color: white;
-	}
-	.prev-button{
-		border:1px solid white;
-		color: white;
-		font-size: 13px;
-		font-family: var(--font-style);
-		padding: 7px 25px;
-		border-radius: 25px;
-		text-decoration: none;
-	}
-	.next-button{
-		border:1px solid white;
-		color: white;
-		font-size: 13px;
-		font-family: var(--font-style);
-		padding: 7px 25px;
-		border-radius: 25px;
-		text-decoration: none;
-	}
-	.gl-shirt-design-list ul{
-		background-color: #F2F2F2;
-		border:1px solid #F2F2F2;
-		padding-left: 0px;
-		width: 200px;
-		height: 40px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 25px;
-		margin: 0 auto;
-	}
-	.gl-shirt-design-list{
-		text-align: center;
-		margin-bottom: 20px;
-	}
-	.gl-shirt-design-list h3{
-		color: black;
-		font-family: var(--font-style);
-		font-size: 20px;
-		margin-bottom: 20px;
-	}
-	.gl-shirt-design-list ul li{
-		color: #828282;
-		display: inline-block;
-		padding: 6px 15px;
-	}
-	.gl-shirt-design-list ul li a{
-		color:  #828282;
-		font-size: 13px;
-		font-family: var(--font-style);
-		text-decoration: none;
-	}
-	.jacket-1{
-		background-color: #143A79;
-		color: white !important;
-		height: 40px;
-		border-radius: 25px;
-		color: white;
-	}
-	.jacket-1 a{
-		color: white !important;
-	}
+/*forth page design --------------------------------------*/
 
-	/*gl-fabric-sidebar*/
-	.gl-fabric-sidebar{
-		position: absolute;
-		top: 84px;
-		background-color: white;
-		display: none;
-	}
-	.gl-jackets-list ul{
-		padding-left: 0px;
-		margin-bottom: 0px;
-	}
-	.gl-jackets-list ul li{
-		margin-bottom: 15px;
-	}
-	.gl-jackets-list ul li:last-child{
-		margin-bottom: 0px !important;
-	}
-	gl-jackets-list ul li:last-child h4{
-		margin-bottom: 0px !important;
-	}
-	.gl-jackets-list ul li h5{
-		color: #828282;
-		font-size: 12px;
-		font-family: var(--font-style);
-	}
-	.gl-jackets-list ul li h4{
-		color: black;
-		font-size: 16px;
-		font-family: var(--paragraph-style);
-		margin-bottom: 0px;
-	}
-	.gl-jackets-list ul li span{
-		float: left;
-		padding-top: 9px;
-		margin-right: 10px;
-	}
-	.gl-jackets-list ul li span img{
-		height: 40px;
-		width: 30px;
-	}
+.gl-measure{
+	margin-top: 15px;
+}
 
-	/*accordian*/
+/*gl-measure-heading*/
+.gl-measure-heading{
+	margin-bottom: 30px;
+}
+.gl-measure-heading h2{
+	color: black;
+	font-size: 20px;
+	font-family: var(--font-style)
+}
 
-	.card-body{
-		background-color: #F9F9F9;
-		padding: 20px 0px 0px ;
-	}
-	button.btn.btn-link.btn-block.text-left.collapsed{
-		color: #333333 !important;
-		font-size: 20px;
-		padding: 15px 0px !important;
-	}
-	.btn-link {
-		font-size: 20px;
-		color: #333333 !important;
-		text-decoration: none !important;
-		padding: 15px 0px !important;
-	}
-	.card-header{
-		padding: 0px; 
-		border-bottom:1px solid #E0E0E0 !important;
-	}
+/*gl-measure-box*/
+.gl-measure-box{
+	background-color: white;
+	border:1px solid white;
+	padding: 20px;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
+.gl-measure-box i{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gl-measure-box h2{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: var(--font-style)
+}
+.gl-measure-box p{
+	color: #4F4F4F;
+	font-size: 16px;
+	font-family: var(--paragraph-style);
+}
+
+/*forth page design --------------------------------------*/
 
 
-	/*gl-shirt-vector-design*/
 
-	.gl-shirt-vector-design h3{
-		color: #333333;
-		font-size: 20px;
-		margin-bottom: 30px;
-		font-family: var(--font-style);
-	}
-	.gl-shirt-vector-image {
-		background-color: white;
-		text-align: center;
-		border-radius: 15px;
-		padding: 15px 20px;
-		transition: all 0.3s ease;
-		cursor: pointer;
-	}
-	.gl-shirt-vector-image:hover{
-		border:4px solid #143A79;
-	}
-	.gl-shirt-vector-image img{
-		margin-bottom: 15px;
-	}
-	.gl-shirt-vector-image h4{
-		color: #4F4F4F;
-		font-size: 20px;
-		font-family: var(--font-style);
-	}
+/*waste measuremtn page -----------------------------------*/
 
-	/*style-inpu*/
-	.style-input{
-		margin-bottom: 20px;
-	}
-	.style-input h2{
-		color: black;
-		font-size: 20px;
-		margin-bottom: 20px;
-		font-family: var(--font-style);
-	}
-	.style-input select{
-		width: 70%;
-		height: 50px;
-		font-size: 16px;
-		border:1px solid white;
-		background-color: white;
-		outline: none;
-		padding-left: 15px;
-		font-family: var(--font-style);
-		padding-right: 15px;
-		float: left;
-	}
-	.card-header h2{
-		font-family: var(--font-style);
-	}
-	.card-header h2 i{
-		float: right;
-		padding-right: 10px;
-	}
-	.style-input button{
-		margin-left: 10px;
-		color: #143A79;
-		width: 120px;
-		font-size: 16px;
-		font-family: var(--font-style);
-		background-color: transparent;
-		border:1px solid #143A79;
-		height: 50px;
-		border-radius: 12px;
-	}
-	.style-input button:hover{
-		background-color: #143A79;
-		border: 1px solid #143A79;
-	}
-	/*file-div*/
-	.file-div-icon{
-		background-color:  #143A79;
-		border:1px solid  #143A79;
-		height: 50px;
-		width: 50px;
-		float: left;
-		border-radius: 12px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-left: 10px;
-	}
-	.file-div i{
-		color: white;
-		font-size: 16px;
-	}
+.waste-measure h2{
+	color: black;
+	font-size: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
+}
+.waste-measure p{
+	font-size: 16px;
+	color: black;
+	font-family: var(--font-style);
+}
+.waste-measure input{
+	width: 90%;
+	height: 50px;
+	background-color: white;
+	border:1px solid white;
+	float: left;
+	font-size: 16px;
+	font-family: var(--font-style);
+	padding-left: 20px;
+	outline: none;
+}
+.waste-measure h2 i{
+	color: black;
+	font-size: 20px;
+	margin-right: 15px;
+}
 
-	/*gl-custom-shirt-color*/
+/*gl-waste-left-side*/
 
-	.gl-custom-shirt-color label{
-		margin-right: 20px;
-	}
-	.gl-custom-shirt-color label span{
-		height: 35px !important;
-		width: 35px !important;
-	}
-	.gl-custom-shirt-color label span:after{
-		height: 35px !important;
-		width: 35px !important;
-	}
-	.gl-shirt-color-two{
-		padding-bottom: 15px;
-	}
+.gl-waste-left-side{
+	clear: both;
+	margin-bottom: 30px;
+}
+.gl-waste-left-side h2{
+	color: black;
+	font-size: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
+}
+.gl-waste-left-side h6{
+	color: #333333;
+	font-size: 14px;
+	font-family: var(--font-style);
+}
+.gl-waste-left-side select{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	border:1px solid #E0E0E0;
+	box-sizing: border-box;
+	font-family: var(--font-style);
+	outline:none;
+	padding: 0px 15px;
+	font-size: 14px;
+	border-radius: 8px;
+}
 
-	/*gl-custom-shirt-size*/
-	.gl-custom-shirt-size{
-		padding: 10px 0px 20px;
-	}
-	.gl-custom-shirt-size label {
-		margin-right: 20px;
-	}
-	.gl-custom-shirt-size label span{
-		height: 45px !important;
-		width: 70px !important;
-	}
+/*right side contengt*/
+.gl-add-cart-item {
+	margin-top: 30px;
+}
+.gl-add-cart-item h2{
+	color: black;
+	font-size: 20px;
+	font-family: var(--font-style);
+	margin-bottom: 20px;
+}
+.gl-add-cart-item h5{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: var(--font-style);
+}
+.gl-add-cart-item h6{
+	color: #333333;
+	font-size: 14px;
+	font-family: var(--font-style);
+}
+.gl-button-quantity-sec{
+	float: left;
+	width: 45%;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+.gl-add-cart-item .quantity-control{
+	width: 100%;
+    background: white;
+    border: 1px solid lightgray;
+    height: 45px;
+    border-radius: 12px;
+}
+ .gl-add-cart-item .show{
+	background-color: #F9F9F9;
+}
+.gl-add-cart-item .card-header{
+	border-bottom: none !important;
+}
+.gl-add-cart-item .card-header button{
+	padding: 0px !important;
+}
 
-	/*gl-monogram*/
-	.gl-monogram h2{
-       color: black;
-       font-size: 20px;
-       font-family: var(--font-style);
-       margin-bottom: 20px;
-	}
-	.gl-monogram h6{
-       color: #333333;
-       font-size: 16px;
-       font-family: var(--font-style);
-       margin-bottom: 20px;
-	}
-	.gl-monogram input{
-		width: 100%;
-		height:50px;
-		background-color: white;
-		border:1px solid white;
-		color: #333333;
-		font-size: 16px;
-		border-radius: 12px;
-		padding-left: 20px;
-		outline: none;
-		margin-bottom: 20px;
-		 font-family: var(--font-style)
-	}
-	/*gl-monogram-check*/
-	.gl-monogram-check {
-		margin-bottom: 20px;
-	}
-	.gl-monogram-check input{
-		width: 15px;
-		height: 15px;
-		margin-top: 3px;
-		margin-bottom: 0px;
-		 font-family: var(--font-style)
-	}
-	.gl-monogram-check label{
-		font-size: 16px;
-		color: #143A79;
-		margin-bottom: 0px;
-		 font-family: var(--font-style)
-	}
+/*waste measuremtn page -----------------------------------*/
+
+/*smart-size  page ----------------------------------------*/
+.gl-button-sec-three-column{
+	width: 30% !important;
+}
 
 
-     /*sixth page design --------------------------------------*/
-    
-     .gl-measure{
-     	margin-top: 15px;
-     }
 
-     /*gl-measure-heading*/
-     .gl-measure-heading{
-     	margin-bottom: 30px;
-     }
-     .gl-measure-heading h2{
-     	 color: black;
-     	 font-size: 20px;
-     	  font-family: var(--font-style)
-     }
+/*pick and upp page  ---------------------------------------*/
 
-     /*gl-measure-box*/
-     .gl-measure-box{
-     	background-color: white;
-     	border:1px solid white;
-     	padding: 20px;
-     	border-radius: 12px;
-     	margin-bottom: 20px;
-     }
-     .gl-measure-box i{
-     	color: black;
-     	font-size: 20px;
-     	margin-bottom: 20px;
-     }
-     .gl-measure-box h2{
-     	color: black;
-     	font-size: 20px;
-     	margin-bottom: 20px;
-     	 font-family: var(--font-style)
-     }
-     .gl-measure-box p{
-     	color: #4F4F4F;
-     	font-size: 16px;
-     	font-family: var(--paragraph-style);
-     }
+.gl-pick-list{
+	margin-top: 30px;
+}
+.gl-pick-list h2{
+     color: black;
+     font-size: 20px;
+     font-family: var(--font-style);
+}
+.gl-pick-list ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.gl-pick-list ul li{
+	font-family: var(--font-style);
+     margin-bottom: 15px;
+}
+.gl-pick-list ul li h6{
+	font-family: var(--font-style);
+	font-size: 12px;
+	color: #828282;
+}
+.gl-pick-list ul li h5{
+	color: black;
+	font-size: 16px;
+	font-family: var(--font-style);
+}
+
+/*right side*/
+
+.gl-pickup-item {
+	margin-top: 30px;
+}
+.gl-pickup-item h2{
+	font-size: 20px;
+	color: black;
+	font-family: var(--font-style);
+	margin-bottom: 40px;
+}
+.gl-pickup-item .size-radio{
+	height: 60px !important;
+	width: 100px !important;
+}
+.input.size-radio.pick-up-time{
+	height: 60px !important;
+	width: 100px !important;
+}
+.gl-pickup-item label{
+	padding-left: 120px;
+	height: 60px;
+	color: #828282;
+}
+
+/*pick and upp page  ---------------------------------------*/
 
 
 
 
+/*tabs section style shirts design ------------*/
 
+.gal-tabs{
+	text-align: center;
+	font-size: 22px;
+}
+.gal-tabs a{
+	margin: 0 12px;
+}
+.gal-list{
+	padding: 0;
+}
+.gal-list li{
+	display: inline-block;
+	vertical-align: top;
+}
+.gal-tabs a.prv{
+	float: right;
+	font-size: 16px;
+}
+.gal-tabs a.nxt{
+	float: right;
+	font-size: 16px;
+}
+.gallery-boxes{
+	position: relative;
+}
+.gallery-boxes .gal-descrip{
+	background: white;
+	overflow: hidden;
+	color: #fff;
+	font-size: 20px;
+	margin-top: -5px;
+}
+.gallery-boxes .gal-box{
+	display: none;
+}
+.gallery-boxes .gal-box.galcurr{
+	display: block;
+}
 
-
-
-
-
-
-	/*tabs section style shirts design ------------*/
-	.gal-tabs{
-		text-align: center;
-		font-size: 22px;
-	}
-	.gal-tabs a{
-		margin: 0 12px;
-	}
-	.gal-list{
-		padding: 0;
-	}
-	.gal-list li{
-		display: inline-block;
-		vertical-align: top;
-	}
-	.gal-tabs a.prv{
-		float: right;
-		font-size: 16px;
-	}
-	.gal-tabs a.nxt{
-		float: right;
-		font-size: 16px;
-	}
-	.gallery-boxes{
-		position: relative;
-	}
-	.gallery-boxes .gal-descrip{
-		background: white;
-		overflow: hidden;
-		color: #fff;
-		font-size: 20px;
-		margin-top: -5px;
-	}
-	.gallery-boxes .gal-box{
-		display: none;
-	}
-	.gallery-boxes .gal-box.galcurr{
-		display: block;
-	}
+/*tabs section style shirts design ------------*/
 
 
 
