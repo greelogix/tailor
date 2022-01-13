@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<!-- meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- booststrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- font awsome cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet"> 
+	<!-- wow animation -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script type="text/javascript" src="https://wowjs.uk/dist/wow.min.js"></script>
+	<!-- owl caeasoul -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+	<!-- style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- structure -->
+	<div class="structure">
+
+		<section class="checkout-section">
+			<div class="row" style="margin: 0;">
+				<div class="col-lg-7 col-md-7 col-sm-12" style="padding: 0;">
+					<div class="checkout-logo text-center">
+						<img src="img/self.png">
+					</div>
+					<div class="checkout-button text-center">
+						<button class="tablink" onclick="openPage('About', this, 'owhite')"><a href="cart-page.html">Cart</a></button>
+						<button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Information</button>
+						<button class="tablink" onclick="openPage('News', this, 'white')">	Shipping</button>
+						<button class="tablink" onclick="openPage('Contact', this, 'white')">Payment</button>
+					</div>
+					<div class="checkout-tabs-list">
+						<div id="Home" class="tabcontent">
+							<div class="checkout-form">
+								<div class="checkout-information">
+									<h2>Information</h2>
+									<h6>Email Address *</h6>
+									<input type="text" placeholder="johnbravo@mail.com" name="">
+								</div>
+								<div class="checkout-shipping">
+									<h2>Shipping Address</h2>
+									<!-- separate sec -->
+									<div class="separate-sec-input">
+										<form>
+											<h6>First Name *</h6>
+											<input type="text" placeholder="John" name="">
+										</form>
+										<form>
+											<h6>Last Name *</h6>
+											<input type="text" placeholder="John" name="">
+										</form>
+									</div>
+									<form>
+										<h6>Company Name</h6>
+										<input type="text" placeholder="Greelogix" name="">
+									</form>
+									<form>
+										<h6>Address Line 1 *</h6>
+										<input type="text" placeholder="Block B-1 Johar Town Lahore" name="">
+									</form>
+									<form>
+										<h6>Address Line 2</h6>
+										<input type="text" placeholder="Greelogix" name="">
+									</form>
+									<form>
+										<h6>Country / Region *</h6>
+										<input type="text" placeholder="Pakistan" name="">
+									</form>
+									<!-- separate sec -->
+									<div class="separate-sec-input-two">
+										<form>
+											<h6>Town / State *</h6>
+											<input type="text" placeholder="JPunjab" name="">
+										</form>
+										<form>
+											<h6>State / City *</h6>
+											<input type="text" placeholder="State / City *" name="">
+										</form>
+										<form class="zip-code">
+											<h6>Zipcode *</h6>
+											<input type="text" placeholder="54000" name="">
+										</form>
+									</div>
+									<!-- separate sec -->
+									<form>
+										<h6>Phone *</h6>
+										<input type="text" placeholder="+92 3011345234" name="">
+									</form>
+									<!-- back-page -->
+									<div class="back-page">
+										<h5><i class="fa fa-arrow-left" aria-hidden="true"></i>Back to cart</h5>
+										<span><button class="bnt btn-primary">Continue to Shipping</button></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="News" class="tabcontent">
+							<div class="shipping-sec-parent">
+							<div class="shipping-sec">
+								<table>
+									<tbody>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">Contact</td>
+											<td>johnbravo@mail.com</td>
+											<td style="float: right;">Change</td>
+										</tr>
+										<tr>
+											<td style="color: #828282;">Ship to</td>
+											<td>Block B-1 Johar Town Lahore</td>
+											<td style="float: right;">Change</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="shipping-method">
+								<h2>Shipping Method</h2>
+								<div class="shipping-method-table">
+								<table class="roundedCorners">
+									<tbody>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Flat Rate</label><br>
+												</form>
+											</td>
+											<td style="float: right;">Change</td>
+										</tr>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Free Shipping</label><br>
+												</form>
+											</td>
+											<td style="float: right;">Change</td>
+										</tr>
+										<tr>
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Express</label><br>
+												</form>
+											</td>
+											<td style="float: right;">Change</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+							</div>
+							<div class="shipping-input0-sec">
+								<h6>Order Notes</h6>
+								<input type="text" placeholder="Anything you’d like to say..." name="">
+							</div>
+							<!-- back-page -->
+							<div class="back-page">
+								<h5><i class="fa fa-arrow-left" aria-hidden="true"></i>Back to cart</h5>
+								<span><button class="bnt btn-primary">Continue to Shipping</button></span>
+							</div>
+						</div>
+						</div>
+
+						<div id="Contact" class="tabcontent">
+							<div class="shipping-sec-parent">
+							<div class="shipping-sec">
+								<table class="roundedCorners">
+									<tbody>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">Contact</td>
+											<td>johnbravo@mail.com</td>
+											<td style="float: right;">Change</td>
+										</tr>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">Ship to</td>
+											<td>Block B-1 Johar Town Lahore</td>
+											<td style="float: right;">Change</td>
+										</tr>
+										<tr>
+											<td style="color: #828282;">Ship to</td>
+											<td>Block B-1 Johar Town Lahore</td>
+											<td style="float: right;">Change</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="billing-method">
+								<h2>Billing Method</h2>
+							</div>
+							<div style="padding: 0;" class="checkout-form shipping-form-border">
+								<div class="checkout-shipping">
+									<!-- separate sec -->
+									<div class="separate-sec-input">
+										<form>
+											<h6>First Name *</h6>
+											<input type="text" placeholder="John" name="">
+										</form>
+										<form>
+											<h6>Last Name *</h6>
+											<input type="text" placeholder="John" name="">
+										</form>
+									</div>
+									<form>
+										<h6>Company Name</h6>
+										<input type="text" placeholder="Greelogix" name="">
+									</form>
+									<form>
+										<h6>Address Line 1 *</h6>
+										<input type="text" placeholder="Block B-1 Johar Town Lahore" name="">
+									</form>
+									<form>
+										<h6>Address Line 2</h6>
+										<input type="text" placeholder="Greelogix" name="">
+									</form>
+									<form>
+										<h6>Country / Region *</h6>
+										<input type="text" placeholder="Pakistan" name="">
+									</form>
+									<!-- separate sec -->
+									<div class="separate-sec-input-two">
+										<form>
+											<h6>Town / State *</h6>
+											<input type="text" placeholder="JPunjab" name="">
+										</form>
+										<form>
+											<h6>State / City *</h6>
+											<input type="text" placeholder="State / City *" name="">
+										</form>
+										<form class="zip-code">
+											<h6>Zipcode *</h6>
+											<input type="text" placeholder="54000" name="">
+										</form>
+									</div>
+									<!-- separate sec -->
+									<form>
+										<h6>Phone *</h6>
+										<input type="text" placeholder="+92 3011345234" name="">
+									</form>
+								</div>
+							</div>
+							<div class="payment-method">
+								<h2>Payment</h2>
+								<p>All transactions are encypted and secure. Learn More</p>
+							</div>
+							<div class="shipping-method">
+								<div class="shipping-method-table">
+								<table class="roundedCorners">
+									<tbody>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Flat Rate</label><br>
+												</form>
+												<p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.IBAN: 123456789123456789</p>
+											</td>
+										</tr>
+										<tr style="border-bottom: 1px solid #E0E0E0">
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Free Shipping</label><br>
+												</form>
+											</td>
+										</tr>
+										<tr>
+											<td style="color: #828282;">
+												<form action="/action_page.php">
+												  <input type="radio" id="html" name="fav_language" value="HTML">
+												  <label for="html">Express</label><br>
+												</form>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+							</div>
+							<div class="privacy-policy">
+								<p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our<strong>Privacy Policy.</strong> </p>
+								<input type="checkbox" id="vehicle6" name="vehicle6" value="Bike">
+								<label for="vehicle6">I HAVE READ AND AGREE TO WEBSITE <strong>TERMS & CONDITIONS</strong></label>
+								<a href="order-placed.html"><button class="btn btn-primary">Place Order</button></a>
+							</div>
+						</div>
+						</div>
+
+						<div id="About" class="tabcontent">
+							<h3>About</h3>
+							<p>Who we are and what we do.</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-12" style="position: fixed;
+				right: 0; padding: 0;">
+				<div class="checkout-items-sec">
+					<table style="width: 100%;">
+						<tr>
+							<td>
+								<img class="cart-img-add" src="img/shirt-custom.png">
+								<h5>Lafayette Light Blue Twill Shirt</h5>
+								<p>Customize</p>
+								<p>Copy</p>
+							</td>
+							<td style="display: flex; justify-content:flex-end;">
+								<b>$220</b>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="cart-img-add" src="img/shirt-change.png">
+								<h5>Lafayette Light Blue Twill Shirt</h5>
+								<p>Customize</p>
+								<p>Copy</p>
+							</td>
+							<td style="display: flex; justify-content:flex-end;">
+								<b>$220</b>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="cart-img-add" src="img/add-paint.png">
+								<h5>Lafayette Light Blue Twill Shirt</h5>
+								<p>Customize</p>
+								<p>Copy</p>
+							</td>
+							<td style="display: flex; justify-content:flex-end;">
+								<b>$220</b>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="cart-img-add" src="img/shirt-change.png">
+								<h5>Lafayette Light Blue Twill Shirt</h5>
+								<p>Customize</p>
+								<p>Copy</p>
+							</td>
+							<td style="display: flex; justify-content:flex-end;">
+								<b>$220</b>
+							</td>
+						</tr>
+					</table>
+					<div class="conform-order-form" style="border: none;"> 
+						<input type="text" placeholder="Coupon Code" name="">
+						<h3 class="send-checkout" ><i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+					</div>
+					<div class="checkout-total-form">
+						<table style="width: 100%;">
+							<tr>
+								<td>
+									<h5>Items Cost</h5>
+								</td>
+								<td style="display: flex; justify-content:flex-end;">
+									<b>$220</b>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h5>Shipping Cost</h5>
+								</td>
+								<td style="display: flex; justify-content:flex-end;">
+									<b>$220</b>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h5>VAT</h5>
+								</td>
+								<td style="display: flex; justify-content:flex-end;">
+									<b>$220</b>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h5>Total</h4>
+									</td>
+									<td style="display: flex; justify-content:flex-end;">
+										<b>$220</b>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+	<!-- structure -->
+
+
+
+
+
+
+
+
+
+
+
+	<!-- js bootstrap -->
+	<script src="js/bootstrap.js"></script>
+	<!-- js jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- js custom -->
+	<script src="js/custom.js"></script>
+	<!-- navigation -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script src="tps://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- owl carasoul -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+</body>
+</html>
