@@ -2222,6 +2222,20 @@
 			bottom: -80px;
 			left: 100px;
 		}
+		.gl-home-cntent-image:before{
+			content: url(../img/dots.png);
+			position: absolute;
+			top: 0;
+			display: block;
+			left: -40px;
+		}
+		.gl-home-cntent-image:after{
+			content: url(../img/dotstwo.png);
+			position: absolute;
+			bottom:0;
+			display: block;
+			right: 0;
+		}
 		/*gl-homepage3 content end*/
 
 
