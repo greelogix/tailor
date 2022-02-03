@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Homepage 3</title>
 	<!-- meta tag -->
@@ -11,14 +11,12 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet"> 
-	<!-- modal -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 	<!-- wow animation -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	<script type="text/javascript" src="https://wowjs.uk/dist/wow.min.js"></script>
 	<!-- style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 
@@ -29,7 +27,7 @@
 	</div>
 
 
-	<!-- modal ----------------->
+	<!-- modal -->
 
 	<section class="moadl-login">
 		<!-- Modal -->
@@ -76,7 +74,7 @@
 							<label for="email">Email</label><br>
 							<input type="text" id="email" name="email"><br>
 							<label for="pssword">Pasword</label><br>
-							<input type="password" id="password" name="password"><br><br>
+							<input type="password" id="pssword" name="pwd"><br><br>
 							<div class=" text-center">
 								<input class="gl-modal-submit-button" type="submit" value="Submit">
 							</div>
@@ -86,41 +84,313 @@
 						</form>
 					</div>
 				</div>
-
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!-- modal ----------------->
+	<!-- modal -->
 
+	<!-- structre start -->
+	<div id="structure">
 
-
-		<!------------ structre start ------------>
-		<div id="structure">
-
-			<!------- about ------->
-			<section class="gl-home-about-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-12 parent-col">
-							<div class="gl-about-list-parent">
-								<div class="gl-home3-about-list">
-									<ul>
-										<li><a href="https://goo.gl/maps/Vphhsr5UcQPhsAC88"><i class="fa fa-map-marker" aria-hidden="true"></i>Block B-1 Johar Town Lahore</a></li>
-										<li><a href="mailto:info@greelogix.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@greelogix.com</a></li>
-										<li><a href="tel:+923336527366"><i class="fa fa-phone" aria-hidden="true"></i>+92 333 6527366</a></li>
-									</ul>
+		<!-- about -->
+		<section class="gl-home-about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-12 col-sm-12 parent-col">
+						<div class="gl-about-list-parent">
+							<div class="gl-home3-about-list">
+								<ul>
+									<li><h6><a href="https://goo.gl/maps/Vphhsr5UcQPhsAC88"><i class="fa fa-map-marker" aria-hidden="true"></i>Block B-1 Johar Town Lahore</a></h6></li>
+									<li><h6><a href="mailto:info@greelogix.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@greelogix.com</a></h6></li>
+									<li><h6><a href="tel:+923336527366"><i class="fa fa-phone" aria-hidden="true"></i>+92 333 6527366</a></h6></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-m-12 col-sm-12 parent-col">
+						<div class="gl-home-about-header">
+							<div class="gl-home-dropdown-about">
+								<div class="gl-dropdown">
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										English
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Action</a>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-m-4 col-sm-12 parent-col">
-							<div class="gl-home-about-header">
-								<div class="gl-home-dropdown-about">
-									<div class="gl-dropdown">
-										<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											English
-										</button>
-										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-											<a class="dropdown-item" href="#">Action</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- about -->
+
+		<!-- header -->
+		<header class="gl-home3-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 parent-col">
+						<nav class="navbar navbar-expand-lg">
+							<a href="#" class="navbar-brand"><img src="img/Logo.png" alt="Logo"></a>
+							<button class="navbar-toggler" data-target="#navigation" data-control="navigation" data-toggle="collapse">
+								<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true" style="color: black; padding-top: 10px;"></i></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navigation">
+								<ul class="nav navbar-nav">
+									<li class="nav-item active">
+										<a href="homepage3.html" class="nav-link">Home</a>
+									</li>					
+									<li class="nav-item">
+										<a href="product.html" class="nav-link">Shop</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link">Pages</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link">Element</a>
+									</li>
+									<li class="nav-item">
+										<a href="about.html" class="nav-link">About us</a>
+									</li>
+								</ul>
+							</div>
+							<div class="header-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+								<i class="fa fa-user-o" aria-hidden="true"></i>
+								<span class="login-button-header"><a href="" data-toggle="modal" data-target="#myModal">login</a></span>
+							</div>
+						</nav>
+						<!--/.Navbar blue-->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- gl-homepage3-content -->
+		<section class="gl-homepage3-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="gl-home-content-parent">
+							<div class="gl-home-content">
+								<h3 class="wow animate__animated animate__fadeInDown">Find <span>Custom Suits</span> Tailored For You</h3>
+								<p class="wow animate__animated animate__fadeInLeft">Our shirts are crafted in Italy by cutting-edge technology using some of the world's finest and highest quality fabrics</p>
+								<a href="product.html" class="btn btn-primary">Customize Now</a>
+								<a href="homepage3.html" class="btn bnt-info suit-button">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="gl-home-cntent-image">
+							<img src="img/sepman.png">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot">
+							<div class="hotspot-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-div">
+							<div class="hotspot-div-img">
+								<img src="img/hot.png" alt="hotspot">
+							</div>
+							<div class="hotspot-div-para">
+								<h6>Deep Ocean</h6>
+								<p>$230</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- hotspot two -->
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-two">
+							<div class="hotspot-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="hotspot-div-two">
+							<div class="hotspot-div-img">
+								<img src="img/hot.png" alt="hotspot">
+							</div>
+							<div class="hotspot-div-para">
+								<h6>Deep Ocean</h6>
+								<p>$230</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- gl-homepage3-content -->
+
+
+		<!-- logo slider -->
+		<section class="gl-logo-slider">
+			<div class="row parent-row">
+				<div class="col-lg-12 c0l-md-12 col-sm-12">
+					<div class="customer-logos slider">
+						<div class="slide text-center"><img src="img/name-logo-05.png" alt="name-logo"></div>
+						<div class="slide text-center"><img src="img/name01.png" alt="logo-imge"></div>
+						<div class="slide text-center"><img src="img/name02.png" alt="logo-imge2"></div>
+						<div class="slide text-center"><img src="img/name-logo.png" alt="logo-imge3"></div>
+						<div class="slide text-center"><img src="img/name-logo-03.png" alt="logo-imge4"></div>
+						<div class="slide text-center"><img src="img/name-logo-04.png" alt="logo-imge5"></div>
+						<div class="slide text-center"><img src="img/name-logo-05.png" alt="logo-imge6"></div>
+						<div class="slide text-center"><img src="img/name01.png" alt="logo-imge7"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- logo slider end -->
+
+
+		<!-- new -->
+		<section class="new">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-12 col-sm-12">
+						<div class="new-heading">
+							<div class="new-heading-para">
+								<h2>New Arrivals</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt u.</p>
+								<a href="product.html" class="btn btn-primary">Browser all</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-12 col-sm-12">
+						<div class="parent-new">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div">
+										<div class="new-img">
+											<img src="img/15.png" alt="shirt-image-one">
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Line</h6>
+											<h4><a href="#">Hudson Jade Wrinkle-Resistant Twill Maximus</a></h4>
+											<h5>$200</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div">
+										<div class="new-img">
+											<img src="img/12.png" alt="shirt-image-two">
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Line</h6>
+											<h4><a href="#">Mayfair Wrinkle Resistant Light Lavendar Optimus</a></h4>
+											<h5>$250</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div">
+										<div class="new-img">
+											<img src="img/14.png" alt="shirt-image-three">
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Pure Wool</h6>
+											<h4><a href="">Cooper Blue Check Stretch Twill Magnum Opus</a></h4>
+											<h5>$260</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div gl-parent-new-div">
+										<div class="new-img">
+											<img src="img/2.png" alt="shirt-image-four">
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Line</h6>
+											<h4><a href="#">Sullivan Red Melange Easy Care</a></h4>
+											<h5>$180</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div gl-parent-new-div">
+										<div class="new-img">
+											<img src="img/13.png" alt="shirt-image-five">
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Line</h6>
+											<h4><a href="#">American Pima Blue Heavy Oxford</a></h4>
+											<h5>$200</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="new-div gl-parent-new-div">
+										<div class="new-img">
+											<img src="img/10.png" alt="shirt-image-six">
+											<div class="img-content">
+												<h6>Promo</h6>
+											</div>
+											<div class="img-part">
+												<div class="adjust">
+													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+													<span><button class="btn btn-primary">CUTOMIZED</button></span>
+													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+										<div class="new-para">
+											<h6>Line</h6>
+											<h4><a href="#">Washed Jade Heavy Oxford</a></h4>
+											<h5>$200</h5>
 										</div>
 									</div>
 								</div>
@@ -128,857 +398,572 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<!------- about ------->
-
-			<!------- header ------->
-			<header class="gl-home3-header">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 parent-col">
-							<nav class="navbar navbar-expand-lg">
-								<a href="#" class="navbar-brand"><img src="img/Logo.png"></a>
-								<button class="navbar-toggler" data-target="#navigation" data-control="navigation" data-toggle="collapse">
-									<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true" style="color: black; padding-top: 10px;"></i></span>
-								</button>
-								<div class="collapse navbar-collapse" id="navigation">
-									<ul class="nav navbar-nav">
-										<li class="nav-item active">
-											<a href="homepage3.html" class="nav-link">Home</a>
-										</li>					
-										<li class="nav-item">
-											<a href="product.html" class="nav-link">Shop</a>
-										</li>
-										<li class="nav-item">
-											<a href="#" class="nav-link">Pages</a>
-										</li>
-										<li class="nav-item">
-											<a href="#" class="nav-link">Element</a>
-										</li>
-										<li class="nav-item">
-									    	<a href="about.html" class="nav-link">About us</a>
-									    </li>
-									</ul>
-								</div>
-								<div class="header-icon">
-									<i class="fa fa-search" aria-hidden="true"></i>
-									<i class="fa fa-user-o" aria-hidden="true"></i>
-									<span class="login-button-header"><a href="" data-toggle="modal" data-target="#myModal">login</a></span>
-								</div>
-							</nav>
-							<!--/.Navbar blue-->
-						</div>
-					</div>
-				</header>
-				<!------- header end ------->
-
-
-				<!---- gl-homepage3-content ---->
-				<section class="gl-homepage3-content">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-home-content-parent">
-									<div class="gl-home-content">
-										<h3 class="wow animate__animated animate__fadeInDown">Find <span>Custom Suits</span> Tailored For You</h3>
-										<p class="wow animate__animated animate__fadeInLeft">Our shirts are crafted in Italy by cutting-edge technology using some of the world's finest and highest quality fabrics</p>
-										<button class="btn btn-primary">Customize Now</button>
-										<button class="btn bnt-info suit-button">Learn More</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="hotspot">
-									<div class="hotspot-icon">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="hotspot-div">
-									<div class="hotspot-div-img">
-										<img src="img/hot.png">
-									</div>
-									<div class="hotspot-div-para">
-										<h6>Deep Ocean</h6>
-										<p>$230</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-------- hotspot two ------->
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="hotspot-two">
-									<div class="hotspot-icon">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="hotspot-div-two">
-									<div class="hotspot-div-img">
-										<img src="img/hot.png">
-									</div>
-									<div class="hotspot-div-para">
-										<h6>Deep Ocean</h6>
-										<p>$230</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!---- gl-homepage3-content ---->
-
-
-
-
-				<!-------------- logo slider ------------->
-				<section class="gl-logo-slider">
-					<div class="row parent-row">
-						<div class="col-lg-12 c0l-md-12 col-sm-12">
-							<section class="customer-logos slider">
-								<div class="slide text-center"><img src="img/name-logo-05.png"></div>
-								<div class="slide text-center"><img src="img/name01.png"></div>
-								<div class="slide text-center"><img src="img/name02.png"></div>
-								<div class="slide text-center"><img src="img/name-logo.png"></div>
-								<div class="slide text-center"><img src="img/name-logo-03.png"></div>
-								<div class="slide text-center"><img src="img/name-logo-04.png"></div>
-								<div class="slide text-center"><img src="img/name-logo-05.png"></div>
-								<div class="slide text-center"><img src="img/name01.png"></div>
-							</section>
-						</div>
-					</div>
-				</section>
-				<!-------------- logo slider end ------------------>
-
-
-
-				<!----------- new ------------->
-				<section class="new">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-3 col-md-12 col-sm-12">
-								<div class="new-heading">
-									<div class="new-heading-para">
-										<h2>New Arrivals</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt u.</p>
-										<button class="btn btn-primary">Browser all</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-9 col-md-12 col-sm-12">
-								<div class="parent-new">
-									<div class="row">
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div">
-												<div class="new-img">
-													<img src="img/15.png">
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Line</h6>
-													<h4><a href="#">Hudson Jade Wrinkle-Resistant Twill Maximus</a></h4>
-													<h5>$200</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div">
-												<div class="new-img">
-													<img src="img/12.png">
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Line</h6>
-													<h4><a href="#">Mayfair Wrinkle Resistant Light Lavendar Optimus</a></h4>
-													<h5>$250</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div">
-												<div class="new-img">
-													<img src="img/14.png">
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Pure Wool</h6>
-													<h4><a href="">Cooper Blue Check Stretch Twill Magnum Opus</a></h4>
-													<h5>$260</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div gl-parent-new-div">
-												<div class="new-img">
-													<img src="img/2.png">
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Line</h6>
-													<h4><a href="#">Sullivan Red Melange Easy Care</a></h4>
-													<h5>$180</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div gl-parent-new-div">
-												<div class="new-img">
-													<img src="img/13.png">
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Line</h6>
-													<h4><a href="#">American Pima Blue Heavy Oxford</a></h4>
-													<h5>$200</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-6">
-											<div class="new-div gl-parent-new-div">
-												<div class="new-img">
-													<img src="img/10.png">
-													<div class="img-content">
-														<h6>Promo</h6>
-													</div>
-													<div class="img-part">
-														<div class="adjust">
-															<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-															<span><button class="btn btn-primary">CUTOMIZED</button></span>
-															<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-														</div>
-													</div>
-												</div>
-												<div class="new-para">
-													<h6>Line</h6>
-													<h4><a href="#">Washed Jade Heavy Oxford</a></h4>
-													<h5>$200</h5>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-------- new end -------->
-
-
-				<!---------------- gl-pants ---------------->
-				<section class="gl-pants-homepage3">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-paints-img">
-									<img class="iamge-one" src="img/home-sec-img5.png">
-									<div class="image-part wow animate__animated animate__fadeInLeft">
-										<img src="img/home-sec-img4.png">
-									</div>
-									<div class="image-part-one wow animate__animated animate__fadeInLeft">
-										<img src="img/hpme-sec-img3.png">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-pants-div">
-									<div class="gl-pants-para">
-										<h1>Custom Pants</h1>
-										<p>Stay ahead of the competitive tailoring business using our pants customization tool. It allows your customers to design their pants themselves with ease</p>
-										<button class="btn btn-primary">Customize Pants</button>
-										<button class="btn btn-info suit-button">Learn Now</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!--------------- gl pants end -------------->
-
-
-				<!---------------- gl-suit ------------------>
-				<section class="gl-suit">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col0-mf-6 col-sm-12">
-								<div class="gl-suit-div">
-									<div class="gl-suit-para">
-										<h1>Custom Suits</h1>
-										<p>Set your own standards and break the competition with our premium Suit Customization Tool. Being unique attracts people, and when you attract people, business outgrows your dreams</p>
-										<button class="btn btn-primary">Customize Suits</button>
-										<button class="btn btn-info suit-button">Learn More</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-suit-img">
-									<img src="img/home-sec-img1.png">
-									<div class="gl-suit-part wow animate__animated animate__fadeInRight">
-										<img src="img/home-sec-img2.png">
-									</div>
-									<div class="gl-suit-part-two wow animate__animated animate__fadeInRight">
-										<img src="img/home-sec-img.png">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!--------------- gl-suit- end ---------------->
-
-
-				<!------- brand -------->
-				<section class="gl-brand">
-					<div class="row parent-row">
-						<div class="col-lg-9 col-md-9 col-sm-12">
-							<div class="row">
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div">
-											<div class="gl-brand-img">
-												<img src="img/fabric.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Pure Wool</h6>
-												<h5><a href="">Canclini Navy Twill Beacon Flannel</a></h5>
-												<p>$70</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div">
-											<div class="gl-brand-img">
-												<img src="img/fabric3.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Wool Blends</h6>
-												<h5><a href="">Navy and Grey Check Flannel</a></h5>
-												<p>$50</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div">
-											<div class="gl-brand-img">
-												<img src="img/fabric2.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Linen</h6>
-												<h5><a href="">Red and Brown Blanket Stripe</a></h5>
-												<p>$80</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- row 2 -->
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div brand-part-two">
-											<div class="gl-brand-img">
-												<img src="img/fabric04.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Wool Blends</h6>
-												<h5><a href="">Washed Peach Heavy Oxford</a></h5>
-												<p>$60</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div brand-part-two">
-											<div class="gl-brand-img">
-												<img src="img/fabric05.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Linen</h6>
-												<h5><a href="">Satoyama Charcoal and Plaid Flannel</a></h5>
-												<p>$80</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="gl-brand-div-parent">
-										<div class="gl-brand-div brand-part-two">
-											<div class="gl-brand-img">
-												<img src="img/gabric06.png">
-											</div>
-											<div class="gl-fabric-para">
-												<h6>Cotton</h6>
-												<h5><a href="">Sullivan Grey Melange Easy Care Knit</a></h5>
-												<p>$70</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-12 common-col">
-							<div class="gl-brand-heading">
-								<div class="gl-brand-para">
-									<h2>Explore<br> Fabrics</h2>
-									<p>Explore our high quality fabrics using our cutting-edge technology for a reduced environmental impact, to create a robust and sustainable fabric</p>
-									<button class="btn btn-primary">Browser all</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!------- brand end ------->
-
-
-				<!------- gl-access ------>
-				<section class="gl-acess">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-								<div class="gl-partner-heading gl-slider-heading text-center">
-									<h1 class="wow animate__animated animate__fadeInDown">See Our Accessories</h1>
-								</div>
-							</div>
-						</div>
-						<div class="row acess-row">
-							<div class="col-lg-7 col-md-7 col-sm-12">
-								<div class="gl-acess-img">
-									<img src="img/bag1.png">
-									<div class="acess-img-content">
-										<h3>Bags</h3>
-										<button class="btn btn-basic">Learn More</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5 col-md-5 col-sm-12">
-								<div class="gl-acess-img">
-									<img src="img/bag2.png">
-									<div class="acess-img-content">
-										<h3>Watches</h3>
-										<button class="btn btn-basic">Learn More</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row acess-row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="gl-acess-img">
-									<img src="img/bag3.png">
-									<div class="acess-img-content">
-										<h3>Perfumes</h3>
-										<button class="btn btn-basic">Learn More</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!------- gl-access ------>
-
-
-
-				<!------ choose-homepage ------->
-				<section class="choose-homepage">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-								<div class="gl-partner-heading text-center">
-									<h1>Why Choose Us</h1>
-								</div>
-							</div>
-						</div>
-						<div class="row choose-row">
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-heart-o" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>Trusted</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>Easy to Use</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-sliders" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>Personalization</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-lock" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>Secure</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-truck" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>Fast Delivery</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="Choose-box">
-									<div class="choose-icon">
-										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-									</div>
-									<div class="choose-para">
-										<h4>24/7 Shopping</h4>
-										<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!------ choose-homepage ------->
-
-
-				<!------- slider-homepahe ------>
-				<section class="slider-homepage">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-								<div class="gl-partner-heading gl-slider-heading text-center">
-									<h1 class="wow animate__animated animate__fadeInDown">Read What Clients Say</h1>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2 col-md-2 col-sm-2 col-12">
-								<div class="slider-img">
-									<img src="img/One.png">
-								</div>
-							</div>
-							<div class="col-lg-10 col-md-10 col-sm-10 col-12">
-								<!-- Testimonial Slider from Baamboo Studio modified for The Mentor Group (http://www.mentor-group.com/clients--testimonials.html) -->
-
-								<!-- TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2 -->
-								<div class="testimonial_slider_2">
-									<input type="radio" name="slider_2" id="slide_2_1" checked />
-									<input type="radio" name="slider_2" id="slide_2_2" />
-									<input type="radio" name="slider_2" id="slide_2_3" />
-									<input type="radio" name="slider_2" id="slide_2_4" />
-									<div class="boo_inner clearfix">
-										<div class="slide_content">
-											<div class="testimonial_2">
-												<div class="content_2">
-													<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
-												</div>
-												<div class="author_2">
-													<h3>Karen Sweetland</h3>
-													<h4>Valley Medical Center, San Jose, CA</h4>
-												</div>
-											</div>
-										</div>
-										<div class="slide_content">
-											<div class="testimonial_2">
-												<div class="content_2">
-													<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
-												</div>
-												<div class="author_2">
-													<h3>Leah Jordan</h3>
-													<h4> MDiv, Brite Divinity School</h4>
-												</div>
-											</div>
-										</div>
-										<div class="slide_content">
-											<div class="testimonial_2">
-												<div class="content_2">
-													<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
-												</div>
-												<div class="author_2">
-													<h3>Brian McNaught</h3>
-													<h4>Author of <i>Gay Issues in the Workplace</i></h4>
-												</div>
-											</div>
-										</div>
-										<div class="slide_content">
-											<div class="testimonial_2">
-												<div class="content_2">
-													<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
-												</div>
-												<div class="author_2">
-													<h3>Lee Barker</h3>
-													<h4>President and Professor of Ministry, Meadville Lombard Theological School</h4>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div id="controls">
-										<label for="slide_2_1"></label>
-										<label for="slide_2_2"></label>
-										<label for="slide_2_3"></label>
-										<label for="slide_2_4"></label>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!---------- slider homepage ----------->
-
-				<!------------ gl-need --------------->
-				<section class="gl-need-homepage3">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7 col-md-7 col-sm-12">
-								<div class="gl-need-div">
-									<div class="gl-need-para">
-										<h1>Need Consultations ?</h1>
-										<p>Our team was handpicked for their understanding of materials, process and passion for fashion. Whether you are browsing our site or visiting our store, we are always willing to share our deep knowledge and understanding of our makers and their craft.</p>
-										<button class="btn btn-primary">Contact Us</button>
-										<button class="btn btn-info gl-back-style">Learn More</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="gl-need-img">
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-------------- gl neeed ------------->
-
-
-				<!--------- homepage3-blog ----------->
-				<section class="homepage3-blog">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-								<div class="gl-partner-heading text-center">
-									<h1>Blog</h1>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="blog-parent">
-									<div class="gl-blog-img">
-										<img src="img/place.png">
-										<div class="img-content">
-											<h6>Trending</h6>
-										</div>
-									</div>
-									<div class="gl-blog-imgpara">
-										<h6>17 JAN 2021</h6>
-										<h3><a href="#">Fashion Trends in 2021</a></h3>
-										<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="blog-parent">
-									<div class="gl-blog-img">
-										<img src="img/place1.png">
-										<div class="img-content">
-											<h6>Buisness</h6>
-										</div>
-									</div>
-									<div class="gl-blog-imgpara">
-										<h6>17 JAN 2021</h6>
-										<h3><a href="#">Fashion Trends in 2021</a></h3>
-										<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="blog-parent blog-sub-parent-two">
-									<div class="gl-blog-img">
-										<img src="img/place2.png">
-										<div class="img-content">
-											<h6>Jackets</h6>
-										</div>
-									</div>
-									<div class="gl-blog-imgpara">
-										<h6>17 JAN 2021</h6>
-										<h3><a href="#">Fashion Trends in 2021</a></h3>
-										<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-				<!--------------- footer ------------->
-				<section class="gl-footer">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="gl-sign gl-sign-two">
-									<h3>Sign up for our Newsletter</h3>
-								</div>
-							</div>
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<div class="gl-input gl-footer-input-two">
-									<input type="text" placeholder="Type your email here" name="">
-									<button class="btn btn-basic">SUBSCRIBE</button>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-3 col-md-3 col-sm-12">
-								<div class="gl-footer-div">
-									<div class="footer-img">
-										<span><img src="img/Logo.png"></span>
-									</div><br>
-									<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
-									<div class="gl-footer-icons">
-										<a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-										<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12">
-								<div class="gl-footer-div">
-									<h4>Shop</h4>
-									<ul>
-										<li><A href="#">Create a Custom Size</A></li>
-										<li><A href="#">Design a Shirt</A></li>
-										<li><a href="#">Our Collections</a></li>
-										<li><a href="#">Accessories</a></li>
-										<li><a href="#">Fabrics</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12">
-								<div class="gl-footer-div">
-									<h4>About Us</h4>
-									<ul>
-										<li><A href="#">Our Story</A></li>
-										<li><a href="#">Our Guarantee</a></li>
-										<li><a href="#">Career</a></li>
-										<li><a href="#">Terms & Conditions</a></li>
-										<li><a href="#">Privacy Policy</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-12">
-								<div class="gl-footer-div">
-									<h4>Help</h4>
-									<ul>
-										<li><A href="#">How to Care for Shirts</A></li>
-										<li><a href="#">Common Fit Problems</a></li>
-										<li><a href="#">How to Measure your Body</a></li>
-										<li><a href="#">Shipping</a></li>
-										<li><a href="#">How Dress Shirts Shrink</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12">
-								<div class="gl-footer-div">
-									<h4>Support</h4>
-									<ul>
-										<li><A href="#">Return Policy</A></li>
-										<li><a href="#">Style Advice</a></li>
-										<li><a href="#">Schedule a Fitting</a></li>
-										<li><a href="#">Contact us</a></li>
-										<li><a href="#">Track an Existing Order</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="gl-sub-footer">
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-12">
-									<div class="gl-sub-footer-para">
-										<p>© Copyright 2021 | All Rights Reserved By Modiste</p>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-12">
-									<div class="gl-sub-footer-cards">
-										<span><img src="img/mastecard.png"></span>
-										<span><img src="img/visa.png"></span>
-										<span><img src="img/express.png"></span>
-										<span><img src="img/union.png"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!------- footer end ------->
-
-
-
 			</div>
-			<!------------ structre end ------------>
+		</section>
+		<!-- new end -->
+
+		<!-- gl-pants -->
+		<section class="gl-pants-homepage3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="gl-paints-img">
+							<img class="iamge-one" src="img/home-sec-img5.png" alt="custom-paints">
+							<div class="image-part wow animate__animated animate__fadeInLeft">
+								<img src="img/home-sec-img4.png" alt="custom-paints-two">
+							</div>
+							<div class="image-part-one wow animate__animated animate__fadeInLeft">
+								<img src="img/hpme-sec-img3.png" alt="custom-paints-three">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="gl-pants-div">
+							<div class="gl-pants-para">
+								<h1>Custom Pants</h1>
+								<p>Stay ahead of the competitive tailoring business using our pants customization tool. It allows your customers to design their pants themselves with ease</p>
+								<a href="product.html" class="btn btn-primary">Customize Pants</a>
+								<a href="homepage3.html" class="btn btn-info suit-button">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gl pants end -->
+
+		<!-- gl-suit -->
+		<section class="gl-suit">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col0-mf-6 col-sm-12">
+						<div class="gl-suit-div">
+							<div class="gl-suit-para">
+								<h1>Custom Suits</h1>
+								<p>Set your own standards and break the competition with our premium Suit Customization Tool. Being unique attracts people, and when you attract people, business outgrows your dreams</p>
+								<a href="product.html" class="btn btn-primary">Customize Suits</a>
+								<a href="homepage3.html" class="btn btn-info suit-button">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="gl-suit-img">
+							<img src="img/home-sec-img1.png" alt="suit-images">
+							<div class="gl-suit-part wow animate__animated animate__fadeInRight">
+								<img src="img/home-sec-img2.png" alt="suit-images-two">
+							</div>
+							<div class="gl-suit-part-two wow animate__animated animate__fadeInRight">
+								<img src="img/home-sec-img.png" alt="suit-images-three">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gl-suit- end -->
+
+		<!-- brand -->
+		<section class="gl-brand">
+			<div class="row parent-row">
+				<div class="col-lg-9 col-md-9 col-sm-12">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div">
+									<div class="gl-brand-img">
+										<img src="img/fabric.png" alt="shirt-brand-image">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Pure Wool</h6>
+										<h5><a href="">Canclini Navy Twill Beacon Flannel</a></h5>
+										<p>$70</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div">
+									<div class="gl-brand-img">
+										<img src="img/fabric3.png" alt="shirt-brand-image-two">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Wool Blends</h6>
+										<h5><a href="">Navy and Grey Check Flannel</a></h5>
+										<p>$50</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div">
+									<div class="gl-brand-img">
+										<img src="img/fabric2.png" alt="shirt-brand-image-three">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Linen</h6>
+										<h5><a href="">Red and Brown Blanket Stripe</a></h5>
+										<p>$80</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- row 2 -->
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div brand-part-two">
+									<div class="gl-brand-img">
+										<img src="img/fabric04.png" alt="shirt-brand-image-four">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Wool Blends</h6>
+										<h5><a href="">Washed Peach Heavy Oxford</a></h5>
+										<p>$60</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div brand-part-two">
+									<div class="gl-brand-img">
+										<img src="img/fabric05.png" alt="shirt-brand-image-five">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Linen</h6>
+										<h5><a href="">Satoyama Charcoal and Plaid Flannel</a></h5>
+										<p>$80</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="gl-brand-div-parent">
+								<div class="gl-brand-div brand-part-two">
+									<div class="gl-brand-img">
+										<img src="img/gabric06.png" alt="shirt-brand-image-six">
+									</div>
+									<div class="gl-fabric-para">
+										<h6>Cotton</h6>
+										<h5><a href="">Sullivan Grey Melange Easy Care Knit</a></h5>
+										<p>$70</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 common-col">
+					<div class="gl-brand-heading">
+						<div class="gl-brand-para">
+							<h2>Explore<br> Fabrics</h2>
+							<p>Explore our high quality fabrics using our cutting-edge technology for a reduced environmental impact, to create a robust and sustainable fabric</p>
+							<a href="product.html" class="btn btn-primary">Browser all</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- brand end -->
+
+		<!-- gl-access -->
+		<section class="gl-acess">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
+						<div class="gl-partner-heading gl-slider-heading text-center">
+							<h1 class="wow animate__animated animate__fadeInDown">See Our Accessories</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row acess-row">
+					<div class="col-lg-7 col-md-7 col-sm-12">
+						<div class="gl-acess-img">
+							<img src="img/bag1.png" alt="bags">
+							<div class="acess-img-content">
+								<h3>Bags</h3>
+								<a href="homepage3.html" class="btn btn-basic">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-12">
+						<div class="gl-acess-img">
+							<img src="img/bag2.png" alt="bag-two">
+							<div class="acess-img-content">
+								<h3>Watches</h3>
+								<a href="homepage3.html" class="btn btn-basic">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row acess-row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="gl-acess-img">
+							<img src="img/bag3.png" alt="bag-three">
+							<div class="acess-img-content">
+								<h3>Perfumes</h3>
+								<a href="homepage3.html" class="btn btn-basic">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gl-access -->
+
+		<!-- choose-homepage -->
+		<section class="choose-homepage">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
+						<div class="gl-partner-heading text-center">
+							<h1>Why Choose Us</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row choose-row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>Trusted</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>Easy to Use</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-sliders" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>Personalization</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-lock" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>Secure</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>Fast Delivery</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="Choose-box">
+							<div class="choose-icon">
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+							</div>
+							<div class="choose-para">
+								<h4>24/7 Shopping</h4>
+								<p>You can start from one of the many pre-designed shirts and customise it, or start with the fabric and select each detail one by one, until you’ve created your desired design</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- choose-homepage -->
+
+		<!-- slider-homepahe -->
+		<section class="slider-homepage">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
+						<div class="gl-partner-heading gl-slider-heading text-center">
+							<h1 class="wow animate__animated animate__fadeInDown">Read What Clients Say</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-12">
+						<div class="slider-img">
+							<img src="img/One.png" alt="testimonial-image">
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-10 col-sm-10 col-12">
+						<div class="testimonial_slider_2">
+							<input type="radio" name="slider_2" id="slide_2_1" checked />
+							<input type="radio" name="slider_2" id="slide_2_2" />
+							<input type="radio" name="slider_2" id="slide_2_3" />
+							<input type="radio" name="slider_2" id="slide_2_4" />
+							<div class="boo_inner clearfix">
+								<div class="slide_content">
+									<div class="testimonial_2">
+										<div class="content_2">
+											<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
+										</div>
+										<div class="author_2">
+											<h3>Karen Sweetland</h3>
+											<h4>Valley Medical Center, San Jose, CA</h4>
+										</div>
+									</div>
+								</div>
+								<div class="slide_content">
+									<div class="testimonial_2">
+										<div class="content_2">
+											<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
+										</div>
+										<div class="author_2">
+											<h3>Leah Jordan</h3>
+											<h4> MDiv, Brite Divinity School</h4>
+										</div>
+									</div>
+								</div>
+								<div class="slide_content">
+									<div class="testimonial_2">
+										<div class="content_2">
+											<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
+										</div>
+										<div class="author_2">
+											<h3>Brian McNaught</h3>
+											<h4>Author of <i>Gay Issues in the Workplace</i></h4>
+										</div>
+									</div>
+								</div>
+								<div class="slide_content">
+									<div class="testimonial_2">
+										<div class="content_2">
+											<p>The messenger is the message, and in this very good book, we find important messages that sadden, excite and affirm us as people who celebrate both our sexuality and our spirituality. Unitarian Universalists should feel very proud of having created a safe harbor for those discarded by others, and also challenged to work harder to make its culture more welcoming and inclusive  and also challenged to work harder to make its culture more welcoming and inclusive.</p>
+										</div>
+										<div class="author_2">
+											<h3>Lee Barker</h3>
+											<h4>President and Professor of Ministry, Meadville Lombard Theological School</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="controls">
+								<label for="slide_2_1"></label>
+								<label for="slide_2_2"></label>
+								<label for="slide_2_3"></label>
+								<label for="slide_2_4"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- slider homepage -->
+
+		<!-- gl-need -->
+		<section class="gl-need-homepage3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-7 col-sm-12">
+						<div class="gl-need-div">
+							<div class="gl-need-para">
+								<h1>Need Consultations ?</h1>
+								<p>Our team was handpicked for their understanding of materials, process and passion for fashion. Whether you are browsing our site or visiting our store, we are always willing to share our deep knowledge and understanding of our makers and their craft.</p>
+								<a href="" class="btn btn-primary">Contact Us</a>
+								<a href="homepage3.html" class="btn btn-info gl-back-style">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="gl-need-img">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gl neeed -->
+
+		<!-- homepage3-blog -->
+		<section class="homepage3-blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
+						<div class="gl-partner-heading text-center">
+							<h1>Blog</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="blog-parent">
+							<div class="gl-blog-img">
+								<img src="img/place.png" alt="blog-image">
+								<div class="img-content">
+									<h6>Trending</h6>
+								</div>
+							</div>
+							<div class="gl-blog-imgpara">
+								<h6>17 JAN 2021</h6>
+								<h3><a href="#">Fashion Trends in 2021</a></h3>
+								<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="blog-parent">
+							<div class="gl-blog-img">
+								<img src="img/place1.png" alt="blog-image-two">
+								<div class="img-content">
+									<h6>Buisness</h6>
+								</div>
+							</div>
+							<div class="gl-blog-imgpara">
+								<h6>17 JAN 2021</h6>
+								<h3><a href="#">Fashion Trends in 2021</a></h3>
+								<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="blog-parent blog-sub-parent-two">
+							<div class="gl-blog-img">
+								<img src="img/place2.png" alt="blog-image-three">
+								<div class="img-content">
+									<h6>Jackets</h6>
+								</div>
+							</div>
+							<div class="gl-blog-imgpara">
+								<h6>17 JAN 2021</h6>
+								<h3><a href="#">Fashion Trends in 2021</a></h3>
+								<p>A new year means new trends. Fashion experts are predicting that statement sleeves, earthy colors, and tracksuits will be all the rage ...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- homepage3-blog -->
+
+		<!-- footer -->
+		<section class="gl-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="gl-sign gl-sign-two">
+							<h3>Sign up for our Newsletter</h3>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="gl-input gl-footer-input-two">
+							<input type="text" placeholder="Type your email here" name="content">
+							<button class="btn btn-basic">SUBSCRIBE</button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="gl-footer-div">
+							<div class="footer-img">
+								<span><img src="img/Logo.png" alt="footer-image"></span>
+							</div><br>
+							<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
+							<div class="gl-footer-icons">
+								<a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Shop</h4>
+							<ul>
+								<li><A href="#">Create a Custom Size</A></li>
+								<li><A href="#">Design a Shirt</A></li>
+								<li><a href="#">Our Collections</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Fabrics</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>About Us</h4>
+							<ul>
+								<li><A href="#">Our Story</A></li>
+								<li><a href="#">Our Guarantee</a></li>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Help</h4>
+							<ul>
+								<li><A href="#">How to Care for Shirts</A></li>
+								<li><a href="#">Common Fit Problems</a></li>
+								<li><a href="#">How to Measure your Body</a></li>
+								<li><a href="#">Shipping</a></li>
+								<li><a href="#">How Dress Shirts Shrink</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Support</h4>
+							<ul>
+								<li><A href="#">Return Policy</A></li>
+								<li><a href="#">Style Advice</a></li>
+								<li><a href="#">Schedule a Fitting</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Track an Existing Order</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="gl-sub-footer">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="gl-sub-footer-para">
+								<p>© Copyright 2021 | All Rights Reserved By Modiste</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="gl-sub-footer-cards">
+								<span><img src="img/mastecard.png" alt="card-creadit"></span>
+								<span><img src="img/visa.png" alt="card-creadit-two"></span>
+								<span><img src="img/express.png" alt="card-creadit-three"></span>
+								<span><img src="img/union.png" alt="card-four"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer end -->
+
+	</div>
+	<!-- structre end -->
 
 
 
@@ -991,7 +976,8 @@
 
 
 
-
+	<!-- js animation -->
+	<script src="https://wowjs.uk/dist/wow.min.js"></script>
 	<!-- js bootstrap -->
 	<script src="js/bootstrap.js"></script>
 	<!-- js jquery -->
@@ -1006,7 +992,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<!-- logo slider -->
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
