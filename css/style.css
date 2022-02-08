@@ -30,9 +30,9 @@
 	.gl-register-side{
 		border-right: 0px;
 	}
-/*.gl-login-side:last-child{
-	border-right: 0px;
-	}*/
+	/*.gl-login-side:last-child{
+		border-right: 0px;
+		}*/
 	.gl-social-buttons-row{
 		padding: 40px 10px 20px;
 	}
@@ -5276,7 +5276,17 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 
 /*tabs section style shirts design ------------*/
 
-
+.fixed-carasoul-design{
+	position: fixed;
+	right: 0;
+	width: 100%;
+}
+.position-fixed-design{
+	position: fixed;
+	padding: 0;
+	margin: 0px;
+	right: 0;
+}
 
 
 

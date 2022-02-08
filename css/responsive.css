@@ -39,4 +39,374 @@
     .parent-new{
     	margin-top: 30px;
     }
+    .image-part-one img {
+    max-width: 170px;
+    }
+    .image-part img {
+    max-width: 220px;
+    }
+    .image-part {
+    bottom: 0px;
+    }
+    .gl-brand-heading {
+    padding: 30px 80px;
+    margin-top: 20px;
+    }
+    .choose-para h4 {
+    font-size: 20px;
+    }
+    .gl-footer-input-two button {
+    right: 15px;
+    }
+    .navbar-brand {
+    width: 19%;
+    }
+    .gl-partner-heading h1{
+        font-size: 35px;
+    }
+    .gl-dropdown{
+        display: none;
+    }
+    .gl-suit {
+    padding: 90px 0px 90px 0px;
+    }
+    .gl-suit-part-two img {
+    max-width: 200px;
+    }
+    .gl-suit-part-two {
+    top: 0px;
+    }
+    .gl-suit-part img {
+    max-width: 170px;
+    }
+    .gl-pants-para h1{
+        font-size: 30px;
+    }
+    .gl-suit-para h1{
+        font-size: 30px;
+    }
+    .gl-brand{
+        padding: 90px 0px;
+    }
+    .acess-img-content h3 {
+    font-size: 25px;
+    }
+    .acess-img-content h3:after {
+    width: 130px;
+    }
+    .choose-homepage{
+        margin-bottom: 0px;
+    }
+    .new-heading-para h2{
+        font-size: 30px;
+    }
+    .gl-brand-para h2{
+        font-size: 30px;
+    }
+    .gl-footer-input-two input {
+    width: 100% !important;
+    } 
+
+    /*product page*/
+
+    .gl-productu-nav{
+        padding: 0px 0px 90px 0px;
+    }
+    .gl-img-content {
+    bottom: 20px;
+    }
+    .gl-img-content h2{
+        font-size: 20px;
+    }
+    /*product bdetail*/
+
+    .gl-sub-shirt-img{
+        margin-bottom: 60px;
+    }
+    .reviews-button .tablink{
+        width: 18%;
+    }
+    .card .carousel-item {
+    min-height: 360px;
+    }
+
+    /*fabric.html;*/
+    .gl-shirt-design-preview {
+    position: relative;
+    padding: 120px 70px;
+    }
+    .gl-fabric-footer-sec {
+    width: 100%;
+    z-index: 999;
+    }
+    .gl-select-shirt-sec {
+    background-color: #F9F9F9;
+    padding: 60px 40px 90px 40px;
+    }
+
+    /*standard styles*/
+
+    .fixed-carasoul-design{
+    position: relative;
+        padding: 90px 15px 120px;
+    }
+    .conform-order-form input{
+        width: 80%;
+    }
 }
+
+@media screen and (max-width: 768px){
+    .gl-suit-div{
+        margin-bottom: 80px;
+    }
+    .gl-pants-div{
+        margin-top: 30px;
+    }
+    .gl-pants-homepage3{
+        padding-bottom: 0px;
+    }
+    .gl-acess-img{
+        margin-bottom: 30px;
+    }
+    .acess-img-content {
+    bottom: 25px;
+    }
+    .Choose-box{
+        margin-bottom: 30px;
+    }
+    .Choose-box::last-child{
+        margin-bottom: 0px;
+    }
+    .choose-homepage{
+        padding-bottom: 90px;
+    }
+    .choose-row{
+        margin-bottom: 0px;
+    }
+    .gl-need-homepage3 {
+    padding-top: 0px !important;
+    padding-bottom: 90px;
+    }
+    .gl-need-homepage3{
+        background-image: none;
+    }
+    .gl-need-div{
+        bottom: 0;
+    }
+    .gl-footer-input-two input{
+        width: 100% !important;
+    }
+    .gl-footer-input-two button {
+    right: 16px;
+    }
+    .gl-footer-div {
+    margin-top: 30px;
+    }
+    .gl-sub-footer-para{
+        text-align: center;
+    }
+    .gl-sub-footer-cards{
+        text-align: center;
+        padding-top: 0px;
+    }
+    .header-icon{
+        display: none;
+    }
+    .footer-img span img {
+    width: 40%;
+    }
+
+    /*product detail*/
+
+    .reviews-button .tablink{
+        width: 25%;
+    }
+    .gl-shirt-size-name{
+        margin-bottom: 20px;
+    }
+    .gl-sub-img-parts{
+        margin-bottom: 30px;
+    }
+    /*.suit-button{
+        width: 100%;
+    }*/
+    .carousel-control-prev {
+    top: 102%;
+    }
+    .carousel-control-next {
+    top: 102%;
+    }
+    .gl-shirt-vector-image{
+        margin-bottom: 30px;
+    }
+    .style-input select {
+    width: 45%;
+    }
+
+    /*amert-size*/
+
+    .gl-pickup-item {
+    text-align: center !important;
+    }
+    .table-detail{
+        overflow-x: auto;
+    }
+    .table-detail select{
+        width: 135px;
+    }
+
+    /*cart page*/
+
+    .position-fixed-design{
+        position: relative;
+    }
+    .gl-home3-about-list{
+        text-align: center;
+    }
+    .order-summary-table{
+        overflow-x: auto;
+    }
+    .order-summary-table table tbody tr td{
+        width: 40%;
+    }
+    .account-sizes{
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+     .gl-brand-div-parent{
+        display: block;
+     }
+    .gl-partner-heading h1 {
+    font-size: 30px;
+    }
+    .gl-need-para h1{
+        font-size: 30px;
+    }
+    .gl-home3-about-list{
+        text-align: center;
+    }
+    .navbar{
+        padding: 9px 15px;
+    }
+    .gl-homepage3-content {
+    height: 50vh;
+    }
+    .gl-home-content-parent {
+    height: 50vh;
+    }
+    .gl-home-content h3 {
+    font-size: 30px;
+    }
+    .navbar-brand img {
+    width: 130px;
+    }
+    .slick-slide img{
+        width: 80px;
+    }
+
+    /*fabric page*/
+
+    .gl-select-buttons {
+    display: inline-block;
+    }
+    .gl-serach-div{
+        display: inherit;
+        width: 41px;
+    }
+    .dropdown{
+        margin-bottom: 20px;
+    }
+    .gl-select-buttons .dropdown button {
+    width: 125px;
+    }
+    .gl-shirt-design-preview {
+    padding: 120px 0px;
+    }
+    .gal-tabs a.nxt {
+    width: 80px;
+    }
+    .gal-tabs a.prv {
+    width: 80px;
+    }
+    .gal-tabs a {
+    margin: 0 5px;
+    }
+    .style-input select {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+    /*standard style*/
+
+    .waste-measure input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /*cart page*/
+
+    .conform-order-form input{
+        width: 80%;
+    }
+    .back-page h5{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .back-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .back-page span{
+        width: 100%;
+    }
+    .back-page span a{
+        width: 100%;
+    }
+     .separate-sec-input-two{
+        display: block;
+     }
+     .separate-sec-input-two form{
+        width: 100%;
+     }
+     .zip-code{
+        width: 100% !important;
+     }
+     .shipping-sec{
+        overflow-x: auto;
+     }
+     .shipping-method-table{
+        overflow-x: auto;
+     }
+}
+
+@media screen and (max-width: 354px){
+    .gl-select-buttons .dropdown{
+        width: 100%;
+    }
+    .gl-select-buttons .dropdown button{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
