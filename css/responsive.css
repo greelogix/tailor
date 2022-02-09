@@ -153,6 +153,9 @@
     .conform-order-form input{
         width: 80%;
     }
+    .gl-productu-slider-button button{
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -272,6 +275,9 @@
     .account-sizes{
         overflow-x: auto;
     }
+    .tab{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -379,6 +385,32 @@
      .shipping-method-table{
         overflow-x: auto;
      }
+
+     /*shop pahe*/
+     .gl-img-content {
+    bottom: 10px;
+     }
+     .gl-productu-slider-button button{
+        width: 100%;
+    }
+    .gl-select-shirt-sec {
+    padding: 60px 15px 90px 15px;
+    }
+    .style-input button{
+        width: 90px;
+    }
+    .checkout-form {
+    padding: 40px 0px 60px 0px;
+    }
+    .checkout-items-sec {
+    padding: 40px 15px;
+    }
+    .shipping-sec-parent {
+    padding: 40px 0px;
+    }
+    .profile-accont {
+    padding: 30px 0px 80px;
+    }
 }
 
 @media screen and (max-width: 354px){

@@ -283,7 +283,7 @@
 		align-items: center;
 	}
 	.header-icon{
-		width: 15%;
+		width: auto;
 		text-align: right;
 		position: relative;
 		display: flex;
@@ -522,6 +522,9 @@
 	.show {
 		display: block;
 	}
+	.gl-column-last{
+		margin-bottom: 0px;
+	}
 	.gl-product-button{
 		margin-bottom: 60px;
 	}
@@ -557,12 +560,15 @@
 		width: 100%;
 		position: absolute;
 		top: 0;
-		padding-top: 47%;
+		/*padding-top: 47%;*/
 		background-color: rgba(0,0,0,0.3);
 		border-top-right-radius: 20px;
 		border-top-left-radius: 20px;
 		opacity: 0;
 		transition: 0.5s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.gl-sub-product-img span i{
 		color: black;
@@ -700,10 +706,10 @@
 
 	/*fabric*/
 	.gl-brand{
-		padding: 120px 0;
+		padding: 90px 0;
 	}
 	.gl-brand-div-parent{
-		display: flex;
+		/*display: flex;*/
 		height: 100%;
 	}
 	.gl-brand-div{
@@ -772,7 +778,7 @@
 		top: 50%;
 	}
 	.gl-brand-para h2{
-		font-size: 45px;
+		font-size: 40px;
 		color: black;
 		font-family: var(--font-style);
 		line-height: 60px;
@@ -859,6 +865,7 @@
 		padding-bottom: 20px;
 		margin-bottom: 20px;
 		margin-bottom: 90px;
+		font-size: 40px;
 	}
 	.gl-partner-heading h1:before{
 		content: "";
@@ -1030,6 +1037,7 @@
 			width: unset !important;
 		}
 		.blog-parent{
+			cursor: pointer;
 			border:1px solid lightgray;
 			border-radius: 20px;
 			margin-bottom: 30px;
@@ -1113,6 +1121,7 @@
 		.gl-sign h3{
 			color: black;
 			font-family: var(--font-style);
+			font-size: 25px;
 		}
 		.gl-input input{
 			width: 100%;
@@ -1156,10 +1165,12 @@
 		.gl-footer-div h5 a{
 			color: black;
 			text-decoration: none;
+			font-size: 20px;
 		}
 		.gl-footer-icons i{
 			color: black;
 			margin-right: 10px;
+			font-size: 20px;
 		}
 		.gl-footer-div{
 			margin-top: 90px;
@@ -1169,6 +1180,7 @@
 			color: black;
 			font-weight: 600;
 			margin-bottom: 30px;
+			font-size: 23px;
 		}
 		.gl-footer-div ul{
 			padding: 0;
@@ -1353,7 +1365,7 @@
 
 		/*gl-suit*/
 		.gl-suit{
-			padding: 150px 0px 90px 0px;
+			padding: 150px 0px 55px 0px;
 		}
 		.gl-suit-div{
 			height: 100%;
@@ -1371,6 +1383,7 @@
 			font-weight: 500;
 			padding-bottom: 20px;
 			margin-bottom: 20px;
+			font-size: 40px;
 		}
 		.gl-suit-para h1:before{
 			content: "";
@@ -1468,6 +1481,7 @@
 			font-weight: 500;
 			padding-bottom: 20px;
 			margin-bottom: 20px;
+			font-size: 40px;
 		}
 		.gl-pants-para h1:before{
 			content: "";
@@ -1788,6 +1802,7 @@
 			font-weight: 500;
 			padding-bottom: 20px;
 			margin-bottom: 20px;
+			font-size: 40px;
 		}
 		.gl-need-para p{
 			font-family: var(--paragraph-style);
@@ -1890,7 +1905,7 @@
 		/*top button*/
 		#button-top {
 			display: inline-block;
-			background-color: #FF9800;
+			background-color:#FFD700;
 			width: 50px;
 			height: 50px;
 			text-align: center;
@@ -2323,7 +2338,7 @@
 		/*choose----------------*/
 		.choose-homepage{
 			padding-top: 0px !important;
-			padding-bottom: 120px;
+			padding-bottom: 90px;
 		}
 		.choose-icon {
 			margin-bottom: 20px;
@@ -2523,9 +2538,9 @@
 
 /*gl-pants-homepage3*/
 
-.gl-pants-homepage3{
-	padding-top: 70px;
-	padding-bottom: 50px;
+.gl-pants-homepage3 {
+    padding-top: 55px;
+    padding-bottom: 56px;
 }
 
 /*gl-pants end*/
@@ -2753,7 +2768,7 @@ button{
 /*PRODUCT PAGE---------------------*/
 
 .gl-productu-nav{
-	padding: 90px 0px;
+	padding: 0px 0px 90px 0px;
 }
 .gl-product-banner{
 	padding-top: 5px;
@@ -2766,7 +2781,7 @@ button{
 	border-radius: 20px;
 }
 .gl-product-li{
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 	margin-bottom: 30px;
 	padding-left: 15px;
 }
@@ -2789,6 +2804,7 @@ button{
 /*customize section*/
 .product-customize-section{
 	border-radius: 15px;
+	background-color: #F2F2F2;
 }
 .product-customize-div span{
 	color: black;
@@ -2848,6 +2864,15 @@ button{
 .gl-product-chek-list label{
 	font-family: var(--font-style);
 	font-size: 14px !important;
+}
+.gl-shop-chechboxes-figure{
+	margin-bottom: 10px;
+}
+.gl-shop-chechboxes-figure-last{
+	margin-bottom: 0px;
+}
+.gl-shop-chechboxes-figure label{
+	margin-bottom: 0px;
 }
 /*color radios*/
 .gl-close-icon i{
@@ -3078,7 +3103,7 @@ button{
 /*gl-shirt-customize ------------------*/
 
 .gl-shirt-customize{
-	padding: 25px 0px 80px 0px;
+	padding: 25px 0px 90px 0px;
 }
 .gl-shirt-img img{
 	height: 100%;
@@ -3374,7 +3399,7 @@ body {
 }
 .gl-shirt-quantity-name{
 	margin-right: 50px !important;
-	width: 70px;
+	width: 51px;
 	text-align: left;
 	color: black;
 	font-size: 20px !important;
@@ -3475,7 +3500,7 @@ body {
 /*gl-reviews--------------------*/
 
 .gl-reviews{
-	padding-bottom: 60px;
+	padding-bottom: 90px;
 }
 
 .reviews-button .tablink {
@@ -3867,6 +3892,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	padding: 15px 20px;
 	transition: all 0.3s ease;
 	cursor: pointer;
+	border:4px solid white;
 }
 .gl-shirt-vector-image:hover{
 	border:4px solid #143A79;
@@ -4354,7 +4380,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 /*cart page detail item ------------------------------------------*/
 
 .table-detail{
-	padding: 80px 0px 80px;
+	padding: 40px 0px 90px;
 }
 .table-detail table tr th{
 	padding: 20px 15px;
@@ -4508,6 +4534,20 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	font-family: var(--font-style);
 	border-radius: 8px;
 }
+.inputs-div{
+	margin-bottom: 20px;
+}
+.inputs-div input{
+	height: 45px;
+	width: 100%;
+	background-color: white;
+	border:1px solid #E0E0E0;
+	font-size: 13px;
+	outline: none;
+	padding-left: 15px;
+	font-family: var(--font-style);
+	border-radius: 8px;
+}
 
 /*checkout-shipping*/
 .checkout-shipping h2{
@@ -4525,11 +4565,11 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	display: flex;
 	justify-content: space-between;
 }
-.separate-sec-input form{
+.separate-sec-input .forms-div{
 	width: 47%;
 	margin-bottom: 20px;
 }
-.separate-sec-input form input{
+.separate-sec-input .forms-div input{
 	width: 100%;
 }
 .checkout-shipping form{
@@ -4552,14 +4592,17 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	display: flex;
 	justify-content: space-between;
 }
-.separate-sec-input-two form{
+.separate-sec-input-two .forms-div-two{
 	width: 35%;
 }
-.separate-sec-input-two input{
+.separate-sec-input-two .forms-div-two input{
 	width: 100%;
 }
 .zip-code{
 	width: 20% !important;
+}
+.forms-div-two{
+	margin-bottom: 20px;
 }
 
 /*checkout-items-sec right side -----------------------------*/
@@ -4815,7 +4858,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 .order-summary-heading{
 	background-color: #EAFAF1;
 	padding: 25px  20px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	border-radius: 15px;
 }
 .order-summary-heading h2{
