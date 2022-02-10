@@ -3193,6 +3193,7 @@ button{
 .size-radio:checked ~ span {
 	background-color: #143A79 !important;
 	color: #fff;
+	border:1px solid #143A79 !important;
 }
 
 /*gl-shirt size----------------*/
@@ -3250,6 +3251,7 @@ button{
 .fit-radio:checked ~ span {
 	background-color: #143A79 !important;
 	color: #fff;
+	border:1px solid #143A79 !important;
 }
 
 

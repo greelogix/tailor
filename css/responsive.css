@@ -411,6 +411,31 @@
     .profile-accont {
     padding: 30px 0px 80px;
     }
+    .gl-shirt-size  ul li{
+        text-align: left;
+    }
+    .gl-shirt-size .checkcontainer{
+        padding-bottom: 30px;
+    }
+    .gl-shirt-size {
+    padding-bottom: 0px;
+    }
+    .gl-shirt-color-name{
+        margin-bottom: 20px;
+    }
+    .res-design-radio{
+        display: none;
+    }
+    .reviews-button .tablink {
+    width: 33%;
+    }
+    .revies-row{
+        margin-right: 15px;
+        margin-left: 15px; 
+    }
+    .gl-product-slider-heading h1{
+        line-height: 29px;
+    }
 }
 
 @media screen and (max-width: 354px){
