@@ -718,6 +718,9 @@
 		margin-bottom: 30px;
 		max-height: 100%;
 	}
+	.gl-brand-div-res-design{
+		margin-bottom: 0px !important;
+	}
 	.brand-part-two{
 		margin-bottom: 0 !important;
 	}
@@ -2289,6 +2292,9 @@
 		.acess-row{
 			margin-bottom: 30px;
 		}
+		.acess-row-res{
+			margin-bottom: 0px;
+		}
 		.gl-acess-img{
 			position: relative;
 		}
@@ -2530,7 +2536,7 @@
 
 /*homepage3-blog--------------------*/
 .homepage3-blog{
-	padding: 20px 0px;
+	padding: 0px 0px;
 	padding-bottom: 90px;
 }
 
@@ -3826,6 +3832,7 @@ button:focus {
 }
 .gl-jackets-list ul li{
 	margin-bottom: 15px;
+	list-style-type: none;
 }
 .gl-jackets-list ul li:last-child{
 	margin-bottom: 0px !important;

@@ -156,6 +156,9 @@
     .gl-productu-slider-button button{
         width: 150px;
     }
+    .product-customize-section{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -277,6 +280,13 @@
     }
     .tab{
         margin-bottom: 30px;
+    }
+    .perfume-image{
+        height: 265px !important;
+        object-fit: cover;
+    }
+    .acess-row{
+    margin-bottom: 0px !important;
     }
 }
 
@@ -435,6 +445,24 @@
     }
     .gl-product-slider-heading h1{
         line-height: 29px;
+    }
+    .brand-part-two{
+        margin-bottom: 30px !important;
+    }
+    .gl-parent-new-div{
+        margin-bottom: 25px !important;
+    }
+    .gl-parent-new-div-res{
+        margin-bottom: 0px !important;
+    }
+    .brand-part-two-res{
+        margin-bottom: 0px !important;
+    }
+    .radio-color-style{
+        top: 0;
+    }
+    .gl-shirt-color-two .checkcontainer{
+        margin-bottom: 40px;
     }
 }
 
