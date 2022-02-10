@@ -3097,6 +3097,9 @@ button{
 	top: 0;
 	font-family: 'FontAwesome';
 }
+.last-child-design:before{
+	display: none !important;
+}
 
 /*gl-shirt design -------------------*/
 
@@ -4240,6 +4243,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 .gl-pick-list ul li{
 	font-family: var(--font-style);
 	margin-bottom: 15px;
+	list-style-type: none;
 }
 .gl-pick-list ul li h6{
 	font-family: var(--font-style);
@@ -4998,7 +5002,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 /* chnage pasword---------------------*/
 .change-password{
 	margin-bottom: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	border-bottom: 1px solid #E0E0E0;
 }
 .change-password h5{
@@ -5049,7 +5053,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	font-family: var(--font-style);
 	margin-bottom: 20px;
 }
-.shipping-currency form{
+.shipping-currency .forms-div{
 	width: 58%;
 }
 .usdt{
@@ -5300,6 +5304,24 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	width: 100px;
 	background-color: #FFD700;
 }
+.gal-tabs-two a.prv{
+	float: left;
+	font-size: 16px;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 32px;
+	width: auto;
+}
+.gal-tabs-two a.nxt{
+	color: black;
+	float: right;
+	font-size: 16px;
+	border: 1px solid #FFD700;
+	padding: 10px 20px;
+	border-radius: 32px;
+	width: auto;
+	background-color: #FFD700;
+}
 .gallery-boxes{
 	position: relative;
 }
@@ -5332,8 +5354,163 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 }
 
 
+/*measure biody popup*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 234;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: black;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.popup-content{
+	margin-bottom: 20px;
+}
+.popup-heading h2{
+    color: black;
+    font-size: 20px;
+    font-family:var(--font-style);
+}
+.popup-heading p{
+    font-family: var(--paragraph-style);
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-bottom: 0px;
+}
+.popup-list h3{
+	color: black;
+	font-size: 20px;
+	font-family:var(--font-style);
+	margin-bottom: 10px;
+}
+.popup-list ul{
+	padding-left: 15px;
+	margin-bottom: 0px;
+}
+.popup-list ul li{
+	list-style-type: auto;
+	font-size: 14px;
+	color:  #000000;;
+	font-family: var(--paragraph-style);
+}
+.popup-list ul li::marker{
+	color: black;
+	padding-right: 15px;
+}
+.popup-location{
+	width: 40%;
+	padding: 15px;
+	float: right;
+	background-color: #F2F2F2;
+	margin: 5px;
+	border-radius: 12px;
+}
+.popup-location p{
+	color: #4F4F4F;
+	font-size: 14px;
+	font-family: var(--paragraph-style);
+	margin-bottom: 0px;
+}
 
 
+/*APPOINTMENT*/
+.gl-appointment-form h2{
+    color: black;
+    font-size: 20px;
+    font-family:var(--font-style);
+    margin-bottom: 20px;
+}
+.gl-appointment-form h4{
+     color: #333333;
+    font-size: 14px;
+    font-family:var(--font-style);
+    margin-bottom: 10px;
+}
+.form-appointment-detail {
+	margin-bottom: 15px;
+}
+.form-appointment-detail label{
+    color: #333333;
+    font-size: 14px;
+    font-family:var(--font-style);
+    margin-bottom: 10px;
+}
+.form-appointment-detail input{
+	height: 45px;
+	border-radius: 12px;
+	border:1px solid lightgray;
+	padding-left: 20px;
+	width: 100%;
+	 font-family:var(--font-style);
+	 outline: none;
+	 font-size: 16px;
+}
+.gl-appointment-detaul {
+	border:1px solid #E0E0E0;
+	border-radius: 12px;
+	padding: 15px;
+}
+.gl-appointment-detaul p{
+	color: #828282;
+	font-size: 14px;
+	font-family: var(--paragraph-style);
+	margin-bottom: 10px;
+}
+.gl-appointment-form button{
+	width: 100%;
+	margin-top: 15px;
+}
 
 
 
