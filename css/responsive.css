@@ -159,6 +159,21 @@
     .product-customize-section{
         margin-bottom: 30px;
     }
+    .login-popup {
+    width: 70%;
+    }
+    .social-media-twitter{
+        margin-bottom: 30px;
+    }
+    .social-media-facebook{
+        margin-bottom: 30px;
+    }
+    .social-media-google{
+        margin-bottom: 30px;
+    }
+    .social-media-twitter a{
+       width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -287,6 +302,9 @@
     }
     .acess-row{
     margin-bottom: 0px !important;
+    }
+    .gl-acess-img-res{
+        margin-bottom: 0px !important;
     }
 }
 

@@ -98,6 +98,9 @@
 		border-radius: 10px;
 		height: 35px;
 		margin-bottom: 15px;
+		outline: none;
+		padding-left: 20px;
+		font-family: var(--paragraph-style);
 	}
 	.gl-modal-submit-button{
 		background-color: #FFD700 !important;
@@ -4219,7 +4222,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	border-radius: 12px;
 }
 .gl-add-cart-item .show{
-	background-color: #F9F9F9;
+	background-color: white;
 }
 .gl-add-cart-item .card-header{
 	border-bottom: none !important;
@@ -5347,7 +5350,10 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 .gallery-boxes .gal-box.galcurr{
 	display: block;
 }
-
+.gal-box{
+	height: 100vh;
+	background-color: #F9F9F9;
+}
 /*tabs section style shirts design ------------*/
 
 .fixed-carasoul-design{
@@ -5472,6 +5478,67 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	margin-bottom: 0px;
 }
 
+/*login popup*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 234;
+}
+
+.login-popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 45%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.login-popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.login-popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  z-index: 2345;
+}
+.login-popup .close:hover {
+  color: black;
+}
+.login-popup .content {
+  max-height: 30%;
+  /*overflow: auto;*/
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .login-popup{
+    width: 70%;
+  }
+}
 
 /*APPOINTMENT*/
 .gl-appointment-form h2{
