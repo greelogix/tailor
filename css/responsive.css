@@ -157,7 +157,7 @@
         width: 150px;
     }
     .product-customize-section{
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
     }
     .login-popup {
     width: 70%;
@@ -173,6 +173,9 @@
     }
     .social-media-twitter a{
        width: 100% !important;
+    }
+    .column-reverse-design{
+        flex-direction: column-reverse;
     }
 }
 
@@ -305,6 +308,25 @@
     }
     .gl-acess-img-res{
         margin-bottom: 0px !important;
+    }
+    .about-us-para {
+        margin-bottom: 30px;
+    }
+    .gl-suit-para{
+        transform: none;
+        top: 0;
+    }
+    .gl-aboutus-modal-img img{
+        margin-bottom: 30px;
+    }
+    .gl-team-div{
+        margin-bottom: 30px;
+    }
+    .team-row{
+        margin-bottom: 0px;
+    }
+    .gl-team-div-res{
+        margin-bottom: 0px;
     }
 }
 
@@ -481,6 +503,9 @@
     }
     .gl-shirt-color-two .checkcontainer{
         margin-bottom: 40px;
+    }
+    .gl-brand-heading{
+        padding: 30px 30px !important;
     }
 }
 
