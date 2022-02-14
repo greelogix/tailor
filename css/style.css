@@ -785,14 +785,14 @@
 	}
 	.gl-brand-img{
 		overflow: hidden;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
+		border-top-left-radius: 19px;
+		border-top-right-radius: 19px;
 	}
 	.gl-brand-img img{
 		height: 100%;
 		width: 100%;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
+		border-top-left-radius: 18px;
+		border-top-right-radius: 18px;
 		transition: 0.3s;
 	}
 	.gl-brand-img img:hover{
@@ -1133,8 +1133,8 @@
 		.gl-blog-img img{
 			height: 100%;
 			width: 100%;
-			border-top-left-radius: 20px;
-			border-top-right-radius: 20px;
+			border-top-left-radius: 18px;
+			border-top-right-radius: 18px;
 		}
 		.gl-blog-imgpara{
 			padding: 10px 20px;
@@ -2782,7 +2782,7 @@
 	opacity: 1;
 } 
 .img-part span{
-	margin: 0px 3px;
+	margin: 0px -2px;
 }
 .img-part span img{
 	width: 16px;
