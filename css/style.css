@@ -121,7 +121,7 @@
 		width: 100%;
 		border:1px solid lightgray;
 		border-radius: 10px;
-		height: 35px;
+		height: 45px;
 		margin-bottom: 15px;
 		outline: none;
 		padding-left: 20px;
@@ -161,6 +161,7 @@
 		background-image: none;
 		outline: none;
 		box-shadow: none !important;
+		background-color: unset;
 	}
 	.btn:focus, .btn.focus {
 		outline: 0;
@@ -238,6 +239,9 @@
 	/*about end*/
 
 	/*header*/
+	.gl-home-header{
+		background-color: #dbe8fd;
+	}
 	.parent-col{
 		margin: 0;
 		padding: 0;
@@ -250,7 +254,7 @@
 		padding: 9px 0px;
 	}
 	.collapse{
-		justify-content: center !important;
+		justify-content: flex-start !important;
 	}
 	.logo-name{
 		padding-left: 10px;
@@ -282,6 +286,14 @@
 	.header-icon a i{
         color: black;
 	}
+	.search-icon{
+		width: 20px !important;
+		margin-right: 15px;
+	}
+	.shoping-cart{
+        width: 20px !important;
+        margin-right: 15px;
+	}
     /*.login-button-header{
 	width: 120px;
 	}*/
@@ -292,8 +304,13 @@
 		font-size: 16px !important;
 		font-family: var(--paragraph-style);
 		text-decoration: none !important;
-		padding:3px 25px 6px;
+		padding: 9px 17px 11px;
 		border-radius: 25px;
+	}
+	.login-style a{
+		background-color: transparent;
+		border:1px solid #143A79;
+		color: #143A79;
 	}
 	.gl-cart{
 		position: relative;
@@ -738,6 +755,11 @@
 	/*modal sec end*/
 
 	/*fabric*/
+	.gl-select-buttons .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active{
+		border:none;
+		color: black;
+		background-color: white;
+	}
 	.gl-brand{
 		padding: 90px 0;
 	}
@@ -825,10 +847,10 @@
 	.gl-brand-para h2:before{
 		content: "";
 		position: absolute;
-		bottom: 0;
+		bottom: 10px;
 		left: 0;
 		height: 2px;
-		width: 170px;
+		width: 120px;
 		background-color: black;
 	}
 	/*counter*/
@@ -906,11 +928,11 @@
 	.gl-partner-heading h1:before{
 		content: "";
 		height: 2px;
-		width: 150px;
+		width: 120px;
 		background-color: black;
 		position: absolute;
 		bottom: 0;
-		left: 33%;
+		left: 40%;
 	}
 	/*logo slider css*/
 	.slick-slide {
@@ -980,7 +1002,7 @@
 	}
 	.slick-slide img{
 		display: block;
-		width: 105px;
+		width: 100px;
 	}
 	.slick-slide.slick-loading img{
 		display: none;
@@ -1076,7 +1098,7 @@
 			cursor: pointer;
 			border:1px solid lightgray;
 			border-radius: 20px;
-			margin-bottom: 30px;
+			/*margin-bottom: 30px;*/
 		}
 		.gl-blog-img{
 			position: relative;
@@ -1151,6 +1173,12 @@
 		}
 		.blog-parent:hover .img-content h6{
 			color: #143A79;
+		}
+		.gl-blogs-load-more{
+			margin-top: 60px;
+		}
+		.gl-blogs-load-more button{
+			width: 130px;
 		}
 		/*blog end*/
 
@@ -1402,7 +1430,7 @@
 
 		/*logo slider*/
 		.gl-logo-slider{
-			padding: 60px 0;
+			padding: 20px 0;
 			background: #F9F9F9;
 		}
 		/*logo slider end*/
@@ -1432,10 +1460,10 @@
 		.gl-suit-para h1:before{
 			content: "";
 			height: 2px;
-			width: 150px;
+			width: 120px;
 			background-color: black;
 			position: absolute;
-			bottom: 0;
+			bottom: -1px;
 			left: 0;
 		}
 		.gl-suit-para p{
@@ -1530,10 +1558,10 @@
 		.gl-pants-para h1:before{
 			content: "";
 			height: 2px;
-			width: 150px;
+			width: 120px;
 			background-color: black;
 			position: absolute;
-			bottom: 0;
+			bottom: -6px;
 			left: 0;
 		}
 		.gl-pants-para p{
@@ -1837,7 +1865,6 @@
 		}
 		.gl-need-div{
 			position: relative;
-			bottom: 195px;
 		}
 		.gl-need-para h1{
 			font-family: var(--font-style);
@@ -2236,7 +2263,7 @@
 			background-position: 100%;
 			background-size: cover;
 			background-repeat: no-repeat;
-			height: 94vh;
+			height: 87vh;
 			position: relative;
 		}
 		.gl-home-content h3{
@@ -2252,7 +2279,7 @@
 			font-family: var(--font-style);
 		}
 		.gl-home-content-parent{
-			height: 94vh;
+			height: 87vh;
 		}
 		.gl-home-content{
 			position: relative;
@@ -2356,7 +2383,7 @@
 			content:"";
 			background-color: white;
 			height: 2px;
-			width: 170px;
+			width: 120px;
 			display: block;
 			position: absolute;
 			bottom: 0;
@@ -2423,7 +2450,7 @@
 
 		/*slider homepage-------------*/
 		.slider-homepage{
-			padding: 0px 0px 50px 0px;
+			padding: 0px 0px 90px 0px;
 		}
 
 /* General Styling and Structure
@@ -2434,7 +2461,6 @@
 	width:100%;
 	overflow:hidden;
 	box-sizing:border-box;
-	padding-bottom:30px;
 }
 .testimonial_slider_2 input {
 	display: none;
@@ -2505,9 +2531,24 @@
 	background: url(icon_testimonial_2_after.png) 0 0 no-repeat;
 	margin: 5px 10px;
 }
+.testimonial_2 h2{
+    font-size: 20px;
+    color: black;
+    font-family: var(--font-style);
+}
+.testimonial_2 i{
+     color: #FFD700;
+     font-size: 18px;
+     position: relative;
+     bottom: 1px;
+     margin: 0px 3px;
+}
 .testimonial_2 p {
 	display: inline;
 	font-family: var(--paragraph-style);
+}
+.margin-design{
+	margin-left: 10px !important;
 }
 .author_2 {
 	/*margin-left: 30px;*/
@@ -2558,27 +2599,36 @@
 .gl-slider-heading h1{
 	margin-bottom: 50px !important;
 }
+.slider-img{
+	position: relative;
+}
 .slider-img img{
 	height: 100%;
 	width: 100%;
+}
+.slider-img:after{
+	content: url(../img/komas.png);
+	position: absolute;
+    top: 0;
+    display: block;
+    left: -10px;
+    top: -40px;
 }
 
 /*gl-need-homepage3------------------*/
 
 .gl-need-homepage3{
-	padding-top: 400px !important;
-	padding-bottom: 0px;
+	padding: 150px 0px;
 	position: relative;
 	background-image: url(../img/need-trans.png);
 	background-position: bottom;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 /*homepage3-blog--------------------*/
 .homepage3-blog{
-	padding: 0px 0px;
-	padding-bottom: 90px;
+	padding: 90px 0px;
 }
 
 /*homepage3-blog--------------------*/
@@ -2671,6 +2721,11 @@
 } 
 .img-part span{
 	margin: 0px 3px;
+}
+.img-part span img{
+	width: 16px;
+	background-color: white;
+
 }
 .img-part span button{
 	color: black !important;

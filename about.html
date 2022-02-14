@@ -20,7 +20,68 @@
 </head>
 <body> 
 
+    <!-- login popup -->
+	<div id="popup1" class="overlay">
+		<div class="login-popup">
 
+			<a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="row gl-register-login">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="gl-login-side tablinks" onclick="openCity(event, 'London')">
+							Login
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="gl-login-side gl-register-side tablinks" onclick="openCity(event, 'Paris')">
+							Register
+						</div>
+					</div>
+				</div>
+				<div id="London" class="tabcontent form-tabcontent">
+					<div class="row gl-social-buttons-row">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-google">
+								<button><a href=""><i class="fa fa-google" aria-hidden="true"></i>With Google</a></button>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-facebook">
+								<button><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a></button>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-twitter">
+								<button><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<form action="/action_page.php">
+							<label for="fname">First name:</label><br>
+							<input type="text" id="fname" name="fname"><br>
+							<label for="lname">Last name:</label><br>
+							<input type="text" id="lname" name="lname"><br>
+							<label for="email">Email</label><br>
+							<input type="text" id="email" name="email"><br>
+							<label for="pssword">Pasword</label><br>
+							<input type="password" id="pssword" name="pwd"><br><br>
+							<div class=" text-center">
+								<input class="gl-modal-submit-button" type="submit" value="Submit">
+							</div>
+							<div class="gl-already-para">
+								<h2>Already have an account? <a href="account-detail.html">Login</a></h2>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div id="Tokyo" class="tabcontent">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- login popup -->
 
 	<!-- structure -->
 	<div id="structure">
@@ -90,9 +151,10 @@
 								</ul>
 							</div>
 							<div class="header-icon">
-								<i class="fa fa-search" aria-hidden="true"></i>
-								<i class="fa fa-user-o" aria-hidden="true"></i>
-								<span class="login-button-header"><a href="" data-toggle="modal" data-target="#myModal">login</a></span>
+								<img alt="search-icon" class="search-icon" src="img/search-icon.png">
+								<a href="account-detail.html"><img alt="shoping-cart" class="shoping-cart" src="img/shopping-vector.png"></a>
+								<span class="login-button-header pr-2"><a class="button" href="#popup1">Register</a></span>
+								<span class="login-button-header login-style"><a class="button" href="#popup1">login</a></span>
 							</div>
 						</nav>
 						<!--/.Navbar blue-->

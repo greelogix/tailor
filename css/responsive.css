@@ -209,7 +209,7 @@
     }
     .gl-need-homepage3 {
     padding-top: 0px !important;
-    padding-bottom: 90px;
+    padding-bottom: 0px;
     }
     .gl-need-homepage3{
         background-image: none;
@@ -270,7 +270,7 @@
     /*amert-size*/
 
     .gl-pickup-item {
-    text-align: center !important;
+    text-align: left !important;
     }
     .table-detail{
         overflow-x: auto;
@@ -327,6 +327,18 @@
     }
     .gl-team-div-res{
         margin-bottom: 0px;
+    }
+    .blog-parent{
+        margin-bottom: 30px;
+    }
+    /*fabric-popup*/
+    .popup-location-parent{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .popup-location{
+        width: 100%;
     }
 }
 
