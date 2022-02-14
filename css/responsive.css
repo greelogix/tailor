@@ -1,9 +1,9 @@
 @media screen and (max-width: 992px){
     .gl-home3-header {
-    position: absolute;
-    top: unset;
-    width: 100%;
-    z-index: 123;
+        position: absolute;
+        top: unset;
+        width: 100%;
+        z-index: 123;
     }
     .gl-homepage3-content{
     	height: 70vh;
@@ -24,7 +24,7 @@
     	display: none;
     }
     .gl-about-list-parent {
-    justify-content: center;
+        justify-content: center;
     }
     .new-heading-para{
     	padding: 30px 30px;
@@ -40,26 +40,26 @@
     	margin-top: 30px;
     }
     .image-part-one img {
-    max-width: 170px;
+        max-width: 170px;
     }
     .image-part img {
-    max-width: 220px;
+        max-width: 220px;
     }
     .image-part {
-    bottom: 0px;
+        bottom: 0px;
     }
     .gl-brand-heading {
-    padding: 30px 80px;
-    margin-top: 20px;
+        padding: 30px 80px;
+        margin-top: 20px;
     }
     .choose-para h4 {
-    font-size: 20px;
+        font-size: 20px;
     }
     .gl-footer-input-two button {
-    right: 15px;
+        right: 15px;
     }
     .navbar-brand {
-    width: 19%;
+        width: 19%;
     }
     .gl-partner-heading h1{
         font-size: 35px;
@@ -68,16 +68,16 @@
         display: none;
     }
     .gl-suit {
-    padding: 90px 0px 90px 0px;
+        padding: 90px 0px 90px 0px;
     }
     .gl-suit-part-two img {
-    max-width: 200px;
+        max-width: 200px;
     }
     .gl-suit-part-two {
-    top: 0px;
+        top: 0px;
     }
     .gl-suit-part img {
-    max-width: 170px;
+        max-width: 170px;
     }
     .gl-pants-para h1{
         font-size: 30px;
@@ -89,10 +89,10 @@
         padding: 90px 0px;
     }
     .acess-img-content h3 {
-    font-size: 25px;
+        font-size: 25px;
     }
     .acess-img-content h3:after {
-    width: 130px;
+        width: 130px;
     }
     .choose-homepage{
         margin-bottom: 0px;
@@ -104,7 +104,7 @@
         font-size: 30px;
     }
     .gl-footer-input-two input {
-    width: 100% !important;
+        width: 100% !important;
     } 
 
     /*product page*/
@@ -113,7 +113,7 @@
         padding: 0px 0px 90px 0px;
     }
     .gl-img-content {
-    bottom: 20px;
+        bottom: 20px;
     }
     .gl-img-content h2{
         font-size: 20px;
@@ -127,27 +127,27 @@
         width: 18%;
     }
     .card .carousel-item {
-    min-height: 360px;
+        min-height: 360px;
     }
 
     /*fabric.html;*/
     .gl-shirt-design-preview {
-    position: relative;
-    padding: 120px 70px;
+        position: relative;
+        padding: 120px 70px;
     }
     .gl-fabric-footer-sec {
-    width: 100%;
-    z-index: 999;
+        width: 100%;
+        z-index: 999;
     }
     .gl-select-shirt-sec {
-    background-color: #F9F9F9;
-    padding: 60px 40px 90px 40px;
+        background-color: #F9F9F9;
+        padding: 60px 40px 90px 40px;
     }
 
     /*standard styles*/
 
     .fixed-carasoul-design{
-    position: relative;
+        position: relative;
         padding: 90px 15px 120px;
     }
     .conform-order-form input{
@@ -160,7 +160,7 @@
         /*margin-bottom: 30px;*/
     }
     .login-popup {
-    width: 70%;
+        width: 70%;
     }
     .social-media-twitter{
         margin-bottom: 30px;
@@ -172,11 +172,32 @@
         margin-bottom: 30px;
     }
     .social-media-twitter a{
-       width: 100% !important;
-    }
-    .column-reverse-design{
-        flex-direction: column-reverse;
-    }
+     width: 100% !important;
+ }
+ .column-reverse-design{
+    flex-direction: column-reverse;
+ }
+
+ /*homepage 1*/
+ .gl-moda-div{
+    padding: 60px 0px;
+ }
+ .gl-content-img {
+    padding-left: 70px;
+ }
+ .gl-img-content h2:before{
+    width: 90px;
+ }
+ .gl-about-dropdown{
+    display: none;
+ }
+ .gl-shop-column {
+    top: 21%;
+  }
+  .gl-offer-heading h1:before {
+    left: 85px;
+   }
+
 }
 
 @media screen and (max-width: 768px){
@@ -193,7 +214,7 @@
         margin-bottom: 30px;
     }
     .acess-img-content {
-    bottom: 25px;
+        bottom: 25px;
     }
     .Choose-box{
         margin-bottom: 30px;
@@ -208,8 +229,8 @@
         margin-bottom: 0px;
     }
     .gl-need-homepage3 {
-    padding-top: 0px !important;
-    padding-bottom: 0px;
+        padding-top: 0px !important;
+        padding-bottom: 0px;
     }
     .gl-need-homepage3{
         background-image: none;
@@ -221,10 +242,10 @@
         width: 100% !important;
     }
     .gl-footer-input-two button {
-    right: 16px;
+        right: 16px;
     }
     .gl-footer-div {
-    margin-top: 30px;
+        margin-top: 30px;
     }
     .gl-sub-footer-para{
         text-align: center;
@@ -237,7 +258,7 @@
         display: none;
     }
     .footer-img span img {
-    width: 40%;
+        width: 40%;
     }
 
     /*product detail*/
@@ -253,101 +274,144 @@
     }
     /*.suit-button{
         width: 100%;
-    }*/
-    .carousel-control-prev {
-    top: 102%;
-    }
-    .carousel-control-next {
-    top: 102%;
-    }
-    .gl-shirt-vector-image{
-        margin-bottom: 30px;
-    }
-    .style-input select {
-    width: 45%;
+        }*/
+        .carousel-control-prev {
+            top: 102%;
+        }
+        .carousel-control-next {
+            top: 102%;
+        }
+        .gl-shirt-vector-image{
+            margin-bottom: 30px;
+        }
+        .style-input select {
+            width: 45%;
+        }
+
+        /*amert-size*/
+
+        .gl-pickup-item {
+            text-align: left !important;
+        }
+        .table-detail{
+            overflow-x: auto;
+        }
+        .table-detail select{
+            width: 135px;
+        }
+
+        /*cart page*/
+
+        .position-fixed-design{
+            position: relative;
+        }
+        .gl-home3-about-list{
+            text-align: center;
+        }
+        .order-summary-table{
+            overflow-x: auto;
+        }
+        .order-summary-table table tbody tr td{
+            width: 40%;
+        }
+        .account-sizes{
+            overflow-x: auto;
+        }
+        .tab{
+            margin-bottom: 30px;
+        }
+        .perfume-image{
+            height: 265px !important;
+            object-fit: cover;
+        }
+        .acess-row{
+            margin-bottom: 0px !important;
+        }
+        .gl-acess-img-res{
+            margin-bottom: 0px !important;
+        }
+        .about-us-para {
+            margin-bottom: 30px;
+        }
+        .gl-suit-para{
+            transform: none;
+            top: 0;
+        }
+        .gl-aboutus-modal-img img{
+            margin-bottom: 30px;
+        }
+        .gl-team-div{
+            margin-bottom: 30px;
+        }
+        .team-row{
+            margin-bottom: 0px;
+        }
+        .gl-team-div-res{
+            margin-bottom: 0px;
+        }
+        .blog-parent{
+            margin-bottom: 30px;
+        }
+        /*fabric-popup*/
+        .popup-location-parent{
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0px;
+        }
+        .popup-location{
+            width: 100%;
+        }
+
+        /*homepage*/
+
+        .gl-browse-button{
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .gl-product-button {
+            margin-bottom: 15px;
+        }
+        .gl-browse-button button {
+            padding: 5px 10px;
+        }
+        .gl-column-last{
+            margin-bottom: 30px;
+        }
+        .gl-brand{
+            padding-top: 0px;
+        }
+        .gl-shop-column {
+            top: 38%;
+        }
+        .gl-shop-div h1:before{
+            left: 60px;
+        }
+        .gl-count-img {
+            height: 20%;
+        }
+        .gl-count-img-two {
+            height: 20%;
+        }
+        .gl-partner{
+            padding: 90px 0px;
+        }
+        .gl-blog-div {
+            padding: 35px 0px;
+        }
+        .gl-blog-div-row{
+            margin-bottom: 30px;
+        }
+        .last-blog-parent{
+            margin-bottom: 0PX !important;
+        }
     }
 
-    /*amert-size*/
-
-    .gl-pickup-item {
-    text-align: left !important;
-    }
-    .table-detail{
-        overflow-x: auto;
-    }
-    .table-detail select{
-        width: 135px;
-    }
-
-    /*cart page*/
-
-    .position-fixed-design{
-        position: relative;
-    }
-    .gl-home3-about-list{
-        text-align: center;
-    }
-    .order-summary-table{
-        overflow-x: auto;
-    }
-    .order-summary-table table tbody tr td{
-        width: 40%;
-    }
-    .account-sizes{
-        overflow-x: auto;
-    }
-    .tab{
-        margin-bottom: 30px;
-    }
-    .perfume-image{
-        height: 265px !important;
-        object-fit: cover;
-    }
-    .acess-row{
-    margin-bottom: 0px !important;
-    }
-    .gl-acess-img-res{
-        margin-bottom: 0px !important;
-    }
-    .about-us-para {
-        margin-bottom: 30px;
-    }
-    .gl-suit-para{
-        transform: none;
-        top: 0;
-    }
-    .gl-aboutus-modal-img img{
-        margin-bottom: 30px;
-    }
-    .gl-team-div{
-        margin-bottom: 30px;
-    }
-    .team-row{
-        margin-bottom: 0px;
-    }
-    .gl-team-div-res{
-        margin-bottom: 0px;
-    }
-    .blog-parent{
-        margin-bottom: 30px;
-    }
-    /*fabric-popup*/
-    .popup-location-parent{
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0px;
-    }
-    .popup-location{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 576px){
-     .gl-brand-div-parent{
+    @media screen and (max-width: 576px){
+       .gl-brand-div-parent{
         display: block;
-     }
+    }
     .gl-partner-heading h1 {
-    font-size: 30px;
+        font-size: 30px;
     }
     .gl-need-para h1{
         font-size: 30px;
@@ -359,16 +423,16 @@
         padding: 9px 15px;
     }
     .gl-homepage3-content {
-    height: 50vh;
+        height: 50vh;
     }
     .gl-home-content-parent {
-    height: 50vh;
+        height: 50vh;
     }
     .gl-home-content h3 {
-    font-size: 30px;
+        font-size: 30px;
     }
     .navbar-brand img {
-    width: 130px;
+        width: 130px;
     }
     .slick-slide img{
         width: 80px;
@@ -377,7 +441,7 @@
     /*fabric page*/
 
     .gl-select-buttons {
-    display: inline-block;
+        display: inline-block;
     }
     .gl-serach-div{
         display: inherit;
@@ -387,23 +451,23 @@
         margin-bottom: 20px;
     }
     .gl-select-buttons .dropdown button {
-    width: 125px;
+        width: 125px;
     }
     .gl-shirt-design-preview {
-    padding: 120px 0px;
+        padding: 120px 0px;
     }
     .gal-tabs a.nxt {
-    width: 80px;
+        width: 80px;
     }
     .gal-tabs a.prv {
-    width: 80px;
+        width: 80px;
     }
     .gal-tabs a {
-    margin: 0 5px;
+        margin: 0 5px;
     }
     .style-input select {
-    width: 100%;
-    margin-bottom: 30px;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     /*standard style*/
@@ -432,46 +496,46 @@
     .back-page span a{
         width: 100%;
     }
-     .separate-sec-input-two{
+    .separate-sec-input-two{
         display: block;
-     }
-     .separate-sec-input-two form{
+    }
+    .separate-sec-input-two form{
         width: 100%;
-     }
-     .zip-code{
+    }
+    .zip-code{
         width: 100% !important;
-     }
-     .shipping-sec{
+    }
+    .shipping-sec{
         overflow-x: auto;
-     }
-     .shipping-method-table{
+    }
+    .shipping-method-table{
         overflow-x: auto;
-     }
+    }
 
-     /*shop pahe*/
-     .gl-img-content {
-    bottom: 10px;
-     }
-     .gl-productu-slider-button button{
+    /*shop pahe*/
+    .gl-img-content {
+        bottom: 10px;
+    }
+    .gl-productu-slider-button button{
         width: 100%;
     }
     .gl-select-shirt-sec {
-    padding: 60px 15px 90px 15px;
+        padding: 60px 15px 90px 15px;
     }
     .style-input button{
         width: 90px;
     }
     .checkout-form {
-    padding: 40px 0px 60px 0px;
+        padding: 40px 0px 60px 0px;
     }
     .checkout-items-sec {
-    padding: 40px 15px;
+        padding: 40px 15px;
     }
     .shipping-sec-parent {
-    padding: 40px 0px;
+        padding: 40px 0px;
     }
     .profile-accont {
-    padding: 30px 0px 80px;
+        padding: 30px 0px 80px;
     }
     .gl-shirt-size  ul li{
         text-align: left;
@@ -480,7 +544,7 @@
         padding-bottom: 30px;
     }
     .gl-shirt-size {
-    padding-bottom: 0px;
+        padding-bottom: 0px;
     }
     .gl-shirt-color-name{
         margin-bottom: 20px;
@@ -489,7 +553,7 @@
         display: none;
     }
     .reviews-button .tablink {
-    width: 33%;
+        width: 33%;
     }
     .revies-row{
         margin-right: 15px;
@@ -519,6 +583,27 @@
     .gl-brand-heading{
         padding: 30px 30px !important;
     }
+
+    /*homepage*/
+
+    .gl-about-header{
+        padding: 0px 30px;
+    }
+    .gl-content-paragraph-div {
+       padding-left: 11%;
+    }
+    .last-blog-parent {
+         margin-bottom: 0PX !important;
+    }
+    .gl-count-img-two {
+       height: 9%;
+    }
+    .gl-count-img {
+    height: 10%;
+    }
+    .gl-column-last{
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 354px){
@@ -529,7 +614,11 @@
         width: 100%;
     }
 }
-
+@media screen and (max-width: 1920px) and (min-width: 1280px){
+    .gl-need-homepage3{
+        padding: 200px 0px;
+    }
+}
 
 
 

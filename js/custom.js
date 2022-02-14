@@ -159,7 +159,8 @@ if (btnContainer) {
 // logo slider-----
 
 $(document).ready(function(){
-      $('.customer-logos').slick({
+  if( $('.customer-logos').length ){
+       $('.customer-logos').slick({
           slidesToShow: 6,
           slidesToScroll: 1,
           autoplay: true,
@@ -179,6 +180,8 @@ $(document).ready(function(){
               }
           }]
       });
+  }
+   
   });
 
 
@@ -400,7 +403,10 @@ $(".hotspot").on("mouseover", function(e){
 
 	// product-detail-slider
 
+/*
 	jQuery(document).ready(function($) {
+  if($("#owl-demo-2").length){
+
 
 	var owl = $("#owl-demo-2");
   owl.owlCarousel({
@@ -414,8 +420,9 @@ $(".hotspot").on("mouseover", function(e){
   $(".prev").click(function(){ owl.trigger('owl.prev'); });
 
 $('.latest-blog-posts .thumbnail.item').matchHeight();
-	
+	}
 });
+*/
 
 
 	// snac bar--
@@ -486,6 +493,9 @@ $('body').on('click','.gal-tabs a',function(e){
 
 
 $(document).ready(function() {
+    
+    if( $("#sync1").length ){
+
 
     var sync1 = $("#sync1");
     var sync2 = $("#sync2");
@@ -563,6 +573,7 @@ $(document).ready(function() {
         var number = $(this).index();
         sync1.data('owl.carousel').to(number, 300, true);
     });
+    }
 });
 
 
@@ -585,7 +596,7 @@ function openPage(pageName,elmnt,color) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 
 // tabs mutli
@@ -606,7 +617,7 @@ function openCity(evt, cityName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 
 
@@ -627,7 +638,7 @@ function openPage(pageName,elmnt,color) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 
 
@@ -642,13 +653,18 @@ let $id = (id) => document.getElementById(id);
 var [login, register, form] = ['login', 'register', 'form'].map(id => $id(id));
 
 [login, register].map(element => {
-    element.onclick = function () {
+    try{
+      element.onclick = function () {
         [login, register].map($ele => {
             $ele.classList.remove("active");
         });
         this.classList.add("active");
         this.getAttribute("id") === "register"?  form.classList.add("active") : form.classList.remove("active");
+      }
+    }catch(ex){
+    console.log( ex );
     }
+  
 });
 
 
