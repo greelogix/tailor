@@ -3799,6 +3799,7 @@ button:focus {
 .gl-select-shirt-sec{
 	background-color: #F9F9F9;
 	padding: 60px 40px 140px 40px;
+	min-height: 1320px;
 }
 .gl-select-shirt-sec-smart-size{
 	background-color: #F9F9F9;
