@@ -213,6 +213,18 @@
     .login-popup-three .size-chart{
         padding-bottom: 100px;
     }
+
+    /*home page 2*/
+
+    .gl-sub-header-input{
+        display: none;
+    }
+    .gl-more-item-div-res{
+        margin-bottom: 30px;
+    }
+    .gl-pants{
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -421,6 +433,36 @@
         }
         .login-popup-two {
             width: 60% !important;
+        }
+
+        /*home page 2*/
+
+        .gl-content-fly{
+            display: none;
+        }
+        .gl-affix-heding{
+            margin-bottom: 60px;
+        }
+        .gl-affix-para{
+            padding-left: 40px;
+        }
+        .gl-affix-div{
+            padding-left: 40px;
+        }
+        .gl-testimonial-heading h1:before {
+            left: 185px;
+        }
+        .gl-testimonial-heading h1{
+            padding-bottom: 35px;
+        }
+        .gl-testimonial{
+            padding-bottom:  90px;
+        }
+        .gl-sub-shirt-img{
+            display: none;
+        }
+        .gl-shirt-img-div{
+            margin-bottom: 30px;
         }
     }
 
@@ -640,6 +682,15 @@
     }
     .btn-info{
         width: auto;
+    }
+    .gl-sub-header{
+        display: none;
+    }
+    .gl-column-last-res{
+        margin-bottom: 30px;
+    }
+    .gl-column-last-res-common{
+        margin-bottom: 0px;
     }
 }
 
