@@ -197,7 +197,22 @@
   .gl-offer-heading h1:before {
     left: 85px;
    }
-
+    .login-popup{
+        overflow: scroll;
+        height: 100%;
+    }
+    .cart-popup-shirt{
+        margin-bottom: 30px;
+    }
+    .chart-shirt-content{
+        margin-bottom: 30px;
+    }
+    .chart-table{
+        margin-bottom: 30px;
+    }
+    .login-popup-three .size-chart{
+        padding-bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -404,6 +419,9 @@
         .last-blog-parent{
             margin-bottom: 0PX !important;
         }
+        .login-popup-two {
+            width: 60% !important;
+        }
     }
 
     @media screen and (max-width: 576px){
@@ -603,6 +621,22 @@
     }
     .gl-column-last{
         margin-bottom: 0px;
+    }
+    .slider-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    left: 0px;
+    top: -14px;
+    background-image: url(../img/komas.png);
+    background-size: 65% 47%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    }
+    .login-popup-two {
+        width: 80% !important;
     }
 }
 
