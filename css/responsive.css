@@ -608,7 +608,7 @@
         padding: 0px 30px;
     }
     .gl-content-paragraph-div {
-       padding-left: 11%;
+       padding-left: 0%;
     }
     .last-blog-parent {
          margin-bottom: 0PX !important;
@@ -637,6 +637,9 @@
     }
     .login-popup-two {
         width: 80% !important;
+    }
+    .btn-info{
+        width: auto;
     }
 }
 
