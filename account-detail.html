@@ -23,8 +23,8 @@
 	<!-- structure -->
 	<div class="structure">
 
-  
-       <!-- about -->
+		
+		<!-- about -->
 		<section class="gl-home-about-section">
 			<div class="container">
 				<div class="row">
@@ -72,17 +72,31 @@
 							</button>
 							<div class="collapse navbar-collapse" id="navigation">
 								<ul class="nav navbar-nav">
-									<li class="nav-item active">
-										<a href="homepage3.html" class="nav-link">Home</a>
+									<li class="nav-item pages-drop active">
+										<a href="homepage3.html" class="nav-link">Home <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="homepage3.html">Home Page 1</a>
+											<a href="homepage1.html">Home Page 2</a>
+											<a class="border-design2" href="homepag2.html">Home Page 3</a>
+										</div>
 									</li>					
 									<li class="nav-item">
 										<a href="product.html" class="nav-link">Shop</a>
 									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link">Pages</a>
+									<li class="nav-item pages-drop">
+										<a href="#" class="nav-link">Pages <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="product.html">Product List</a>
+											<a href="productdetail.html">Product Detail</a>
+											<a href="fabric.html">Customization</a>
+											<a href="cart-page.html">Cart Page</a>
+											<a href="checkout.html">Checkout Form</a>
+											<a href="order-placed.html">Order-Placed</a>
+											<a class="border-design2" href="account-detail.html">Profile Page</a>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">Element</a>
+										<a href="element.html" class="nav-link">Element</a>
 									</li>
 									<li class="nav-item">
 										<a href="about.html" class="nav-link">About us</a>
@@ -93,20 +107,20 @@
 								<img alt="search-icon" class="search-icon" src="img/search-icon.png">
 								<a href="account-detail.html" class="gl-cart"><img alt="shoping-cart" class="shoping-cart" src="img/shopping-vector.png"></a>
 								<div class="profile-pic-ddetail">
-								   <div class="dropdown">
-									  <button class="dropbtn"><img alt="profile-image" class="profile-image-icon" src="img/six.png"></button>
-										  <div class="dropdown-content">
-										    <a href="#">John Bravo</a>
-										    <a href="#">Account Details</a>
-										    <a href="#">Order History</a>
-										    <a href="#">Saved Sizes</a>
-										    <a href="#">Saved Styles</a>
-										    <a href="#">Addressess</a>
-										    <a href="#">Reviews</a>
-										    <a href="#">Wishlist</a>
-										    <a href="#">Payment Methods</a>
-										    <a href="#">Sign Out</a>
-										  </div>
+									<div class="dropdown">
+										<button class="dropbtn"><img alt="profile-image" class="profile-image-icon" src="img/six.png"></button>
+										<div class="dropdown-content">
+											<a href="#">John Bravo</a>
+											<a href="#">Account Details</a>
+											<a href="#">Order History</a>
+											<a href="#">Saved Sizes</a>
+											<a href="#">Saved Styles</a>
+											<a href="#">Addressess</a>
+											<a href="#">Reviews</a>
+											<a href="#">Wishlist</a>
+											<a href="#">Payment Methods</a>
+											<a href="#">Sign Out</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -115,34 +129,34 @@
 					</div>
 				</div>
 			</div>
-			</header>
-			<!-- header end -->
+		</header>
+		<!-- header end -->
 
-			<!-- profile account -->
+		<!-- profile account -->
 
-			<section class="profile-accont">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-12 col-sm-12">
-							<div class="account-list-heading">
-								<h2>My Account</h2>
-								<div class="tab">
-									<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Account Details</button>
-									<button class="tablinks" onclick="openCity(event, 'Paris')">Order History</button>
-									<button class="tablinks" onclick="openCity(event, 'Tokyo')">Saved Sizes</button>
-									<button class="tablinks" onclick="openCity(event, 'Saved-Styles')">Saved Styles</button>
-									<button class="tablinks" onclick="openCity(event, 'Adress')">Addressess</button>
-									<button class="tablinks" onclick="openCity(event, 'Reviews')">Reviews</button>
-									<button class="tablinks" onclick="openCity(event, 'Wishlist')">Wishlist</button>
-									<button class="tablinks" onclick="openCity(event, 'Payment-Methods')">Payment Methods</button>
-								</div>
+		<section class="profile-accont">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-12 col-sm-12">
+						<div class="account-list-heading">
+							<h2>My Account</h2>
+							<div class="tab">
+								<button class="tablinks active" onclick="openCity(event, 'London')" id="defaultOpen">Account Details</button>
+								<button class="tablinks" onclick="openCity(event, 'Paris')">Order History</button>
+								<button class="tablinks" onclick="openCity(event, 'Tokyo')">Saved Sizes</button>
+								<button class="tablinks" onclick="openCity(event, 'Saved-Styles')">Saved Styles</button>
+								<button class="tablinks" onclick="openCity(event, 'Adress')">Addressess</button>
+								<button class="tablinks" onclick="openCity(event, 'Reviews')">Reviews</button>
+								<button class="tablinks" onclick="openCity(event, 'Wishlist')">Wishlist</button>
+								<button class="tablinks" onclick="openCity(event, 'Payment-Methods')">Payment Methods</button>
 							</div>
 						</div>
-						<div class="col-lg-9 col-md-12 col-sm-12">
-							<!-- tabs 1 -->
-							<div id="London" class="tabcontent">
-								<div class="account-forms">
-									<form>
+					</div>
+					<div class="col-lg-9 col-md-12 col-sm-12">
+						<!-- tabs 1 -->
+						<div id="London" class="tabcontent active">
+							<div class="account-forms">
+								<form>
 									<h2>Account Details</h2>
 									<div class="name-form">
 										<h5>Name & Email</h5>
@@ -201,341 +215,340 @@
 										<button class="btn btn-primary">Save</button>
 									</div>
 								</form>
-								</div>
 							</div>
+						</div>
 
-							<!-- tabs 2 -->
+						<!-- tabs 2 -->
 
-							<div id="Paris" class="tabcontent">
-								<h2 class="account-order-history">Order History</h2>
-								<div class="account-sizes">
-									<table>
-										<tbody>
-											<tr>
-												<th>Order #</th>
-												<th>Date</th>
-												<th>Items</th>
-												<th>Cost</th>
-												<th>Actions</th>
-											</tr>
-											<tr>
-												<td>2341</td>
-												<td>23 Jan, 2021</td>
-												<td>12</td>
-												<td>$1580</td>
-												<td>View • Reorder</td>
-											</tr>
-											<tr>
-												<td>2563</td>
-												<td>05 Jan, 2021</td>
-												<td>8</td>
-												<td>$1200</td>
-												<td>View • Reorder</td>
-											</tr>
-											<tr>
-												<td>4561</td>
-												<td>22 Dec, 2020</td>
-												<td>5</td>
-												<td>$583</td>
-												<td>View • Reorder</td>
-											</tr>
-											<tr>
-												<td>6543</td>
-												<td>19 Nov, 2020</td>
-												<td>6</td>
-												<td>$664</td>
-												<td>View • Reorder</td>
-											</tr>
-											<tr>
-												<td class="last-tr">7891</td>
-												<td class="last-tr">03 Oct, 2020</td>
-												<td class="last-tr">2</td>
-												<td class="last-tr">$120</td>
-												<td class="last-tr">View • Reorder</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+						<div id="Paris" class="tabcontent">
+							<h2 class="account-order-history">Order History</h2>
+							<div class="account-sizes">
+								<table>
+									<tbody>
+										<tr>
+											<th class="left-tr">Order #</th>
+											<th>Date</th>
+											<th>Items</th>
+											<th>Cost</th>
+											<th class="right-tr">Actions</th>
+										</tr>
+										<tr>
+											<td>2341</td>
+											<td>23 Jan, 2021</td>
+											<td>12</td>
+											<td>$1580</td>
+											<td>View • Reorder</td>
+										</tr>
+										<tr>
+											<td>2563</td>
+											<td>05 Jan, 2021</td>
+											<td>8</td>
+											<td>$1200</td>
+											<td>View • Reorder</td>
+										</tr>
+										<tr>
+											<td>4561</td>
+											<td>22 Dec, 2020</td>
+											<td>5</td>
+											<td>$583</td>
+											<td>View • Reorder</td>
+										</tr>
+										<tr>
+											<td>6543</td>
+											<td>19 Nov, 2020</td>
+											<td>6</td>
+											<td>$664</td>
+											<td>View • Reorder</td>
+										</tr>
+										<tr>
+											<td class="last-tr">7891</td>
+											<td class="last-tr">03 Oct, 2020</td>
+											<td class="last-tr">2</td>
+											<td class="last-tr">$120</td>
+											<td class="last-tr">View • Reorder</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
+						</div>
 
-							<!-- tabs 3 -->
+						<!-- tabs 3 -->
 
-							<div id="Tokyo" class="tabcontent">
-								<div class="Saved-Sizes">
-									<div class="save-size-button">
-										<h2>Saved Sizes</h2>
-										<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Size</button>
-									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Smart Size • John-slim-007 (Default)</h2>
-										<p>Last Updated: 23-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Smart Size • John-slim-007 (Default)</h2>
-										<p>Last Updated: 23-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Smart Size • John-slim-007 (Default)</h2>
-										<p>Last Updated: 23-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+						<div id="Tokyo" class="tabcontent">
+							<div class="Saved-Sizes">
+								<div class="save-size-button">
+									<h2>Saved Sizes</h2>
+									<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Size</button>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Smart Size  John-slim-007 (Default)</h2>
+									<p>Last Updated: 23-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 								</div>
-							</div>
-
-							<!-- tabs 4 -->
-
-							<div id="Saved-Styles" class="tabcontent">
-								<div class="Saved-Sizes">
-									<div class="save-size-button">
-										<h2>Saved Styles</h2>
-										<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Style</button>
+								<div class="Saved-Sizes-list">
+									<h2>Smart Size  John-slim-007 (Default)</h2>
+									<p>Last Updated: 23-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Business Style - 007 (Default)</h2>
-										<p>Soft President Spread Collar · Soft Long Three Buttons Cuff · Lavendar Plaid Flannel Collar · Soft Front Placket · Rounded Hem · Custom Buttons</p>
-										<p>Last Updated: 23-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Tuxedo Style - 007</h2>
-										<p>Soft President Spread Collar · Soft Long Two Buttons Cuff · Royal Blue Plaid Flannel Collar and Cuff Accents · Soft Front Placket · Rounded Hem · Standard Buttons</p>
-										<p>Last Updated: 21-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Casual Style - 007</h2>
-										<p>Soft President Spread Collar · Soft Long Two Buttons Cuff · Royal Blue Plaid Flannel Collar and Cuff Accents · Soft Front Placket · Rounded Hem · Standard Buttons</p>
-										<p>Last Updated: 19-Dec-2020</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Smart Size  John-slim-007 (Default)</h2>
+									<p>Last Updated: 23-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
+						</div>
 
-							<!-- tabs 5 -->
+						<!-- tabs 4 -->
 
-							<div id="Adress" class="tabcontent">
-								<div class="Saved-Sizes">
-									<div class="save-size-button">
-										<h2>Addressess</h2>
-										<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Address</button>
+						<div id="Saved-Styles" class="tabcontent">
+							<div class="Saved-Sizes">
+								<div class="save-size-button">
+									<h2>Saved Styles</h2>
+									<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Style</button>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Business Style - 007 (Default)</h2>
+									<p>Soft President Spread Collar · Soft Long Three Buttons Cuff · Lavendar Plaid Flannel Collar · Soft Front Placket · Rounded Hem · Custom Buttons</p>
+									<p>Last Updated: 23-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<h2>John Bravo (Default)</h2>
-										<p>Block B-1 Johar Town Lahore Lahore Punjab 54000 Pakistan</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Tuxedo Style - 007</h2>
+									<p>Soft President Spread Collar · Soft Long Two Buttons Cuff · Royal Blue Plaid Flannel Collar and Cuff Accents · Soft Front Placket · Rounded Hem · Standard Buttons</p>
+									<p>Last Updated: 21-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<h2>Tuxedo Style - 007</h2>
-										<p>Block B-4 Johar Town Lahore Lahore Punjab 54100 Pakistan</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Casual Style - 007</h2>
+									<p>Soft President Spread Collar · Soft Long Two Buttons Cuff · Royal Blue Plaid Flannel Collar and Cuff Accents · Soft Front Placket · Rounded Hem · Standard Buttons</p>
+									<p>Last Updated: 19-Dec-2020</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
+						</div>
 
-							<!-- tabs 6 -->
+						<!-- tabs 5 -->
 
-							<div id="Reviews" class="tabcontent">
-								<div class="Saved-Sizes">
-									<div class="save-size-button">
-										<h2>Reviews</h2>
+						<div id="Adress" class="tabcontent">
+							<div class="Saved-Sizes">
+								<div class="save-size-button">
+									<h2>Addressess</h2>
+									<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>New Address</button>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>John Bravo (Default)</h2>
+									<p>Block B-1 Johar Town Lahore Lahore Punjab 54000 Pakistan</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="shirt" src="img/shirt-change.png">
-										<h2>Lafayette Light Blue Twill Shirt</h2>
-										<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
-										<div class="Saved-Sizes-star-icon">
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="paint" src="img/add-paint.png">
-										<h2>Royal Grey Oxford Heavy Jacket</h2>
-										<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
-										<div class="Saved-Sizes-star-icon">
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="shirt" src="img/shirt-change.png">
-										<h2>Washed Skin Heavy Oxford Pant</h2>
-										<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
-										<div class="Saved-Sizes-star-icon">
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="custom-shirt" src="img/shrt-custom6.png">
-										<h2>Royal Skin Oxford Heavy Jacket</h2>
-										<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
-										<div class="Saved-Sizes-star-icon">
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<h2>Tuxedo Style - 007</h2>
+									<p>Block B-4 Johar Town Lahore Lahore Punjab 54100 Pakistan</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
+						</div>
 
-							<!-- tabs 7 -->
+						<!-- tabs 6 -->
 
-							<div id="Wishlist" class="tabcontent">
-								<div class="whilist-sec">
-									<h2>Wishlist</h2>
-									<div class="row">
-										<div class="col-lg-12 col-md-12 col-sm-12">
-											<div class="parent-new">
-												<div class="row">
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div">
-															<div class="new-img">
-																<img alt="whislist-image" src="img/15.png">
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
+						<div id="Reviews" class="tabcontent">
+							<div class="Saved-Sizes">
+								<div class="save-size-button">
+									<h2>Reviews</h2>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="shirt" src="img/shirt-change.png">
+									<h2>Lafayette Light Blue Twill Shirt</h2>
+									<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
+									<div class="Saved-Sizes-star-icon">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="paint" src="img/add-paint.png">
+									<h2>Royal Grey Oxford Heavy Jacket</h2>
+									<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
+									<div class="Saved-Sizes-star-icon">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="shirt" src="img/shirt-change.png">
+									<h2>Washed Skin Heavy Oxford Pant</h2>
+									<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
+									<div class="Saved-Sizes-star-icon">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="custom-shirt" src="img/shrt-custom6.png">
+									<h2>Royal Skin Oxford Heavy Jacket</h2>
+									<p>This was my first experience ordering a custom tailored suit. The staff was super helpful and professional and I got what I wanted for my upcoming wedding.  I am really grateful to Modiste.</p>
+									<div class="Saved-Sizes-star-icon">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- tabs 7 -->
+
+						<div id="Wishlist" class="tabcontent">
+							<div class="whilist-sec">
+								<h2>Wishlist</h2>
+								<div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="parent-new">
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div">
+														<div class="new-img">
+															<img alt="whislist-image" src="img/15.png">
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shoping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 																</div>
-															</div>
-															<div class="new-para">
-																<h6>Line</h6>
-																<h4><a href="#">Hudson Jade Wrinkle-Resistant Twill Maximus</a></h4>
-																<h5>$200</h5>
 															</div>
 														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div">
-															<div class="new-img">
-																<img alt="whislist-image-one" src="img/12.png">
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
-																</div>
-															</div>
-															<div class="new-para">
-																<h6>Line</h6>
-																<h4><a href="#">Mayfair Wrinkle Resistant Light Lavendar Optimus</a></h4>
-																<h5>$250</h5>
-															</div>
+														<div class="new-para">
+															<h6>Line</h6>
+															<h4><a href="#">Hudson Jade Wrinkle-Resistant Twill Maximus</a></h4>
+															<h5>$200</h5>
 														</div>
 													</div>
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div">
-															<div class="new-img">
-																<img alt="whislist-image-two" src="img/14.png">
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div">
+														<div class="new-img">
+															<img alt="whislist-image-one" src="img/12.png">
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shooping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 																</div>
-															</div>
-															<div class="new-para">
-																<h6>Pure Wool</h6>
-																<h4><a href="">Cooper Blue Check Stretch Twill Magnum Opus</a></h4>
-																<h5>$260</h5>
 															</div>
 														</div>
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div gl-parent-new-div">
-															<div class="new-img">
-																<img alt="whislist-image-three" src="img/2.png">
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
-																</div>
-															</div>
-															<div class="new-para">
-																<h6>Line</h6>
-																<h4><a href="#">Sullivan Red Melange Easy Care</a></h4>
-																<h5>$180</h5>
-															</div>
+														<div class="new-para">
+															<h6>Line</h6>
+															<h4><a href="#">Mayfair Wrinkle Resistant Light Lavendar Optimus</a></h4>
+															<h5>$250</h5>
 														</div>
 													</div>
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div gl-parent-new-div">
-															<div class="new-img">
-																<img alt="whislist-image-four" src="img/13.png">
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div">
+														<div class="new-img">
+															<img alt="whislist-image-two" src="img/14.png">
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shooping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 																</div>
-															</div>
-															<div class="new-para">
-																<h6>Line</h6>
-																<h4><a href="#">American Pima Blue Heavy Oxford</a></h4>
-																<h5>$200</h5>
 															</div>
 														</div>
+														<div class="new-para">
+															<h6>Pure Wool</h6>
+															<h4><a href="">Cooper Blue Check Stretch Twill Magnum Opus</a></h4>
+															<h5>$260</h5>
+														</div>
 													</div>
-													<div class="col-lg-4 col-md-4 col-sm-6">
-														<div class="new-div gl-parent-new-div">
-															<div class="new-img">
-																<img alt="whislist-image-five" src="img/10.png">
-																<div class="img-content">
-																	<h6>Promo</h6>
-																</div>
-																<div class="img-part">
-																	<div class="adjust">
-																		<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-																		<span><button class="btn btn-primary">CUTOMIZED</button></span>
-																		<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
-																	</div>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div gl-parent-new-div">
+														<div class="new-img">
+															<img alt="whislist-image-three" src="img/2.png">
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shoping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 																</div>
 															</div>
-															<div class="new-para">
-																<h6>Line</h6>
-																<h4><a href="#">Washed Jade Heavy Oxford</a></h4>
-																<h5>$200</h5>
+														</div>
+														<div class="new-para">
+															<h6>Line</h6>
+															<h4><a href="#">Sullivan Red Melange Easy Care</a></h4>
+															<h5>$180</h5>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div gl-parent-new-div">
+														<div class="new-img">
+															<img alt="whislist-image-four" src="img/13.png">
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shoping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
+																</div>
 															</div>
+														</div>
+														<div class="new-para">
+															<h6>Line</h6>
+															<h4><a href="#">American Pima Blue Heavy Oxford</a></h4>
+															<h5>$200</h5>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 col-md-4 col-sm-6">
+													<div class="new-div gl-parent-new-div">
+														<div class="new-img">
+															<img alt="whislist-image-five" src="img/10.png">
+															<div class="img-content">
+																<h6>Promo</h6>
+															</div>
+															<div class="img-part">
+																<div class="adjust">
+																	<span><img alt="shooping-bag" src="img/shopping-bag.png"></span>
+																	<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+																	<span><img alt="heart-icon" src="img/heart-icon.png"></span>
+																</div>
+															</div>
+														</div>
+														<div class="new-para">
+															<h6>Line</h6>
+															<h4><a href="#">Washed Jade Heavy Oxford</a></h4>
+															<h5>$200</h5>
 														</div>
 													</div>
 												</div>
@@ -544,169 +557,172 @@
 									</div>
 								</div>
 							</div>
+						</div>
 
-							<!-- tabs 8 -->
+						<!-- tabs 8 -->
 
-							<div id="Payment-Methods" class="tabcontent">
-								<div class="Saved-Sizes">
-									<div class="save-size-button">
-										<h2>Payment Methods</h2>
-										<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>NewPayment Methods</button>
+						<div id="Payment-Methods" class="tabcontent">
+							<div class="Saved-Sizes">
+								<div class="save-size-button">
+									<h2>Payment Methods</h2>
+									<button class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i>NewPayment Methods</button>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="visa-card" src="img/visa.png" style="height: 40px; width: 50px;">
+									<h2>•••• 2146 (Default)</h2>
+									<p>Exp. 01/23 VISA</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="visa-card" src="img/visa.png" style="height: 40px; width: 50px;">
-										<h2>•••• 2146 (Default)</h2>
-										<p>Exp. 01/23 VISA</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="master-card" src="img/mastecard.png" style="height: 40px; width: 50px;">
+									<h2>•••• 1983</h2>
+									<p>Exp. 01/23 MasterCard</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="master-card" src="img/mastecard.png" style="height: 40px; width: 50px;">
-										<h2>•••• 1983</h2>
-										<p>Exp. 01/23 MasterCard</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
-									</div>
-									<div class="Saved-Sizes-list">
-										<img alt="express-card" src="img/express.png" style="height: 40px; width: 50px;">
-										<h2>•••• 1983</h2>
-										<p>Exp. 01/23 MasterCard</p>
-										<div class="Saved-Sizes-icon">
-											<i class="fa fa-trash" aria-hidden="true"></i>
-											<i class="fa fa-pencil" aria-hidden="true"></i>
-										</div>
+								</div>
+								<div class="Saved-Sizes-list">
+									<img alt="express-card" src="img/express.png" style="height: 40px; width: 50px;">
+									<h2>•••• 1983</h2>
+									<p>Exp. 01/23 MasterCard</p>
+									<div class="Saved-Sizes-icon">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- profile account -->
+			</div>
+		</section>
+		<!-- profile account -->
 
 
 
-			<!-- footer -->
-			<section class="gl-footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="gl-sign gl-sign-two">
-								<h3>Sign up for our Newsletter</h3>
-							</div>
+		<!-- footer -->
+		<section class="gl-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="gl-sign gl-sign-two">
+							<h3>Sign up for our Newsletter</h3>
 						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="gl-input gl-footer-input-two">
-								<input type="text" placeholder="Type your email here" name="text">
-								<button class="btn btn-basic">SUBSCRIBE</button>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="gl-input gl-footer-input-two">
+							<input type="text" placeholder="Type your email here" name="text">
+							<button class="btn btn-basic">SUBSCRIBE</button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="gl-footer-div">
+							<div class="footer-img">
+								<span><img alt="footerl-ogo" src="img/Logo.png"></span>
+							</div><br>
+							<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
+							<div class="gl-footer-icons">
+								<a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-12">
-							<div class="gl-footer-div">
-								<div class="footer-img">
-									<span><img alt="footerl-ogo" src="img/Logo.png"></span>
-								</div><br>
-								<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
-								<div class="gl-footer-icons">
-									<a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-									<a href="https://en-gb.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-									<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-12">
-							<div class="gl-footer-div">
-								<h4>Shop</h4>
-								<ul>
-									<li><A href="#">Create a Custom Size</A></li>
-									<li><A href="#">Design a Shirt</A></li>
-									<li><a href="#">Our Collections</a></li>
-									<li><a href="#">Accessories</a></li>
-									<li><a href="#">Fabrics</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-12">
-							<div class="gl-footer-div">
-								<h4>About Us</h4>
-								<ul>
-									<li><A href="#">Our Story</A></li>
-									<li><a href="#">Our Guarantee</a></li>
-									<li><a href="#">Career</a></li>
-									<li><a href="#">Terms & Conditions</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-12">
-							<div class="gl-footer-div">
-								<h4>Help</h4>
-								<ul>
-									<li><A href="#">How to Care for Shirts</A></li>
-									<li><a href="#">Common Fit Problems</a></li>
-									<li><a href="#">How to Measure your Body</a></li>
-									<li><a href="#">Shipping</a></li>
-									<li><a href="#">How Dress Shirts Shrink</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-12">
-							<div class="gl-footer-div">
-								<h4>Support</h4>
-								<ul>
-									<li><A href="#">Return Policy</A></li>
-									<li><a href="#">Style Advice</a></li>
-									<li><a href="#">Schedule a Fitting</a></li>
-									<li><a href="#">Contact us</a></li>
-									<li><a href="#">Track an Existing Order</a></li>
-								</ul>
-							</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Shop</h4>
+							<ul>
+								<li><A href="#">Create a Custom Size</A></li>
+								<li><A href="#">Design a Shirt</A></li>
+								<li><a href="#">Our Collections</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Fabrics</a></li>
+							</ul>
 						</div>
 					</div>
-					<div class="gl-sub-footer">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-sub-footer-para">
-									<p>© Copyright 2021 | All Rights Reserved By Modiste</p>
-								</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>About Us</h4>
+							<ul>
+								<li><A href="#">Our Story</A></li>
+								<li><a href="#">Our Guarantee</a></li>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Help</h4>
+							<ul>
+								<li><A href="#">How to Care for Shirts</A></li>
+								<li><a href="#">Common Fit Problems</a></li>
+								<li><a href="#">How to Measure your Body</a></li>
+								<li><a href="#">Shipping</a></li>
+								<li><a href="#">How Dress Shirts Shrink</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<div class="gl-footer-div">
+							<h4>Support</h4>
+							<ul>
+								<li><A href="#">Return Policy</A></li>
+								<li><a href="#">Style Advice</a></li>
+								<li><a href="#">Schedule a Fitting</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Track an Existing Order</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="gl-sub-footer">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="gl-sub-footer-para">
+								<p>© Copyright 2021 | All Rights Reserved By Modiste</p>
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12">
-								<div class="gl-sub-footer-cards">
-									<span><img alt="master-card" src="img/mastecard.png"></span>
-									<span><img alt="visa-card" src="img/visa.png"></span>
-									<span><img alt="express-card" src="img/express.png"></span>
-									<span><img alt="union-card" src="img/union.png"></span>
-								</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="gl-sub-footer-cards">
+								<span><img alt="master-card" src="img/mastecard.png"></span>
+								<span><img alt="visa-card" src="img/visa.png"></span>
+								<span><img alt="express-card" src="img/express.png"></span>
+								<span><img alt="union-card" src="img/union.png"></span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- footer end -->
+			</div>
+		</section>
+		<!-- footer end -->
 
-		</div>
-		<!-- structure -->
-
-
-
+	</div>
+	<!-- structure -->
 
 
 
 
-        <!-- wow animation -->
-		<script src="https://wowjs.uk/dist/wow.min.js"></script>
-		<!-- js bootstrap -->
-		<script src="js/bootstrap.js"></script>
-		<!-- js jquery -->
-		<script src="js/jquery-3.5.1.min.js"></script>
-		<!-- js custom -->
-		<script src="js/custom.js"></script>
 
-	</body>
-	</html>
+
+	<!-- js jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- wow animation -->
+	<script src="https://wowjs.uk/dist/wow.min.js"></script>
+	<!-- js bootstrap -->
+	<script src="js/bootstrap.js"></script>
+	<!-- js custom -->
+	<script src="js/custom.js"></script>
+	<script>
+		openCity('click', 'London');
+	</script>
+
+</body>
+</html>

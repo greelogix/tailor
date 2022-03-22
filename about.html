@@ -20,15 +20,15 @@
 </head>
 <body> 
 
-    <!-- login popup -->
-    <div id="popup1" class="overlay">
+	<!-- login popup -->
+	<div id="popup1" class="overlay">
 		<div class="login-popup">
 
 			<a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="row gl-register-login">
 					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="gl-login-side tablinks" onclick="openCity(event, 'London')">
+						<div class="gl-login-side tablinks active" onclick="openCity(event, 'London')">
 							Login
 						</div>
 					</div>
@@ -38,21 +38,21 @@
 						</div>
 					</div>
 				</div>
-				<div id="London" class="tabcontent form-tabcontent">
+				<div id="London" class="tabcontent active form-tabcontent">
 					<div class="row gl-social-buttons-row">
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-google">
-								<button><a href=""><i class="fa fa-google" aria-hidden="true"></i>With Google</a></button>
+								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-facebook">
-								<button><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a></button>
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-twitter">
-								<button><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a></button>
+								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
 							</div>
 						</div>
 					</div>
@@ -75,8 +75,42 @@
 						</form>
 					</div>
 				</div>
-				<div id="Tokyo" class="tabcontent">
-
+				<div id="Paris" class="tabcontent form-tabcontent">
+					<div class="row gl-social-buttons-row">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-google">
+								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-facebook">
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="social-media-twitter">
+								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<form action="/action_page.php">
+							<label for="fname2">First name:</label><br>
+							<input type="text" id="fname2" name="fname"><br>
+							<label for="lname2">Last name:</label><br>
+							<input type="text" id="lname2" name="lname"><br>
+							<label for="email2">Email</label><br>
+							<input type="text" id="email2" name="email"><br>
+							<label for="pssword">Pasword</label><br>
+							<input type="password" id="psswordd" name="pwd"><br><br>
+							<div class=" text-center">
+								<input class="gl-modal-submit-button" type="submit" value="Submit">
+							</div>
+							<div class="gl-already-para">
+								<h2>Already have an account? <a href="account-detail.html">Login</a></h2>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -136,17 +170,31 @@
 							</button>
 							<div class="collapse navbar-collapse" id="navigation">
 								<ul class="nav navbar-nav">
-									<li class="nav-item active">
-										<a href="homepage3.html" class="nav-link">Home</a>
+									<li class="nav-item pages-drop active">
+										<a href="homepage3.html" class="nav-link">Home <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="homepage3.html">Home Page 1</a>
+											<a href="homepage1.html">Home Page 2</a>
+											<a class="border-design2" href="homepag2.html">Home Page 3</a>
+										</div>
 									</li>					
 									<li class="nav-item">
 										<a href="product.html" class="nav-link">Shop</a>
 									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link">Pages</a>
+									<li class="nav-item pages-drop">
+										<a href="#" class="nav-link">Pages <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="product.html">Product List</a>
+											<a href="productdetail.html">Product Detail</a>
+											<a href="fabric.html">Customization</a>
+											<a href="cart-page.html">Cart Page</a>
+											<a href="checkout.html">Checkout Form</a>
+											<a href="order-placed.html">Order-Placed</a>
+											<a class="border-design2" href="account-detail.html">Profile Page</a>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">Element</a>
+										<a href="element.html" class="nav-link">Element</a>
 									</li>
 									<li class="nav-item">
 										<a href="about.html" class="nav-link">About us</a>
@@ -525,25 +573,16 @@
 
 
 
-
+		<!-- js jquery -->
+		<script src="js/jquery-3.5.1.min.js"></script>
 		<!-- wow animation -->
 		<script src="https://wowjs.uk/dist/wow.min.js"></script>
 		<!-- js bootstrap -->
 		<script src="js/bootstrap.js"></script>
-		<!-- js jquery -->
-		<script src="js/jquery-3.5.1.min.js"></script>
 		<!-- js custom -->
 		<script src="js/custom.js"></script>
-		<!-- navigation -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-		<script src="tps://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
-		<!-- owl slider -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://code.jquery.com/jquery.min.js"></script>
-		<!-- logo slider -->
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+			openCity('click', 'London');
+		</script>
 	</body>
 	</html>

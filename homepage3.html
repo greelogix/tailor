@@ -17,6 +17,8 @@
 	<!-- style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
 </head>
 <body>
 
@@ -29,7 +31,7 @@
 			<div class="content">
 				<div class="row gl-register-login">
 					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="gl-login-side tablinks" onclick="openCity(event, 'London')">
+						<div class="gl-login-side tablinks active" onclick="openCity(event, 'London')">
 							Login
 						</div>
 					</div>
@@ -39,21 +41,21 @@
 						</div>
 					</div>
 				</div>
-				<div id="London" class="tabcontent form-tabcontent">
+				<div id="London" class="tabcontent active form-tabcontent">
 					<div class="row gl-social-buttons-row">
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-google">
-								<button><a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a></button>
+								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-facebook">
-								<button><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a></button>
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-twitter">
-								<button><a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a></button>
+								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
 							</div>
 						</div>
 					</div>
@@ -80,30 +82,30 @@
 					<div class="row gl-social-buttons-row">
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-google">
-								<button><a href=""><i class="fa fa-google" aria-hidden="true"></i>With Google</a></button>
+								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-facebook">
-								<button><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a></button>
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="social-media-twitter">
-								<button><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a></button>
+								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
 							</div>
 						</div>
 					</div>
 					<div class="modal-body">
 						<form action="/action_page.php">
-							<label for="fname">First name:</label><br>
-							<input type="text" id="fname" name="fname"><br>
-							<label for="lname">Last name:</label><br>
-							<input type="text" id="lname" name="lname"><br>
-							<label for="email">Email</label><br>
-							<input type="text" id="email" name="email"><br>
+							<label for="fname2">First name:</label><br>
+							<input type="text" id="fname2" name="fname"><br>
+							<label for="lname2">Last name:</label><br>
+							<input type="text" id="lname2" name="lname"><br>
+							<label for="email2">Email</label><br>
+							<input type="text" id="email2" name="email"><br>
 							<label for="pssword">Pasword</label><br>
-							<input type="password" id="pssword" name="pwd"><br><br>
+							<input type="password" id="psswordd" name="pwd"><br><br>
 							<div class=" text-center">
 								<input class="gl-modal-submit-button" type="submit" value="Submit">
 							</div>
@@ -174,27 +176,32 @@
 								<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true" style="color: black; padding-top: 10px;"></i></span>
 							</button>
 							<div class="collapse navbar-collapse" id="navigation">
-								<ul class="nav navbar-nav">
-									<li class="nav-item active">
-										<a href="homepage3.html" class="nav-link">Home</a>
+								<ul class="nav navbar-nav navbar-home-page3">
+									<li class="nav-item pages-drop active">
+										<a href="homepage3.html" class="nav-link">Home <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="homepage3.html">Home Page 1</a>
+											<a href="homepage1.html">Home Page 2</a>
+											<a class="border-design2" href="homepag2.html">Home Page 3</a>
+										</div>
 									</li>					
 									<li class="nav-item">
 										<a href="product.html" class="nav-link">Shop</a>
 									</li>
 									<li class="nav-item pages-drop">
-										<a href="#" class="nav-link">Pages</a>
+										<a href="#" class="nav-link">Pages <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
 										<div class="pages-dropdown">
-											<a href="product.html">Product List</a>
-										    <a href="productdetail.html">Product Detail</a>
-										    <a href="fabric.html">Customization</a>
-										    <a href="cart-page.html">Cart Page</a>
-										    <a href="cart-page.html">Checkout Form</a>
-										    <a href="order-placed.html">Order-Placed</a>
-										    <a href="account-detail.html">Profile Page</a>
+											<a class="border-design" href="product.html">Product List</a>
+											<a href="productdetail.html">Product Detail</a>
+											<a href="fabric.html">Customization</a>
+											<a href="cart-page.html">Cart Page</a>
+											<a href="checkout.html">Checkout Form</a>
+											<a href="order-placed.html">Order-Placed</a>
+											<a class="border-design2" href="account-detail.html">Profile Page</a>
 										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">Element</a>
+										<a href="element.html" class="nav-link">Element</a>
 									</li>
 									<li class="nav-item">
 										<a href="about.html" class="nav-link">About us</a>
@@ -231,7 +238,7 @@
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12">
 						<div class="gl-home-cntent-image">
-							<img src="img/sepman.png">
+							<img alt="sepman" src="img/sepman.png">
 						</div>
 					</div>
 				</div>
@@ -291,14 +298,14 @@
 			<div class="row parent-row">
 				<div class="col-lg-12 c0l-md-12 col-sm-12">
 					<div class="customer-logos slider">
-						<div class="slide text-center"><img src="img/Burberry.png" alt="name-logo"></div>
-						<div class="slide text-center"><img src="img/Hermes.png" alt="logo-imge"></div>
-						<div class="slide text-center"><img src="img/Hollister.png" alt="logo-imge2"></div>
-						<div class="slide text-center"><img src="img/Pull&Bear.png" alt="logo-imge3"></div>
-						<div class="slide text-center"><img src="img/Zara.png" alt="logo-imge4"></div>
-						<div class="slide text-center"><img src="img/Versace.png" alt="logo-imge5"></div>
-						<div class="slide text-center"><img src="img/Burberry.png" alt="logo-imge6"></div>
-						<div class="slide text-center"><img src="img/Hermes.png" alt="logo-imge7"></div>
+						<div class="slide text-center"><img  alt="name-logo"  src="img/Logos1.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge" src="img/Logos2.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge2" src="img/Logos3.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge3" src="img/Logos4.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge4" src="img/Logos5.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge5" src="img/Logos6.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge6" src="img/Logos1.png" ></div>
+						<div class="slide text-center"><img  alt="logo-imge7" src="img/Logos2.png" ></div>
 					</div>
 				</div>
 			</div>
@@ -326,12 +333,12 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div">
 										<div class="new-img">
-											<img src="img/15.png" alt="shirt-image-one">
+											<img  alt="shirt-image-one" src="img/15.png">
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -345,12 +352,12 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div">
 										<div class="new-img">
-											<img src="img/12.png" alt="shirt-image-two">
+											<img alt="shirt-image-two" src="img/12.png">
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -364,12 +371,12 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div">
 										<div class="new-img">
-											<img src="img/14.png" alt="shirt-image-three">
+											<img alt="shirt-image-three" src="img/14.png">
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -383,12 +390,12 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div gl-parent-new-div">
 										<div class="new-img">
-											<img src="img/2.png" alt="shirt-image-four">
+											<img alt="shirt-image-four" src="img/2.png">
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -402,12 +409,12 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div gl-parent-new-div">
 										<div class="new-img">
-											<img src="img/13.png" alt="shirt-image-five">
+											<img alt="shirt-image-five" src="img/13.png">
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -421,15 +428,15 @@
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="new-div gl-parent-new-div gl-parent-new-div-res">
 										<div class="new-img">
-											<img src="img/10.png" alt="shirt-image-six">
+											<img alt="shirt-image-six" src="img/10.png">
 											<div class="img-content">
 												<h6>Promo</h6>
 											</div>
 											<div class="img-part">
 												<div class="adjust">
-													<span><i class="fa fa-lock" aria-hidden="true"></i></span>
-													<span><button class="btn btn-primary">CUTOMIZED</button></span>
-													<span><i class="fa fa-heart heart-react" aria-hidden="true"></i></span>
+													<span><img alt="shoping-cart" src="img/shopping-bag.png"></span>
+													<span><button class="btn btn-primary customize-button">CUTOMIZED</button></span>
+													<span><img alt="heart-icon" src="img/heart-icon.png"></span>
 												</div>
 											</div>
 										</div>
@@ -454,12 +461,12 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="gl-paints-img">
-							<img class="iamge-one" src="img/home-sec-img5.png" alt="custom-paints">
+							<img class="iamge-one" alt="custom-paints" src="img/home-sec-img5.png">
 							<div class="image-part wow animate__animated animate__fadeInLeft">
-								<img src="img/home-sec-img4.png" alt="custom-paints-two">
+								<img alt="custom-paints-two" src="img/home-sec-img4.png">
 							</div>
 							<div class="image-part-one wow animate__animated animate__fadeInLeft">
-								<img src="img/hpme-sec-img3.png" alt="custom-paints-three">
+								<img alt="custom-paints-three" src="img/hpme-sec-img3.png">
 							</div>
 						</div>
 					</div>
@@ -494,12 +501,12 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="gl-suit-img">
-							<img src="img/home-sec-img1.png" alt="suit-images">
+							<img alt="suit-images" src="img/home-sec-img1.png">
 							<div class="gl-suit-part wow animate__animated animate__fadeInRight">
-								<img src="img/home-sec-img2.png" alt="suit-images-two">
+								<img alt="suit-images-two" src="img/home-sec-img2.png">
 							</div>
 							<div class="gl-suit-part-two wow animate__animated animate__fadeInRight">
-								<img src="img/home-sec-img.png" alt="suit-images-three">
+								<img alt="suit-images-three" src="img/home-sec-img.png">
 							</div>
 						</div>
 					</div>
@@ -517,7 +524,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div">
 									<div class="gl-brand-img">
-										<img src="img/fabric.png" alt="shirt-brand-image">
+										<img alt="shirt-brand-image" src="img/fabric.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Pure Wool</h6>
@@ -531,7 +538,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div">
 									<div class="gl-brand-img">
-										<img src="img/fabric3.png" alt="shirt-brand-image-two">
+										<img alt="shirt-brand-image-two" src="img/fabric3.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Wool Blends</h6>
@@ -545,7 +552,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div">
 									<div class="gl-brand-img">
-										<img src="img/fabric2.png" alt="shirt-brand-image-three">
+										<img alt="shirt-brand-image-three" src="img/fabric2.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Linen</h6>
@@ -560,7 +567,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div brand-part-two">
 									<div class="gl-brand-img">
-										<img src="img/fabric04.png" alt="shirt-brand-image-four">
+										<img alt="shirt-brand-image-four" src="img/fabric04.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Wool Blends</h6>
@@ -574,7 +581,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div brand-part-two">
 									<div class="gl-brand-img">
-										<img src="img/fabric05.png" alt="shirt-brand-image-five">
+										<img  alt="shirt-brand-image-five" src="img/fabric05.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Linen</h6>
@@ -588,7 +595,7 @@
 							<div class="gl-brand-div-parent">
 								<div class="gl-brand-div brand-part-two brand-part-two-res">
 									<div class="gl-brand-img">
-										<img src="img/gabric06.png" alt="shirt-brand-image-six">
+										<img alt="shirt-brand-image-six" src="img/gabric06.png">
 									</div>
 									<div class="gl-fabric-para">
 										<h6>Cotton</h6>
@@ -626,7 +633,7 @@
 				<div class="row acess-row">
 					<div class="col-lg-7 col-md-7 col-sm-12">
 						<div class="gl-acess-img">
-							<img src="img/bag1.png" alt="bags">
+							<img alt="bags" src="img/bag1.png">
 							<div class="acess-img-content">
 								<h3>Bags</h3>
 								<a href="homepage3.html" class="btn btn-basic">Learn More</a>
@@ -635,7 +642,7 @@
 					</div>
 					<div class="col-lg-5 col-md-5 col-sm-12">
 						<div class="gl-acess-img">
-							<img src="img/bag2.png" alt="bag-two">
+							<img alt="bag-two" src="img/bag2.png">
 							<div class="acess-img-content">
 								<h3>Watches</h3>
 								<a href="homepage3.html" class="btn btn-basic">Learn More</a>
@@ -672,7 +679,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-heart-o" aria-hidden="true"></i>
+								<img alt="section-icon" src="img/heart-icon.png">
 							</div>
 							<div class="choose-para">
 								<h4>Trusted</h4>
@@ -683,7 +690,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+								<img alt="flash-icon" src="img/Flash.png" >
 							</div>
 							<div class="choose-para">
 								<h4>Easy to Use</h4>
@@ -694,7 +701,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-sliders" aria-hidden="true"></i>
+								<img alt="filtr-img" src="img/Filter.png">
 							</div>
 							<div class="choose-para">
 								<h4>Personalization</h4>
@@ -707,7 +714,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-lock" aria-hidden="true"></i>
+								<img alt="lock" src="img/Lock.png">
 							</div>
 							<div class="choose-para">
 								<h4>Secure</h4>
@@ -718,7 +725,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-truck" aria-hidden="true"></i>
+								<img alt="truck-image" src="img/truck.png">
 							</div>
 							<div class="choose-para">
 								<h4>Fast Delivery</h4>
@@ -729,7 +736,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="Choose-box">
 							<div class="choose-icon">
-								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<img alt="shoping-bag" src="img/shopping-bag-new.png">
 							</div>
 							<div class="choose-para">
 								<h4>24/7 Shopping</h4>
@@ -755,7 +762,7 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-2 col-sm-2 col-3">
 						<div class="slider-img">
-							<img src="img/One.png" alt="testimonial-image">
+							<img alt="testimonial-image" src="img/One.png">
 						</div>
 					</div>
 					<div class="col-lg-10 col-md-10 col-sm-10 col-9">
@@ -865,7 +872,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="blog-parent">
 							<div class="gl-blog-img">
-								<img src="img/place.png" alt="blog-image">
+								<img alt="blog-image" src="img/place.png">
 								<div class="img-content">
 									<h6>Trending</h6>
 								</div>
@@ -880,7 +887,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="blog-parent">
 							<div class="gl-blog-img">
-								<img src="img/place1.png" alt="blog-image-two">
+								<img alt="blog-image-two" src="img/place1.png">
 								<div class="img-content">
 									<h6>Buisness</h6>
 								</div>
@@ -895,7 +902,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="blog-parent blog-sub-parent-two">
 							<div class="gl-blog-img">
-								<img src="img/place2.png" alt="blog-image-three">
+								<img alt="blog-image-three" src="img/place2.png">
 								<div class="img-content">
 									<h6>Jackets</h6>
 								</div>
@@ -920,7 +927,7 @@
 		<!-- homepage3-blog -->
 
 		<!-- footer -->
-		<section class="gl-footer">
+		<section class="gl-footer gl-footer-two">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">
@@ -939,7 +946,7 @@
 					<div class="col-lg-3 col-md-3 col-sm-12">
 						<div class="gl-footer-div">
 							<div class="footer-img">
-								<span><img src="img/Logo.png" alt="footer-image"></span>
+								<img alt="footer-image" src="img/Logo.png">
 							</div><br>
 							<h5><a href="mailto:care@itailor.com">care@itailor.com</a><br><br><a href="tel:+9245873666">+9245873666</a></h5>
 							<div class="gl-footer-icons">
@@ -998,15 +1005,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="gl-sub-footer">
+			</div>
+		</section>
+		<!-- footer end -->
+
+		<!-- gl-subfooter -->
+		<section class="gl-sub-footer-homepage">
+			<div class="container">
+				<div class="gl-sub-footer gl-homepage-one">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="gl-sub-footer-para">
-								<p>© Copyright 2021 | All Rights Reserved By Modiste</p>
+							<div class="gl-sub-footer-para gl-homepage-one-para">
+								<h6>© Copyright 2021 | All Rights Reserved By Modiste</h6>
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="gl-sub-footer-cards">
+							<div class="gl-sub-footer-cards gl-sub-footer-cards-two">
 								<span><img src="img/mastecard.png" alt="card-creadit"></span>
 								<span><img src="img/visa.png" alt="card-creadit-two"></span>
 								<span><img src="img/express.png" alt="card-creadit-three"></span>
@@ -1017,7 +1031,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- footer end -->
+		<!-- gl-subfooter -->
 
 	</div>
 	<!-- structre end -->
@@ -1032,27 +1046,11 @@
 	<!-- js custom -->
 	<script src="js/custom.js"></script>
 	<!-- navigation -->
-	<script src="tps://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
-	<!-- owl slider -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
-	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<!-- logo slider -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
 	<script>
-		function openCity(evt, cityName) {
-			var i, tabcontent, tablinks;
-			tabcontent = document.getElementsByClassName("tabcontent");
-			for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			}
-			tablinks = document.getElementsByClassName("tablinks");
-			for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			}
-			document.getElementById(cityName).style.display = "block";
-			evt.currentTarget.className += " active";
-		}
+		openCity('click', 'London');
 	</script>
 
 </body>

@@ -197,7 +197,7 @@
   .gl-offer-heading h1:before {
     left: 85px;
    }
-    .login-popup{
+    .login-popup-three{
         overflow: scroll;
         height: 100%;
     }
@@ -433,6 +433,9 @@
         }
         .login-popup-two {
             width: 60% !important;
+             height: auto !important;
+            margin-top: 40px !important;
+            margin-bottom: 30px;
         }
 
         /*home page 2*/
@@ -464,6 +467,12 @@
         .gl-shirt-img-div{
             margin-bottom: 30px;
         }
+        .res-design-p{
+            display: none;
+        }
+        .gl-main-custom-img {
+             min-height: 450px;
+       }
     }
 
     @media screen and (max-width: 576px){
@@ -691,6 +700,9 @@
     }
     .gl-column-last-res-common{
         margin-bottom: 0px;
+    }
+    .gl-partner-heading h1:before {
+    left: 32%;
     }
 }
 

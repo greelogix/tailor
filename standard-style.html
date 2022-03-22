@@ -4,6 +4,8 @@
 	<title>Standard Style</title>
 	<!-- meta tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- lazy load -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
 	<!-- booststrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<!-- font awsome cdn -->
@@ -31,23 +33,37 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 parent-col">
 						<nav class="navbar navbar-expand-lg">
-							<a href="homepage3.html" class="navbar-brand"><img alt="header-logo" src="img/Logo.png"></a>
+							<a href="homepage3.html" class="navbar-brand"><img alt="header-logo" data-src="img/Logo.png" class="lazyload"></a>
 							<button class="navbar-toggler" data-target="#navigation" data-control="navigation" data-toggle="collapse">
 								<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true" style="color: black; padding-top: 10px;"></i></span>
 							</button>
 							<div class="collapse navbar-collapse" id="navigation">
 								<ul class="nav navbar-nav">
-									<li class="nav-item active">
-										<a href="#" class="nav-link">Home</a>
+									<li class="nav-item pages-drop active">
+										<a href="homepage3.html" class="nav-link">Home <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="homepage3.html">Home Page 1</a>
+										    <a href="homepage1.html">Home Page 2</a>
+										    <a class="border-design2" href="homepag2.html">Home Page 3</a>
+										</div>
 									</li>					
 									<li class="nav-item">
 										<a href="product.html" class="nav-link">Shop</a>
 									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link">Pages</a>
+									<li class="nav-item pages-drop">
+										<a href="#" class="nav-link">Pages <i class="fa fa-sort-desc menu-drop-custom" aria-hidden="true"></i></a>
+										<div class="pages-dropdown">
+											<a class="border-design" href="product.html">Product List</a>
+										    <a href="productdetail.html">Product Detail</a>
+										    <a href="fabric.html">Customization</a>
+										    <a href="cart-page.html">Cart Page</a>
+										    <a href="checkout.html">Checkout Form</a>
+										    <a href="order-placed.html">Order-Placed</a>
+										    <a class="border-design2" href="account-detail.html">Profile Page</a>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">Element</a>
+										<a href="element.html" class="nav-link">Element</a>
 									</li>
 									<li class="nav-item">
 										<a href="about.html" class="nav-link">About us</a>
@@ -55,8 +71,8 @@
 								</ul>
 							</div>
 							<div class="header-icon">
-								<img alt="search-icon" class="search-icon" src="img/search-icon.png">
-								<a href="account-detail.html" class="gl-cart"><img alt="shoping-cart" class="shoping-cart" src="img/shopping-vector.png"></a>
+								<img alt="search-icon" data-src="img/search-icon.png" class="search-icon lazyload">
+								<a href="account-detail.html" class="gl-cart"><img alt="shoping-cart" data-src="img/shopping-vector.png" class="shoping-cart lazyload"></a>
 								<!-- <i class="fa fa-shopping-bag gl-cart" aria-hidden="true">
 								</i> -->
 							</div>
@@ -318,55 +334,55 @@
 							<div class="gl-waste-carasoul">
 								<div id="sync1" class="owl-carousel owl-theme">
 								    <div class="item">
-								        <img alt="carasoul1" src="img/cara1.png">
+								        <img alt="carasoul1" data-src="img/cara1.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul2" src="img/cara2.png">
+								        <img alt="carasoul2" data-src="img/cara2.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul3" src="img/cara3.png">
+								        <img alt="carasoul3" data-src="img/cara3.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul4" src="img/cara4.png">
+								        <img alt="carasoul4" data-src="img/cara4.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul5" src="img/cara5.png">
+								        <img alt="carasoul5" data-src="img/cara5.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul6" src="img/cara1.png">
+								        <img alt="carasoul6" data-src="img/cara1.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul7" src="img/cara2.png">
+								        <img alt="carasoul7" data-src="img/cara2.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul8" src="img/cara3.png">
+								        <img alt="carasoul8" data-src="img/cara3.png" class="lazyload">
 								    </div>
 								</div>
 
 								<div id="sync2" class="owl-carousel owl-theme">
 								    <div class="item">
-								        <img alt="carasoul9" src="img/cara1.png">
+								        <img alt="carasoul9" data-src="img/cara1.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul10" src="img/cara2.png">
+								        <img alt="carasoul10" data-src="img/cara2.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul11" src="img/cara3.png">
+								        <img alt="carasoul11" data-src="img/cara3.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul12" src="img/cara4.png">
+								        <img alt="carasoul12" data-src="img/cara4.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul13" src="img/cara5.png">
+								        <img alt="carasoul13" data-src="img/cara5.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul14" src="img/cara1.png">
+								        <img alt="carasoul14" data-src="img/cara1.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul15" src="img/cara2.png">
+								        <img alt="carasoul15" data-src="img/cara2.png" class="lazyload">
 								    </div>
 								    <div class="item">
-								        <img alt="carasoul16" src="img/cara3.png">
+								        <img alt="carasoul16" data-src="img/cara3.png" class="lazyload">
 								    </div>
 								</div>
 							</div>
@@ -385,8 +401,6 @@
 
 
 
-        <!-- wow animation -->
-		<script src="https://wowjs.uk/dist/wow.min.js"></script>
         <!-- js animation -->
 	    <script src="https://wowjs.uk/dist/wow.min.js"></script>
 		<!-- js bootstrap -->
@@ -397,8 +411,6 @@
 		<script src="js/custom.js"></script>
 		<!-- navigation -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-		<script src="tps://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- owl carasoul -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
