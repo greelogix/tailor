@@ -9,7 +9,7 @@
 /*cursor dots*/
 
 #cursor {
-  --size: 20px;
+  --size: 15px;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +29,18 @@
 
 
 /*modal------------*/
+.login-popup-design{
+	padding: 0px 35px !important;
+}
+.login-button-design input{
+	width: 100% !important;
+	font-family: var(--paragraph-style);
+	font-weight: 600;
+	color: #143A79;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+}
 .modal-body{
 	padding: 0px 12px 30px 12px;
 }
@@ -88,11 +100,18 @@
 			border:1px solid #DB4437;
 			width: 100%;
 			height: 43px;
+			font-weight: 600;
+			letter-spacing: 1px;
 		}
 		.social-media-google a i{
 			color: white;
 			font-size: 15px;
 			margin-right: 10px;
+		}
+		.social-media-google a:hover{
+			background-color: #DB4437;
+			color: white;
+			border:1px solid #DB4437;
 		}
 		.social-media-facebook{
 			text-align: center;
@@ -123,12 +142,19 @@
 			border:1px solid #4267B2;
 			width: 100%;
 			height: 43px;
+			font-weight: 600;
+			letter-spacing: 1px;
 		}
 		.social-media-facebook a i{
 			color: white;
 			font-size: 15px;
 			margin-right: 10px;
 		} 
+		.social-media-facebook  a:hover{
+			background-color: #4267B2;
+			color: white;
+			border:1px solid #4267B2;
+		}
 		.social-media-twitter{
 			text-align: center;
 		}
@@ -158,16 +184,24 @@
 			border:1px solid #1DA1F2;
 			width: 100%;
 			height: 43px;
+			font-weight: 600;
+			letter-spacing: 1px;
 		}
 		.social-media-twitter a i{
 			color: white;
 			font-size: 15px;
 			margin-right: 10px;
 		}
+		.social-media-twitter a:hover{
+			background-color: #1DA1F2;
+			color: white;
+			border:1px solid #1DA1F2;
+		}
 		.modal-body label{
-			font-size: 13px !important;
+			font-size: 12px !important;
 			font-family: var(--paragraph-style);
 			color: black;
+			letter-spacing: 1px;
 		}
 		.modal-body input{
 			width: 100%;
@@ -176,7 +210,7 @@
 			height: 45px;
 			margin-bottom: 15px;
 			outline: none;
-			padding-left: 20px;
+			padding-left: 12px;
 			font-family: var(--paragraph-style);
 		}
 		.gl-modal-submit-button{
@@ -186,8 +220,8 @@
 			font-family: var(--paragraph-style);
 			border-radius: 25px !important;
 			width: 90% !important;
+			border:1px solid  #FFD700 !important;
 		}
-
 		.gl-already-para{
 			text-align: center;
 		}
@@ -201,11 +235,25 @@
 			text-decoration: none;
 			font-size: 16px;
 		}
-
+		/*.active{
+			background-color: #F2F2F2;
+			color: #828282;
+		}*/
+		/*.active.gl-login-side-one{
+			border-top-left-radius: 12px !important;
+			border-bottom: 3px solid #FFD700;
+		}
+		.active.gl-register-side{
+			border-top-right-radius: 12px !important;
+			border-bottom: 3px solid #FFD700;
+		}*/
 
 
 		/*modal------------*/
 		/*my button defines*/
+		.btn-secondary:hover{
+            background-color: inherit;
+		}
 		.btn-secondary:focus, .btn-secondary.focus {
 			box-shadow: none !important;
 		}
@@ -908,7 +956,7 @@
 	.gl-brand-div-sub-page{
 		min-height: 307px;
 		border:none;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 	.gl-brand-div-res-design{
 		margin-bottom: 0px !important;
@@ -967,7 +1015,7 @@
 		height: 100%;
 		width: 100%;
 		border-radius: 20px;
-		padding: 0 80px;
+		padding: 0 25px;
 	}
 	.gl-brand-para{
 		position: relative;
@@ -975,13 +1023,14 @@
 		top: 50%;
 	}
 	.gl-brand-para h2{
-		font-size: 40px;
+		font-size: 28px;
 		color: black;
 		font-family: var(--font-style);
 		line-height: 60px;
 		position: relative;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		/*padding-bottom: 20px;*/
+		margin-bottom: 8px;
+		font-weight: 600;
 	}
 	.gl-brand-para h2:before{
 		content: "";
@@ -991,9 +1040,11 @@
 		height: 2px;
 		width: 120px;
 		background-color: black;
+		display: none;
 	}
 	.gl-brand-para p{
 		margin-bottom: 32px;
+		color: #4f4f4f;
 	}
 	/*counter*/
 	.gl-count{
@@ -1144,7 +1195,7 @@
 	}
 	.slick-slide img{
 		display: block;
-		width: 150px;
+		width: 130px;
 	}
 	.slick-slide.slick-loading img{
 		display: none;
@@ -1715,6 +1766,8 @@
 			background-color: transparent;
 			color: #143A79;
 			    padding: 8px 16px 8px 16px;
+			    font-weight: 600;
+			    letter-spacing: 1px;
 		}
 		.suit-button a{
 			color: #143A79;
@@ -1730,6 +1783,9 @@
 		/*gl-pants*/
 		.gl-pants{
 			padding: 56px 0;
+		}
+		.gl-paints-home-two{
+			padding-top: 150px;
 		}
 		.gl-paints-img{
 			position: relative;
@@ -2204,8 +2260,8 @@
 		#button-top {
 			display: inline-block;
 			background-color:#FFD700;
-			width: 50px;
-			height: 50px;
+			width: 35px;
+			height: 35px;
 			text-align: center;
 			border-radius: 4px;
 			position: fixed;
@@ -2222,8 +2278,8 @@
 			font-family: FontAwesome;
 			font-weight: normal;
 			font-style: normal;
-			font-size: 2em;
-			line-height: 50px;
+			font-size: 1em;
+			line-height: 39px;
 			color: #fff;
 		}
 		#button-top:hover {
@@ -2556,7 +2612,7 @@
 		.suit-button{
 			border:1px solid #143A79;
 			border-radius: 25px;
-			width: 26%;
+			width: auto;
 			font-size: 14px;
 			font-family: var(--paragraph-style);
 			text-transform: uppercase;
@@ -2641,7 +2697,7 @@
 		}
 		.acess-img-content h3{
 			color: white;
-			font-size: 30px;
+			font-size: 28px;
 			font-family: var(--font-style);
 			margin-bottom: 24px;
 			position: relative;
@@ -2667,11 +2723,15 @@
 			font-size: 15px;
 			font-family: var(--paragraph-style);
 			width: 130px;
+			letter-spacing: 1px;
+			padding: 8px 16px 8px 16px;
+			font-weight: 600;
 		}
 		.acess-img-content a:hover{
 			background-color: #FFD700;
 			color: #143A79;
 			border:1px solid #FFD700;
+			font-weight: 600 !important;
 		}
 		/*gl acess-------------- end*/
 
@@ -3862,7 +3922,7 @@ body {
 	color: #828282
 }
 .gl-shirt-detail{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .gl-shirt-detail h5{
 	color: #828282;
@@ -3937,7 +3997,7 @@ body {
 	font-size: 16px;
 	color: #4F4F4F;
 	font-family: var(--paragraph-style);
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .reviews-div{
 	padding-top: 30px;
@@ -4276,7 +4336,7 @@ gl-jackets-list ul li:last-child h4{
 button.btn.btn-link.btn-block.text-left.collapsed{
 	color: #333333 !important;
 	font-size: 20px;
-	padding: 15px 0px !important;
+	padding: 25px 0px !important;
 }
 .btn-link {
 	font-size: 20px;
@@ -4790,11 +4850,12 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	object-fit: cover;
 	width: 100%;
 	border-radius: 15px;
+	margin-bottom: 15px;
 }
 #sync2 img{
 	height: 60px;
 	object-fit: cover;
-	width: 80%;
+	width: 95%;
 	border-radius: 15px;
 }
 .gl-waste-carasoul .item{
@@ -4887,10 +4948,11 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	font-family: var(--font-style);
 	margin-bottom: 20px;
 }
-.conform-order-detai p{
+.conform-order-detail p{
 	color: #4F4F4F;
 	font-size: 16px;
 	font-family: var(--paragraph-style);
+	line-height: 32px;
 }
 .conform-order-form h6{
 	color: #000000;
@@ -5147,7 +5209,7 @@ button.btn.btn-link.btn-block.text-left.collapsed{
 	align-items: center;
 }
 .back-page span a{
-	padding-bottom: 6px !important;
+	/*padding-bottom: 6px !important;*/
 }
 .back-page h5{
 	font-size: 16px;
@@ -6210,8 +6272,34 @@ display:block;
 .card-common{
 	border-bottom: 0px !important;
 }
+.column-reverse-design{
+	padding: 30PX 0PX;
+}
+.owl-dots{
+	display: none;
+}
 
 
+
+
+
+
+
+.input-search-design{
+  width: 0px;
+  margin-right: 10px;
+  height: 40px;
+  background-color: transparent;
+  border:1px solid #143A79;
+  border-radius: 32px;
+  display: none;
+}
+.input-search-design::focus-visible{
+	 border:1px solid #143A79;
+}
+.serach-icon-design{
+ 
+}
 
 
 

@@ -22,6 +22,8 @@
 </head>
 <body>
 
+	<div id="cursor"></div>
+
 
 	<!-- login popup -->
 	<div id="popup1" class="overlay">
@@ -30,47 +32,47 @@
 			<a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="row gl-register-login">
-					<div class="col-lg-6 col-md-6 col-sm-6">
-						<div class="gl-login-side tablinks active" onclick="openCity(event, 'London')">
+					<div class="col-lg-6 col-md-6 col-sm-6 p-0">
+						<div class="gl-login-side gl-login-side-one tablinks active" onclick="openCity(event, 'London')">
 							Login
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="col-lg-6 col-md-6 col-sm-6 p-0">
 						<div class="gl-login-side gl-register-side tablinks" onclick="openCity(event, 'Paris')">
 							Register
 						</div>
 					</div>
 				</div>
-				<div id="London" class="tabcontent active form-tabcontent">
+				<div id="London" class="tabcontent active login-popup-design form-tabcontent">
 					<div class="row gl-social-buttons-row">
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-google">
-								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
+								<a class="btn btn-secondary" href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-facebook">
-								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
+								<a class="btn btn-secondary" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-twitter">
-								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
+								<a class="btn btn-secondary" style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
 							</div>
 						</div>
 					</div>
 					<div class="modal-body">
 						<form action="/action_page.php">
 							<label for="fname">First name:</label><br>
-							<input type="text" id="fname" name="fname"><br>
-							<label for="lname">Last name:</label><br>
-							<input type="text" id="lname" name="lname"><br>
-							<label for="email">Email</label><br>
-							<input type="text" id="email" name="email"><br>
+							<input type="text" id="fname" placeholder="John Doe" name="fname"><br>
+							<label for="lname">Email:</label><br>
+							<input type="text" id="email" placeholder="johndoe@mail.com" name="lname"><br>
+							<label for="email">Phone</label><br>
+							<input type="text" id="phone" placeholder="Phone" name="email"><br>
 							<label for="pssword">Pasword</label><br>
-							<input type="password" id="pssword" name="pwd"><br><br>
-							<div class=" text-center">
-								<input class="gl-modal-submit-button" type="submit" value="Submit">
+							<input type="password" id="pssword" placeholder="••••••••" name="pwd"><br><br>
+							<div class="login-button-design text-center">
+								<input class="gl-modal-submit-button" type="submit" value="Login">
 							</div>
 							<div class="gl-already-para">
 								<h2>Already have an account? <a href="account-detail.html">Login</a></h2>
@@ -78,36 +80,36 @@
 						</form>
 					</div>
 				</div>
-				<div id="Paris" class="tabcontent form-tabcontent">
+				<div id="Paris" class="tabcontent  login-popup-design form-tabcontent">
 					<div class="row gl-social-buttons-row">
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-google">
-								<a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
+								<a class="btn btn-secondary" href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i>With Google</a>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-facebook">
-								<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
+								<a class="btn btn-secondary" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>With Facebook</a>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12 p-2">
 							<div class="social-media-twitter">
-								<a style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
+								<a class="btn btn-secondary" style="text-decoration: none;" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="fa fa-twitter" aria-hidden="true"></i>With Twitter</a>
 							</div>
 						</div>
 					</div>
 					<div class="modal-body">
 						<form action="/action_page.php">
-							<label for="fname2">First name:</label><br>
-							<input type="text" id="fname2" name="fname"><br>
-							<label for="lname2">Last name:</label><br>
-							<input type="text" id="lname2" name="lname"><br>
-							<label for="email2">Email</label><br>
-							<input type="text" id="email2" name="email"><br>
+							<label for="fname">First name:</label><br>
+							<input type="text" id="fname" placeholder="John Doe" name="fname"><br>
+							<label for="lname">Email:</label><br>
+							<input type="text" id="email" placeholder="johndoe@mail.com" name="lname"><br>
+							<label for="email">Phone</label><br>
+							<input type="text" id="phone" placeholder="Phone" name="email"><br>
 							<label for="pssword">Pasword</label><br>
-							<input type="password" id="psswordd" name="pwd"><br><br>
-							<div class=" text-center">
-								<input class="gl-modal-submit-button" type="submit" value="Submit">
+							<input type="password" id="pssword" placeholder="••••••••" name="pwd"><br><br>
+							<div class="login-button-design text-center">
+								<input class="gl-modal-submit-button" type="submit" value="Login">
 							</div>
 							<div class="gl-already-para">
 								<h2>Already have an account? <a href="account-detail.html">Login</a></h2>
@@ -209,7 +211,8 @@
 								</ul>
 							</div>
 							<div class="header-icon">
-								<img alt="search-icon" class="search-icon" src="img/search-icon.png">
+								<img alt="search-icon" class="search-icon serach-icon-design" src="img/search-icon.png">
+								<input class="input-search-design" type="text">
 								<a href="cart-page.html"><img alt="shoping-cart" class="shoping-cart" src="img/shopping-vector.png"></a>
 								<span class="login-button-header pr-2"><a class="button" href="#popup1">Register</a></span>
 								<span class="login-button-header login-style"><a class="button" href="#popup1">login</a></span>
@@ -1051,6 +1054,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
 	<script>
 		openCity('click', 'London');
+	</script>
+
+	<script>
+		$(function () {
+  'use strict';
+  $('.serach-icon-design').click(function () {
+    $(this).next().animate({
+      width: '200px'
+    });
+  });
+});
 	</script>
 
 </body>

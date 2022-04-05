@@ -1,4 +1,10 @@
 @media screen and (max-width: 992px){
+    #cursor {
+ display: none;
+}
+    .navbar-nav{
+        background-color: white;
+    }
     .gl-home3-header {
         position: absolute;
         top: unset;
@@ -228,6 +234,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .gl-sub-footer-cards{
+        margin-bottom: 40px;
+    }
     .gl-suit-div{
         margin-bottom: 80px;
     }
